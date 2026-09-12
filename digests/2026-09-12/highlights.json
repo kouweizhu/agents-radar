@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.269 增加插件评估与输出控制",
+      "OpenAI Codex 发布 4 个 Rust alpha 版本无更新日志",
+      "Gemini CLI v0.61.0-nightly 强化生产安全",
+      "Pi 和 Qwen Code 优先兼容通用 CLI",
+      "GitHub Copilot CLI 在生态混乱中保持稳定",
+      "Windows 回归问题困扰多个 AI CLI 工具"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.9.4 回滚失败更新但破坏旧版租赁",
+      "271 个 P0/P1 问题导致 OpenClaw 会话状态损坏",
+      "OpenClaw 遗漏关键修复 #144208 导致 macOS 升级失败",
+      "Hermes Agent 和 QwenPaw 在智能体编排上创新突破",
+      "IronClaw 和 ZeroClaw 在沙箱部署中迅速流行",
+      "OpenClaw 在 24 小时内有 500 个 PR 和 494 个问题"
+    ],
+    "ai-infra": [
+      "vLLM 主分支仍有 3 个关键修复待合并，尽管 v0.28.0 稳定",
+      "SGLang 活跃度高，所有关键漏洞均有活跃 PR",
+      "Ollama v0.34.0 因 4 个工具调用/量化回归而不稳定",
+      "llama.cpp 正在讨论 dev build b10919 中的默认变更",
+      "LiteLLM v1.82.8 已打补丁但仍存在安全风险",
+      "Unsloth 转向以智能体为中心的持久微调流程"
+    ],
+    "ai-trending": [
+      "nashsu/llm_wiki 获 647 颗星，构建记忆优先的知识库",
+      "alsk1992/CloddsBot 达 626 颗星，成为自主 AI 交易代理",
+      "bilawalsidhu/gods-eye-view 涨 3,680 颗星，专注空间智能",
+      "github/spec-kit 获 1,015 颗星，推动规范驱动的 AI 开发",
+      "jordan-gibbs/hyperresearch 凭持久维基超越 RAG",
+      "obra/superpowers 成为智能体方法论主流趋势"
+    ],
+    "ai-web": [
+      "Anthropic 推出 1.5 亿美元 Claude Corps 奖学金支持非营利 AI",
+      "Claude Sonnet 内部概念首次被映射",
+      "Anthropic 公开百万令牌窗口的多轮越狱攻击",
+      "OpenAI 仅发布元数据文章，暗示创新停滞",
+      "Claude Corps 与 CodePath 合作推动公平 AI 人才转型",
+      "Anthropic 一天发布 14 篇政策论文，主导议程"
+    ],
+    "ai-arxiv": [
+      "LLM 通过稀疏路径路由知识，而非均匀访问",
+      "GPU-CFR 通过 CUDA 图编译实现 80 倍加速",
+      "医疗 LLM 研究速度超临床验证 45 倍",
+      "目标泄漏推高心血管筛查模型准确率",
+      "因果推理与递归自改进成为新前沿",
+      "引入领域特定幻觉检测流水线"
+    ],
+    "ai-community": [
+      "Nexpath 的提示质量层减少不安全代码生成",
+      "AI 智能体与智能体式 AI：架构混淆致技术债务",
+      "AI 生成测试常批准错误的代码修复",
+      "RubyGems 攻击引发对不可信智能体行动的警觉",
+      "测试非确定性 LLM 输出成为紧急生产需求",
+      "消费级硬件上的主权 LLM 推理步入实践"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.269 adds plugin eval and output-style control",
+      "OpenAI Codex releases 4 alpha Rust builds with no changelog",
+      "Gemini CLI v0.61.0-nightly hardens security for production use",
+      "Pi and Qwen Code prioritize model-agnostic CLI compliance",
+      "GitHub Copilot CLI remains stable amid ecosystem chaos",
+      "Windows regressions plague multiple AI CLI tools"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.9.4 rolls back failed updates but breaks legacy leases",
+      "271 open P0/P1 issues plague OpenClaw’s session state corruption",
+      "OpenClaw omits critical fix #144208, causing macOS upgrade failures",
+      "Hermes Agent and QwenPaw surge in agent orchestration innovation",
+      "IronClaw and ZeroClaw gain traction in sandboxed agent deployments",
+      "OpenClaw has 500 PRs and 494 issues in 24 hours"
+    ],
+    "ai-infra": [
+      "vLLM has 3 critical fixes pending in main despite stable v0.28.0",
+      "SGLang shows high activity with all critical bugs having active PRs",
+      "Ollama v0.34.0 unstable due to 4 tool-call/quantization regressions",
+      "llama.cpp debates breaking defaults in dev build b10919",
+      "LiteLLM v1.82.8 patched but still security-compromised",
+      "Unsloth pivots to agent-centric durable fine-tuning workflows"
+    ],
+    "ai-trending": [
+      "nashsu/llm_wiki gains 647 stars with memory-first knowledge wiki",
+      "alsk1992/CloddsBot hits 626 stars as autonomous AI trading agent",
+      "bilawalsidhu/gods-eye-view surges 3,680 stars for spatial intelligence",
+      "github/spec-kit gains 1,015 stars for spec-driven AI development",
+      "jordan-gibbs/hyperresearch outperforms RAG with persistent wikis",
+      "obra/superpowers trends as agentic methodology goes mainstream"
+    ],
+    "ai-web": [
+      "Anthropic launches $150M Claude Corps fellowship for nonprofit AI",
+      "Claude Sonnet’s internal concepts mapped for the first time",
+      "Anthropic discloses many-shot jailbreaking via million-token windows",
+      "OpenAI publishes only metadata article, signaling innovation pause",
+      "Claude Corps partners with CodePath for equitable AI workforce transition",
+      "Anthropic releases 14 policy papers in one day, dominating agenda"
+    ],
+    "ai-arxiv": [
+      "LLMs route knowledge through sparse pathways, not uniform access",
+      "GPU-CFR achieves 80x speedup by compiling CFR into CUDA Graphs",
+      "Medical LLM research outpaces clinical validation by 45x",
+      "Target leakage inflates accuracy in cardiovascular screening models",
+      "Causal reasoning and recursive self-improvement emerge as new frontiers",
+      "Domain-specific hallucination detection pipeline introduced"
+    ],
+    "ai-community": [
+      "Nexpath’s prompt quality layer reduces unsafe code generation",
+      "AI agent vs agentic AI: architectural confusion causes technical debt",
+      "AI-generated tests often approve incorrect code fixes",
+      "RubyGems attack sparks alarm over untrusted agent actions",
+      "Testing non-deterministic LLM outputs becomes urgent production need",
+      "Sovereign LLM inference on consumer hardware moves to practice"
+    ]
+  }
+}
