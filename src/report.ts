@@ -26,9 +26,22 @@ const provider: LlmProvider = createProvider();
 // Concurrency limiter — prevents rate-limit (429) errors when many LLM calls
 // are fired in parallel. At most LLM_CONCURRENCY requests are in-flight at
 // any given time; the rest queue and run as slots free up.
+//
+// Env-overridable because the ceiling is a property of the endpoint, not of
+// this code: a commercial endpoint takes 5 easily, while ModelScope's free tier
+// answers a 5-wide burst with "4 ok / 1 x 429" (measured 2026-09-12), which the
+// retry ladder then has to absorb. See LLM_CONCURRENCY in the workflow.
 // ---------------------------------------------------------------------------
 
-const LLM_CONCURRENCY = 5;
+const LLM_CONCURRENCY_DEFAULT = 5;
+
+/** Parse the `LLM_CONCURRENCY` override; anything unusable falls back to 5. */
+export function resolveLlmConcurrency(raw: string | undefined): number {
+  const n = Number(raw);
+  return Number.isInteger(n) && n >= 1 ? n : LLM_CONCURRENCY_DEFAULT;
+}
+
+const LLM_CONCURRENCY = resolveLlmConcurrency(process.env["LLM_CONCURRENCY"]);
 let llmSlots = LLM_CONCURRENCY;
 const llmQueue: Array<() => void> = [];
 

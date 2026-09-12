@@ -249,6 +249,23 @@ describe("OpenAIProvider", () => {
     const p = new OpenAIProvider({ apiKey: "k" });
     await expect(p.call("prompt", 100)).rejects.toThrow("Unexpected empty response from openai");
   });
+
+  // A thinking model that spends the whole budget on reasoning returns
+  // finish_reason=length with an empty content. Without these fields in the
+  // message it is indistinguishable from "the endpoint is down" — which is
+  // exactly how the 2026-09-12 first run cost an hour to diagnose.
+  it("names finish_reason and the token budget when content is empty", async () => {
+    const mockCreate = await getOpenAIMockCreate();
+    mockCreate.mockResolvedValueOnce({
+      choices: [{ finish_reason: "length", message: { content: "", reasoning_content: "x".repeat(500) } }],
+      usage: { completion_tokens: 4096 },
+    });
+
+    const p = new OpenAIProvider({ apiKey: "k" });
+    await expect(p.call("prompt", 4096)).rejects.toThrow(
+      /finish_reason=length.*reasoning_chars=500.*completion_tokens=4096.*max_completion_tokens=4096/,
+    );
+  });
 });
 
 // ---------------------------------------------------------------------------

@@ -6,17 +6,28 @@ agents-radar is a daily digest generator for the AI open-source ecosystem. A Git
 
 ### How this deployment differs from upstream duanyytop/agents-radar
 
-This is a fresh repository, **not a fork** — forks get scheduled workflows disabled by default. Three
-deliberate deviations, do not "fix" them back to upstream values:
+This is a fresh repository, **not a fork** — GitHub disables scheduled workflows on forks by
+default. Four deliberate deviations, do not "fix" them back to upstream values:
 
-1. **LLM backend**: ModelScope API-Inference (`Qwen/Qwen3.8-Flash-Next`) through the built-in `openai`
-   provider (`LLM_PROVIDER=openai` + `OPENAI_BASE_URL` + `OPENAI_MODEL` in the workflow). Upstream uses
-   the `qwen` provider whose default `baseURL` is a *private* Alibaba MaaS instance, so never restore
-   `DASHSCOPE_API_KEY` alone — it would reproduce the 2026-09-03 outage shape.
-2. **No inherited archive**: `digests/` starts empty except `web-state.json`, which **must be kept** —
-   deleting it makes the next run bootstrap-scan every sitemap URL instead of diffing `lastmod`.
-3. **`timeout-minutes: 90`** (upstream 40): a reasoning model's thinking tokens are not capped by
-   `max_completion_tokens`, so per-call latency is minutes, not seconds.
+1. **LLM backend**: ModelScope API-Inference (`Qwen/Qwen3-Next-80B-A3B-Instruct`) through the
+   built-in `openai` provider (`LLM_PROVIDER=openai` + `OPENAI_BASE_URL` + `OPENAI_MODEL`). Two
+   reasons, both measured on 2026-09-12:
+   - Upstream's `qwen` provider hard-codes a *private* Alibaba MaaS `baseURL`, so restoring
+     `DASHSCOPE_API_KEY` alone would reproduce the 2026-09-03 outage (that endpoint is
+     unreachable from GHA runners — it is what killed upstream's 2026-09-12 scheduled run too).
+   - **The model must not be a thinking model.** Every prompt here caps output at 4–8K
+     `max_completion_tokens`, and thinking tokens count against that cap: `Qwen3.8-Flash-Next`
+     spent 4096/4096 on reasoning, returned `finish_reason=length` with empty `content`, and the
+     run aborted at 18/20 failed calls. The 80B instruct model answers the real 35K-character
+     OpenClaw prompt in ~14 s.
+2. **`LLM_CONCURRENCY=2`** (upstream hard-codes 5): the free tier 429s a 5-wide burst
+   (measured: 4 ok / 1 rejected), which the 3-step retry ladder then has to absorb on every
+   report. The limiter is now env-tunable via `resolveLlmConcurrency()`.
+3. **No inherited archive**: `digests/` starts empty except `web-state.json`, which **must be
+   kept** — deleting it makes the next run bootstrap-scan every sitemap URL instead of diffing
+   `lastmod`.
+4. **`timeout-minutes: 90`** (upstream 40): ~60 LLM calls serialized through 2 slots against a
+   free tier, so wall time is minutes-per-call rather than seconds-per-call.
 
 ## Commands
 

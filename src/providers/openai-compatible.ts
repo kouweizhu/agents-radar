@@ -26,8 +26,22 @@ export abstract class OpenAICompatibleProvider implements LlmProvider {
       max_completion_tokens: maxTokens,
       messages: [{ role: "user", content: prompt }],
     });
-    const text = response.choices[0]?.message?.content;
-    if (!text) throw new Error(`Unexpected empty response from ${this.name}`);
+    const choice = response.choices[0];
+    const text = choice?.message?.content;
+    if (!text) {
+      // A thinking model can spend the entire max_completion_tokens budget on
+      // reasoning and still return an empty `content` with finish_reason
+      // "length". Without the envelope that reads as "the provider is down";
+      // with it, it reads as "this model needs a bigger budget or none at all".
+      const meta = choice as { finish_reason?: string; message?: { reasoning_content?: string } } | undefined;
+      throw new Error(
+        `Unexpected empty response from ${this.name} ` +
+          `(finish_reason=${meta?.finish_reason ?? "?"}, ` +
+          `reasoning_chars=${meta?.message?.reasoning_content?.length ?? 0}, ` +
+          `completion_tokens=${response.usage?.completion_tokens ?? "?"}, ` +
+          `max_completion_tokens=${maxTokens})`,
+      );
+    }
     return text;
   }
 }

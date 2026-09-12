@@ -34,6 +34,7 @@ import {
   llmHealthLine,
   assertLlmHealthy,
   reportLlmHealth,
+  resolveLlmConcurrency,
 } from "../report.ts";
 
 // ---------------------------------------------------------------------------
@@ -627,5 +628,23 @@ describe("llmHealthLine", () => {
     llmStats.attempted = 3;
     llmStats.failed = 1;
     expect(llmHealthLine()).toBe("1/3 LLM calls failed (33%)");
+  });
+});
+
+describe("resolveLlmConcurrency", () => {
+  it("keeps a positive integer override", () => {
+    expect(resolveLlmConcurrency("2")).toBe(2);
+    expect(resolveLlmConcurrency("8")).toBe(8);
+  });
+
+  // A typo in a workflow env var must not silently serialize the run to one
+  // call at a time, or deadlock it with zero slots.
+  it("falls back to the default for anything unusable", () => {
+    expect(resolveLlmConcurrency(undefined)).toBe(5);
+    expect(resolveLlmConcurrency("")).toBe(5);
+    expect(resolveLlmConcurrency("two")).toBe(5);
+    expect(resolveLlmConcurrency("0")).toBe(5);
+    expect(resolveLlmConcurrency("-3")).toBe(5);
+    expect(resolveLlmConcurrency("2.5")).toBe(5);
   });
 });

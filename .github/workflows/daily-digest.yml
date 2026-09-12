@@ -58,11 +58,10 @@ jobs:
     needs: guard
     if: needs.guard.outputs.should_run == 'true'
     runs-on: ubuntu-latest
-    # Web content fetching adds ~60-120 s of HTTP requests on incremental runs.
-    # Qwen3.8-Flash-Next is a reasoning model: its thinking tokens are NOT capped
-    # by max_completion_tokens on this endpoint, so a single call can run minutes.
-    # Upstream's 40-min ceiling is sized for a non-thinking model — headroom here
-    # prevents a mid-run cancellation that commits nothing and leaves no alert.
+    # ~60 LLM calls per run, serialized to 2 concurrent against a free tier that
+    # 429s at 5 (see LLM_CONCURRENCY below), plus sitemap diffing and article
+    # fetches. Upstream's 40-min ceiling is sized for a commercial endpoint;
+    # headroom here keeps a slow-but-healthy run from being cancelled mid-write.
     timeout-minutes: 90
 
     steps:
@@ -86,12 +85,20 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           # ModelScope API-Inference (free tier) speaks the OpenAI protocol, so it
           # runs through the built-in `openai` provider rather than a new file.
-          # The repo's only call sites are chat.completions with
-          # max_completion_tokens — verified compatible on 2026-09-12.
+          #
+          # The model must NOT be a thinking model. Every prompt here caps output
+          # at 4-8K tokens, and Qwen3.8-Flash-Next spends that whole budget on
+          # reasoning and returns an empty `content` with finish_reason=length —
+          # 18/20 calls on the 2026-09-12 first run. Qwen3-Next-80B-A3B-Instruct
+          # answers the real 35K-char OpenClaw prompt in 14s.
           LLM_PROVIDER: openai
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OPENAI_BASE_URL: https://api-inference.modelscope.cn/v1
-          OPENAI_MODEL: Qwen/Qwen3.8-Flash-Next
+          OPENAI_MODEL: Qwen/Qwen3-Next-80B-A3B-Instruct
+          # The free tier 429s at 5 concurrent (measured: 4 ok / 1 x 429 per
+          # burst), which is exactly upstream's hard-coded limiter size. Two
+          # slots keeps the retry ladder from being the thing that absorbs it.
+          LLM_CONCURRENCY: "2"
           PRODUCTHUNT_TOKEN: ${{ secrets.PRODUCTHUNT_TOKEN }}
           DIGEST_REPO: ${{ github.repository }}
         run: pnpm start
