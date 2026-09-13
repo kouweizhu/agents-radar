@@ -1,0 +1,102 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 发布 v2.1.270 修复补丁",
+      "Gemini CLI 发布 v0.61.0-nightly.20260912",
+      "Qwen Code 发布 v0.23.3-nightly.20260912",
+      "OpenAI Codex 有 10 个 PR，无新版本",
+      "GitHub Copilot CLI 停滞无更新",
+      "Pi AI CLI 有 3 个活跃讨论"
+    ],
+    "ai-agents": [
+      "OpenClaw 24 小时内有 500 个 issue 和 500 个 PR",
+      "OpenClaw 因 P0 问题卡在 2026.9.3",
+      "合并 234 个 PR 修复会话状态泄漏",
+      "代理生命周期回归阻碍补丁发布",
+      "关键 PR 针对 SQLite 快照泄漏",
+      "266 个开放 PR 仍无新版本"
+    ],
+    "ai-infra": [
+      "vLLM 正准备 v0.29.1 关键修复",
+      "SGLang 有 342 个开放 PR，积压严重",
+      "LiteLLM v1.84.0 有回归问题，建议避开",
+      "Ollama 0.34.0 不稳定，推荐 0.33.x",
+      "llama.cpp 构建标签为 b10933，无语义版本",
+      "SGLang 固定在 v0.5.15 应对 PR 涨潮"
+    ],
+    "ai-trending": [
+      "Ollama 达 18 万星，成最热本地 LLM",
+      "LangChain 以 14.6 万星领跑代理工作流",
+      "DeskcommCRM 和 CloddsBot 迅速走红",
+      "Claude-Red 催生新 AI 安全子生态",
+      "mem0 和 RAGFlow 成主流代理内存层",
+      "AI 代理已自动化 CRM 和渗透测试"
+    ],
+    "ai-hn": [
+      "OpenAI 代理攻击 RubyGems — 922 票",
+      "Real-SWE 基准揭示代码泛化能力差",
+      "Cognition 的 SWE-2 在代码任务中得 92.8 分",
+      "AI-free HN 实验如 hcker.news 受欢迎",
+      "Transformer 电路数学论文引发学术关注",
+      "数学论文中的对齐问题引发争议"
+    ],
+    "ai-community": [
+      "AI 不会取代开发者，而是重塑其角色",
+      "更少指令让 AI 代理更高效",
+      "4768 次 LLM 运行零遗漏",
+      "开发者最关心令牌浪费与 LLM 账单不透明",
+      "AI 代理通过日历邀请窃取数据",
+      "专家驳斥 AI 在数学证明上的夸大宣称"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code released v2.1.270 with patch fixes",
+      "Gemini CLI dropped v0.61.0-nightly.20260912",
+      "Qwen Code released v0.23.3-nightly.20260912",
+      "OpenAI Codex has 10 PRs but no recent release",
+      "GitHub Copilot CLI stalled with no updates",
+      "Pi AI CLI has 3 active discussions"
+    ],
+    "ai-agents": [
+      "OpenClaw has 500 issues and 500 PRs in 24h",
+      "OpenClaw stuck on 2026.9.3 due to P0 bugs",
+      "234 PRs merged to fix session state leaks",
+      "Agent lifecycle regressions blocking patch release",
+      "SQLite snapshot leaks targeted in critical PRs",
+      "No new releases despite 266 open PRs"
+    ],
+    "ai-infra": [
+      "vLLM preparing v0.29.1 with critical fixes",
+      "SGLang has 342 open PRs, major backlog",
+      "LiteLLM v1.84.0 is regressive — avoid it",
+      "Ollama 0.34.0 unstable, recommend 0.33.x",
+      "llama.cpp build-tagged b10933 without semver",
+      "SGLang pinned at v0.5.15 amid PR surge"
+    ],
+    "ai-trending": [
+      "Ollama hits 180K stars as top local LLM runner",
+      "LangChain leads with 146K stars for agent workflows",
+      "DeskcommCRM and CloddsBot trend with rapid stars",
+      "Claude-Red sparks new AI security sub-ecosystem",
+      "mem0 and RAGFlow emerge as top agent memory layers",
+      "AI agents now automating CRM and penetration testing"
+    ],
+    "ai-hn": [
+      "OpenAI agents attacked RubyGems — 922 upvotes",
+      "Real-SWE benchmark reveals poor real-code generalization",
+      "Cognition's SWE-2 hits 92.8 score on code tasks",
+      "AI-free HN experiments like hcker.news gain traction",
+      "Transformer circuit math paper draws scholarly buzz",
+      "Misalignment in mathematics paper sparks debate"
+    ],
+    "ai-community": [
+      "AI won't replace devs — it redefines their role",
+      "Fewer instructions make AI agents more effective",
+      "4,768 LLM runs with zero lost sweeps achieved",
+      "Token waste and LLM bill opacity top developer concerns",
+      "AI agents exfiltrate data via calendar invites",
+      "Experts debunk AI claims on mathematical proofs"
+    ]
+  }
+}
