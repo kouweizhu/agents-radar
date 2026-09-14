@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 在 IDE 集成中领先，有 10 个开放问题和 5 个 PR",
+      "Gemini CLI 发布 v0.61.0-nightly.20260913，稳定性存疑",
+      "GitHub Copilot CLI v1.0.83 稳定但 PR 活跃度低",
+      "OpenCode 在 CLI 生态中可靠性不足",
+      "Qwen Code 作为开源代理型 CLI 工具渐受青睐",
+      "Pi 成为最活跃的代理编排 CLI 工具"
+    ],
+    "ai-agents": [
+      "OpenClaw 有 500 个问题和 500 个 PR — v2026.9.4 后严重稳定性危机",
+      "OpenClaw 更新管道失败，导致回滚和状态遗失",
+      "核心维护者合并 254 个 PR 修复会话状态损坏",
+      "尽管开发迅速，但无新版本发布",
+      "P0/P1 问题占总数超 40%，表明系统性不稳定",
+      "代理编排层因工具执行泄漏备受批评"
+    ],
+    "ai-infra": [
+      "vLLM v0.29.0 稳定，但关键推测解码漏洞仍存",
+      "SGLang 有 50+ 未解决的问题，30+ 严重 CUDA 核心转储未修复",
+      "llama.cpp 发布 b10948 版本，含补丁级优化",
+      "Ollama 在本地 LLM 部署中占主导，支持 50+ 模型",
+      "Unsloth 在微调和代理工具基础设施中领先",
+      "LiteLLM 成为多提供商 LLM 路由的通用网关"
+    ],
+    "ai-trending": [
+      "Colibri（C 语言 MoE）今日达 868 星 — 无依赖边缘 LLM 推理",
+      "Qwen3.8-27B GGUF 量化在 Hugging Face 下载超 1100 万",
+      "gods-eye-view 涨至 2680 星，成开源空间智能工具",
+      "MCP 协议已成为 CRM、代码审查和语音工具标准",
+      "OpenMontage 和 YuE2 推出代理式创意生产垂直领域",
+      "VoiceStudio 成为本地 ElevenLabs 替代，支持设备端音频"
+    ],
+    "ai-hn": [
+      "数学中的 AI 偏离引发 1219 赞 ——“数学工具性收敛”",
+      "Anthropic CEO 警告 AI 群体可能在 6–12 个月内接管互联网",
+      "Garry Tan 呼吁美国开源实验室提炼前沿模型",
+      "Real-SWE 基准显示 AI 在企业私有代码库中表现不佳",
+      "HN 社区对 AI 自主性分歧：是生存风险还是企业恐吓？",
+      "AI 代理生成虚假证明，触发紧急对齐研究"
+    ],
+    "ai-hf": [
+      "Qwen3.8-27B 下载达 770 万，仍是最高下载多模态开源模型",
+      "Qwen3.8-27B GGUF 量化下载超 1100 万，HF 最高",
+      "MiniCPM5-2B 成为最高下载的 20 亿参数边缘优化 LLM",
+      "Edge0-35B-A3B-preview 凭借创新设备端 MoE 设计受关注",
+      "LTX-2.5 和 MiniMax-H3 推动文生视频进展",
+      "DeepSeek-V4.1-Flash 和 Qwen3.8-Flash-Next 领跑超高效推理"
+    ],
+    "ai-community": [
+      "“ vibe 编程”不是工程 —— AI 生成代码缺乏问责",
+      "两 AI 审查代码 30 天，人类 5 分钟发现漏洞",
+      "RAG 指南受追捧，开发者转向可审计 AI 系统",
+      "GPU 耗尽与能耗引发开发者社区伦理担忧",
+      "国家支持的 AI 越狱增多，工具信任度下降",
+      "开发者放弃 LLM 炒作，转向 RAG、MCP 和本地 LLM"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code leads in IDE integration with 10 open issues and 5 PRs",
+      "Gemini CLI released v0.61.0-nightly.20260913 amid stability concerns",
+      "GitHub Copilot CLI v1.0.83 stable but low PR activity",
+      "OpenCode struggles with foundational reliability in CLI ecosystem",
+      "Qwen Code gains traction as open-source agent-focused CLI tool",
+      "Pi emerges as top agent orchestration CLI with active community"
+    ],
+    "ai-agents": [
+      "OpenClaw has 500 issues and 500 PRs — critical stability crisis after v2026.9.4",
+      "OpenClaw update pipeline fails, causing rollback and orphaned state",
+      "Core maintainers merge 254 PRs to fix session state corruption",
+      "No new OpenClaw releases despite intense development velocity",
+      "P0/P1 issues exceed 40% of total, signaling systemic instability",
+      "Agent orchestration layer under fire for tool execution leaks"
+    ],
+    "ai-infra": [
+      "vLLM v0.29.0 stable but critical speculative decoding bugs remain",
+      "SGLang has 50+ open issues, 30+ critical CUDA coredumps unresolved",
+      "llama.cpp releases build b10948 with patch-level optimizations",
+      "Ollama dominates local LLM deployment with 50+ model support",
+      "Unsloth leads in fine-tuning and agent-tooling infrastructure",
+      "LiteLLM becomes universal gateway for multi-provider LLM routing"
+    ],
+    "ai-trending": [
+      "Colibri (C-based MoE) hits 868 stars today — zero-dep edge LLM inference",
+      "Qwen3.8-27B GGUF quantization surpasses 11M downloads on Hugging Face",
+      "gods-eye-view surges to 2,680 stars as open-source spatial intelligence tool",
+      "MCP protocol now standard in CRMs, code review, and voice tools",
+      "OpenMontage and YuE2 launch agentic creative production vertical",
+      "VoiceStudio emerges as local ElevenLabs alternative for on-device audio"
+    ],
+    "ai-hn": [
+      "AI misalignment in math sparks 1,219 upvotes — 'mathematical instrumental convergence'",
+      "Anthropic CEO warns AI swarm could take over Internet in 6–12 months",
+      "Garry Tan calls for U.S. open-weight labs to distill frontier models",
+      "Real-SWE benchmark reveals AI fails on private enterprise codebases",
+      "HN community divided on AI autonomy — existential risk or corporate fearmongering?",
+      "AI agents generate false proofs, triggering urgent alignment research"
+    ],
+    "ai-hf": [
+      "Qwen3.8-27B hits 7.7M downloads, remains top open multimodal model",
+      "Qwen3.8-27B GGUF quantization exceeds 11M downloads — highest on HF",
+      "MiniCPM5-2B edges ahead as top 2B-parameter edge-optimized LLM",
+      "Edge0-35B-A3B-preview gains traction with novel on-device MoE design",
+      "LTX-2.5 and MiniMax-H3 drive text-to-video generation momentum",
+      "DeepSeek-V4.1-Flash and Qwen3.8-Flash-Next lead ultra-efficient inference"
+    ],
+    "ai-community": [
+      "Vibe coding isn't engineering — AI-generated code lacks accountability",
+      "Two AIs reviewed code for 30 days; human caught bug in 5 minutes",
+      "RAG guides gain traction as devs shift from hype to auditable AI systems",
+      "GPU exhaustion and power use spark ethical concerns in dev communities",
+      "State-sponsored AI jailbreaks rise amid growing tooling skepticism",
+      "Developers abandon LLM hype for RAG, MCP, and local LLMs"
+    ]
+  }
+}
