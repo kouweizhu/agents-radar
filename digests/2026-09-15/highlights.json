@@ -1,0 +1,102 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.272 增加鼠标滚轮支持",
+      "OpenAI Codex 发布 Rust v0.155.0-alpha.5",
+      "Gemini CLI 下架 nightly v0.61.0-nightly",
+      "OpenCode 作为开源 CLI 选项获关注",
+      "Pi CLI 现支持跨模型互操作",
+      "Qwen Code 集成 GitHub Copilot CLI"
+    ],
+    "ai-agents": [
+      "OpenClaw 在 24 小时内有 500 个 issue 和 500 个 PR",
+      "尽管有 17+ 个 P0 漏洞，OpenClaw 无补丁发布",
+      "OpenClaw 合并 224 个 PR 修复会话损坏",
+      "OpenClaw 2026.9.4 频现关键更新失败",
+      "核心贡献者 steipete 和 Gabrielnkl 主导修复",
+      "OpenClaw nightly 构建报告网关崩溃"
+    ],
+    "ai-infra": [
+      "llama.cpp v0.4.1 于 2026-09-15 移除破坏性变更",
+      "Ollama 发布 v0.34.1-rc1 供本地 LLM 运行",
+      "Unsloth 因微调 UX 拥有 452 个开放 PR",
+      "SGLang 仍仅限 nightly，有 58 个开放 issue",
+      "vLLM v0.29.0 稳定版提升 KV 缓存可靠性",
+      "LiteLLM v1.87.1 增强多提供商可观测性"
+    ],
+    "ai-trending": [
+      "Colibri 在无 GPU 的笔记本上运行 MoE 模型",
+      "VoiceStudio 成为本地 ElevenLabs，获 2776 星",
+      "GitHub 上系统提示泄露激增",
+      "SnailSploit/Claude-Red 泄露攻击性 AI 技能",
+      "VectifyAI/PageIndex 开创无向量 RAG",
+      "Colibri 的 C 语言 MoE 引擎今日达 2173 星"
+    ],
+    "ai-hn": [
+      "Fable 5.1 解决了 370 年的 Cyphral Distich 密码",
+      "GPT-5.6 Luna 在 1.20 美元成本下超越 GPT-6 Astra",
+      "Apple 的 Siri AI 替换标志 iOS 27 的 AI 革命",
+      "自主代理 Pion 和 Otis 引发风险讨论",
+      "AI 代理自主性引发 HN 监管担忧",
+      "效率优先于扩展主导 HN AI 讨论"
+    ],
+    "ai-community": [
+      "Qodo 让 AI 代理先审查自己的代码",
+      "标准基准因 GPT-6 Astra 超出设计而失效",
+      "添加验证循环可减少 70% AI 幻觉",
+      "OpenAI 代理于五月入侵 RubyGems",
+      "MCP 成为代理-工具集成事实标准",
+      "Langfuse 和 CauterRule 提升 AI 工作流透明度"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.272 adds mouse wheel support",
+      "OpenAI Codex releases Rust v0.155.0-alpha.5",
+      "Gemini CLI drops nightly build v0.61.0-nightly",
+      "OpenCode gains traction as open-source CLI alternative",
+      "Pi CLI now supports cross-model interoperability",
+      "Qwen Code integrates with GitHub Copilot CLI"
+    ],
+    "ai-agents": [
+      "OpenClaw has 500 issues and 500 PRs active in 24h",
+      "No patch release for OpenClaw despite 17+ P0 bugs",
+      "224 PRs merged in OpenClaw to fix session corruption",
+      "Critical update failures plague OpenClaw 2026.9.4",
+      "Core contributors steipete and Gabrielnkl lead fixes",
+      "Gateway crashes reported in OpenClaw nightly builds"
+    ],
+    "ai-infra": [
+      "llama.cpp v0.4.1 drops breaking change on 2026-09-15",
+      "Ollama releases v0.34.1-rc1 for local LLM runners",
+      "Unsloth surges with 452 open PRs for fine-tuning UX",
+      "SGLang remains nightly-only with 58 open issues",
+      "vLLM v0.29.0 stable improves KV caching reliability",
+      "LiteLLM v1.87.1 enhances multi-provider observability"
+    ],
+    "ai-trending": [
+      "Colibri runs MoE models on laptops without GPUs",
+      "VoiceStudio trends with 2,776 stars as local ElevenLabs",
+      "System prompt leaks explode on GitHub",
+      "SnailSploit/Claude-Red leaks offensive AI skills",
+      "VectifyAI/PageIndex pioneers vectorless RAG",
+      "Colibri's C-based MoE engine hits 2,173 stars today"
+    ],
+    "ai-hn": [
+      "Fable 5.1 solves 370-year-old Cyphral Distich cipher",
+      "GPT-5.6 Luna outperforms GPT-6 Astra at $1.20 cost",
+      "Apple’s Siri AI swap marks iOS 27’s AI revolution",
+      "Autonomous agents Pion and Otis spark risk debates",
+      "AI agent autonomy sparks HN regulatory concerns",
+      "Efficiency over scaling dominates HN AI discourse"
+    ],
+    "ai-community": [
+      "Qodo lets AI agents review their own code first",
+      "Standard benchmarks fail as GPT-6 Astra exceeds design",
+      "Add verification loops to cut AI hallucinations by 70%",
+      "OpenAI agents compromised RubyGems in May",
+      "MCP emerges as de facto agent-tool integration standard",
+      "Langfuse and CauterRule bring AI workflow transparency"
+    ]
+  }
+}
