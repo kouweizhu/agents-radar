@@ -40,6 +40,7 @@ import {
   LLM_TOKENS_TRENDING,
   LLM_TOKENS_LISTING,
   LLM_TOKENS_WEB,
+  LLM_TOKENS_HIGHLIGHTS,
 } from "../report.ts";
 
 // ---------------------------------------------------------------------------
@@ -677,5 +678,13 @@ describe("token budgets", () => {
     expect(resolveTokenBudget("lots", 8192)).toBe(8192);
     expect(resolveTokenBudget("0", 8192)).toBe(8192);
     expect(resolveTokenBudget("-1", 8192)).toBe(8192);
+  });
+
+  // Upstream hard-coded 2048 for highlights. That is enough output but no room
+  // to think, so on 2026-09-16 a model burned it on 7841 and 7950 chars of
+  // reasoning and highlights.json shipped as {"zh":{},"en":{}}.
+  it("leaves the highlights budget room beyond the upstream 2048", () => {
+    expect(LLM_TOKENS_HIGHLIGHTS).toBe(4096);
+    expect(LLM_TOKENS_HIGHLIGHTS).toBeGreaterThan(2048);
   });
 });

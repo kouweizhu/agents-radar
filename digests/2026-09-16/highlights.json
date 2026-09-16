@@ -1,4 +1,102 @@
 {
-  "zh": {},
-  "en": {}
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.273补丁发布，OAuth登录问题仍待解决",
+      "Gemini CLI三渠道同时更新：v0.62.0-nightly、v0.61.0-preview、v0.60.0 stable",
+      "GitHub Copilot CLI v1.0.85发布，Vim模式正式GA",
+      "社区聚焦agent可靠性：subagent生命周期和资源泄漏成热点",
+      "MCP成熟度和安全权限执行成各工具共同主题",
+      "Claude Code Skills社区同步更新"
+    ],
+    "ai-agents": [
+      "OpenClaw生态24小时500个issue和500个PR活跃更新",
+      "聚焦生产规模可靠性：Gateway内存/OOM和僵尸子进程问题",
+      "PR #149036解决subagent模型继承问题",
+      "PR #149844实现工具调用中断后任务恢复",
+      "会话保留和Doctor迁移修复持续推进",
+      "异步事件循环修复成维护者重点方向"
+    ],
+    "ai-web": [
+      "OpenAI新增Gartner 2026企业AI助手领导者称号页面",
+      "Anthropic今日零新增内容，发布节奏放缓",
+      "企业/商业教育内容成OpenAI当前重点方向",
+      "安全与研究分类未见更新",
+      "内容管道存在索引延迟或收录规则过滤",
+      "建议下周期对照sitemap验证活动状态"
+    ],
+    "ai-hn": [
+      "System One Models和Jev发布登顶HN，1365分390评论",
+      "Fable 5.1破解370年Cyphral密码，1208分567评论",
+      "Gemini 3.8 Live和扩展思考更新引关注，409分",
+      "Baseten GitHub接管事件引发安全讨论",
+      "社区关注AI基础设施风险与问责",
+      "对基准测试声明和公司治理持怀疑态度"
+    ],
+    "ai-arxiv": [
+      "OPEN-1B：首个逐位可审计训练的1B语言模型",
+      "LLM在上下文中发展出信念状态几何，验证贝叶斯滤波机制",
+      "Transformer引入持久循环记忆提升泛化能力",
+      "CoSQ框架让LLM学会在不确定时弃答",
+      "智能体社会需要Social Harness治理框架",
+      "200K token笔记本服务JustFit关注部署效率"
+    ],
+    "ai-community": [
+      "Dev.to热议AI辅助编码的心理和维护成本",
+      "AI让跳过真正工程工作更容易，削弱调试能力",
+      "智能体绿色测试掩盖作弊问题引关注",
+      "静态分析和架构退化成失效模式热点",
+      "MCP/数据库和LLM流水线教程受追捧",
+      "Lobste.rs讨论Dario Amodei控制前沿AI观点"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.273补丁发布，OAuth登录问题仍待解决",
+      "Gemini CLI三渠道同时更新：v0.62.0-nightly、v0.61.0-preview、v0.60.0 stable",
+      "GitHub Copilot CLI v1.0.85发布，Vim模式正式GA",
+      "社区聚焦agent可靠性：subagent生命周期和资源泄漏成热点",
+      "MCP成熟度和安全权限执行成各工具共同主题",
+      "Claude Code Skills社区同步更新"
+    ],
+    "ai-agents": [
+      "OpenClaw生态24小时500个issue和500个PR活跃更新",
+      "聚焦生产规模可靠性：Gateway内存/OOM和僵尸子进程问题",
+      "PR #149036解决subagent模型继承问题",
+      "PR #149844实现工具调用中断后任务恢复",
+      "会话保留和Doctor迁移修复持续推进",
+      "异步事件循环修复成维护者重点方向"
+    ],
+    "ai-web": [
+      "OpenAI新增Gartner 2026企业AI助手领导者称号页面",
+      "Anthropic今日零新增内容，发布节奏放缓",
+      "企业/商业教育内容成OpenAI当前重点方向",
+      "安全与研究分类未见更新",
+      "内容管道存在索引延迟或收录规则过滤",
+      "建议下周期对照sitemap验证活动状态"
+    ],
+    "ai-hn": [
+      "System One Models和Jev发布登顶HN，1365分390评论",
+      "Fable 5.1破解370年Cyphral密码，1208分567评论",
+      "Gemini 3.8 Live和扩展思考更新引关注，409分",
+      "Baseten GitHub接管事件引发安全讨论",
+      "社区关注AI基础设施风险与问责",
+      "对基准测试声明和公司治理持怀疑态度"
+    ],
+    "ai-arxiv": [
+      "OPEN-1B：首个逐位可审计训练的1B语言模型",
+      "LLM在上下文中发展出信念状态几何，验证贝叶斯滤波机制",
+      "Transformer引入持久循环记忆提升泛化能力",
+      "CoSQ框架让LLM学会在不确定时弃答",
+      "智能体社会需要Social Harness治理框架",
+      "200K token笔记本服务JustFit关注部署效率"
+    ],
+    "ai-community": [
+      "Dev.to热议AI辅助编码的心理和维护成本",
+      "AI让跳过真正工程工作更容易，削弱调试能力",
+      "智能体绿色测试掩盖作弊问题引关注",
+      "静态分析和架构退化成失效模式热点",
+      "MCP/数据库和LLM流水线教程受追捧",
+      "Lobste.rs讨论Dario Amodei控制前沿AI观点"
+    ]
+  }
 }

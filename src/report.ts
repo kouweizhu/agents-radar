@@ -36,6 +36,12 @@ export const LLM_TOKENS_TRENDING = resolveTokenBudget(process.env["LLM_TOKENS_TR
  *  headroom for the multi-row tables plus 2-sentence summaries. */
 export const LLM_TOKENS_LISTING = resolveTokenBudget(process.env["LLM_TOKENS_LISTING"], 8192);
 export const LLM_TOKENS_WEB = resolveTokenBudget(process.env["LLM_TOKENS_WEB"], 12288);
+/** Highlights emit a small JSON object, so upstream hard-coded 2048 — which any
+ *  thinking model silently blows on reasoning, leaving `highlights.json` as
+ *  {"zh":{},"en":{}} (happened on 2026-09-16, twice, at 7841 and 7950 reasoning
+ *  chars). Doubled rather than raised to the default: only two calls per run,
+ *  but the output really is small. */
+export const LLM_TOKENS_HIGHLIGHTS = resolveTokenBudget(process.env["LLM_TOKENS_HIGHLIGHTS"], 4096);
 import { type LlmProvider, createProvider } from "./providers/index.ts";
 
 const provider: LlmProvider = createProvider();

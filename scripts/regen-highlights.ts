@@ -12,7 +12,7 @@
 
 import fs from "node:fs";
 import path from "node:path";
-import { callLlm, parseLlmJson } from "../src/report.ts";
+import { callLlm, parseLlmJson, LLM_TOKENS_HIGHLIGHTS } from "../src/report.ts";
 import { buildHighlightsPrompt, type ReportHighlights } from "../src/prompts-data.ts";
 import { buildMessage } from "../src/notify.ts";
 import type { Lang } from "../src/i18n.ts";
@@ -62,23 +62,27 @@ async function main() {
 
   console.log(`  ZH reports: ${Object.keys(zhReports).length}, EN reports: ${Object.keys(enReports).length}`);
 
-  // Generate highlights
-  const highlights: Record<Lang, ReportHighlights> = { zh: {}, en: {} };
-  const [zhRaw, enRaw] = await Promise.all([
-    callLlm(buildHighlightsPrompt(zhReports, "zh"), 2048),
-    callLlm(buildHighlightsPrompt(enReports, "en"), 2048),
-  ]);
+  // Generate highlights. Retries a parse failure once, like the pipeline's
+  // attemptJson in src/index.ts: a model can answer with prose instead of JSON
+  // ("[ai-cli] - ..." was seen on 2026-09-16), and a single attempt would then
+  // silently backfill English with the Chinese copy.
+  const generate = async (label: Lang, prompt: string): Promise<ReportHighlights> => {
+    for (let attempt = 1; attempt <= 2; attempt++) {
+      try {
+        return parseLlmJson<ReportHighlights>(await callLlm(prompt, LLM_TOKENS_HIGHLIGHTS));
+      } catch (err) {
+        const tag = attempt < 2 ? "retrying" : "giving up";
+        console.error(`  [highlights] ${label} attempt ${attempt} failed (${tag}): ${err}`);
+      }
+    }
+    return {};
+  };
 
-  try {
-    highlights.zh = parseLlmJson<ReportHighlights>(zhRaw);
-  } catch (err) {
-    console.error(`  [highlights] zh parse failed: ${err}`);
-  }
-  try {
-    highlights.en = parseLlmJson<ReportHighlights>(enRaw);
-  } catch (err) {
-    console.error(`  [highlights] en parse failed: ${err}`);
-  }
+  const highlights: Record<Lang, ReportHighlights> = { zh: {}, en: {} };
+  [highlights.zh, highlights.en] = await Promise.all([
+    generate("zh", buildHighlightsPrompt(zhReports, "zh")),
+    generate("en", buildHighlightsPrompt(enReports, "en")),
+  ]);
 
   // Backfill an empty language from the other so notifications never blank out.
   if (Object.keys(highlights.zh).length === 0) highlights.zh = highlights.en;

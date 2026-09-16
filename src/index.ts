@@ -39,6 +39,7 @@ import {
   saveFile,
   autoGenFooter,
   LLM_TOKENS_TRENDING,
+  LLM_TOKENS_HIGHLIGHTS,
   assertLlmHealthy,
   reportLlmHealth,
   llmHealthLine,
@@ -608,7 +609,7 @@ async function main(): Promise<void> {
   const attemptJson = async (label: string, prompt: string): Promise<ReportHighlights> => {
     for (let attempt = 1; attempt <= 2; attempt++) {
       try {
-        return parseLlmJson<ReportHighlights>(await callLlm(prompt, 2048));
+        return parseLlmJson<ReportHighlights>(await callLlm(prompt, LLM_TOKENS_HIGHLIGHTS));
       } catch (err) {
         const tag = attempt < 2 ? "retrying" : "giving up";
         console.error(`  [highlights] ${label} attempt ${attempt} failed (${tag}): ${err}`);
