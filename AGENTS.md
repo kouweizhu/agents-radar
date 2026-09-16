@@ -7,27 +7,39 @@ agents-radar is a daily digest generator for the AI open-source ecosystem. A Git
 ### How this deployment differs from upstream duanyytop/agents-radar
 
 This is a fresh repository, **not a fork** — GitHub disables scheduled workflows on forks by
-default. Four deliberate deviations, do not "fix" them back to upstream values:
+default. Five deliberate deviations, do not "fix" them back to upstream values:
 
-1. **LLM backend**: ModelScope API-Inference (`Qwen/Qwen3-Next-80B-A3B-Instruct`) through the
-   built-in `openai` provider (`LLM_PROVIDER=openai` + `OPENAI_BASE_URL` + `OPENAI_MODEL`). Two
-   reasons, both measured on 2026-09-12:
+1. **LLM backend**: ModelScope API-Inference (`deepseek-ai/DeepSeek-V4.1-Flash`) through the
+   built-in `openai` provider (`LLM_PROVIDER=openai` + `OPENAI_BASE_URL` + `OPENAI_MODEL`).
    - Upstream's `qwen` provider hard-codes a *private* Alibaba MaaS `baseURL`, so restoring
      `DASHSCOPE_API_KEY` alone would reproduce the 2026-09-03 outage (that endpoint is
      unreachable from GHA runners — it is what killed upstream's 2026-09-12 scheduled run too).
-   - **The model must not be a thinking model.** Every prompt here caps output at 4–8K
-     `max_completion_tokens`, and thinking tokens count against that cap: `Qwen3.8-Flash-Next`
-     spent 4096/4096 on reasoning, returned `finish_reason=length` with empty `content`, and the
-     run aborted at 18/20 failed calls. The 80B instruct model answers the real 35K-character
-     OpenClaw prompt in ~14 s.
-2. **`LLM_CONCURRENCY=2`** (upstream hard-codes 5): the free tier 429s a 5-wide burst
-   (measured: 4 ok / 1 rejected), which the 3-step retry ladder then has to absorb on every
-   report. The limiter is now env-tunable via `resolveLlmConcurrency()`.
-3. **No inherited archive**: `digests/` starts empty except `web-state.json`, which **must be
+   - **The free tier's model list churns, and it has now broken this deployment twice.** Check
+     `/v1/models` before blaming the code:
+     - 2026-09-12: `Qwen3.8-Flash-Next` spent all 4096 tokens on reasoning and returned an empty
+       `content` with `finish_reason=length` (18/20 calls failed).
+     - 2026-09-16: `Qwen/Qwen3-Next-80B-A3B-Instruct` was delisted — every call answered
+       `400 Model id : ... , has no provider supported` (19/19 failed, nothing published).
+   - `DeepSeek-V4.1-Flash` was the only surviving candidate out of nine probed: the Qwen3.5
+     family leaks `Thinking Process:` into `content` or truncates, `GLM-*`/`Hunyuan`/`V4-Pro`
+     answer `200` with `choices: null`, `MiniMax-M3` has no provider. Its reasoning tokens do
+     **not** consume `max_completion_tokens`, so it completes rather than truncating.
+   - **Do not look to GitHub for a free tier**: GitHub Models was retired 2026-07-30 and
+     `models.github.ai` returns `410 Gone`. `src/providers/github-copilot.ts` points there and is
+     therefore dead code. `src/providers/deepseek.ts` is DeepSeek's *paid* `api.deepseek.com`,
+     a different thing from the ModelScope-hosted model of almost the same name.
+2. **Raised, env-tunable token budgets** (`src/report.ts`): default 4096 → 8192, listing
+   6144 → 8192, web 8192 → 12288, overridable via `LLM_TOKENS_*`. Measured: at 4096 the 35K-char
+   OpenClaw prompt was cut mid-sentence (`finish_reason=length`) and one burst sample returned an
+   empty `content` (a hard failure); at 8192 both finish with `stop`.
+3. **`LLM_CONCURRENCY=2`** (upstream hard-codes 5): the free tier 429s a 5-wide burst
+   (measured 4 ok / 1 on 2026-09-12, 3 ok / 2 on 2026-09-16), which the 3-step retry ladder then
+   has to absorb on every report. Env-tunable via `resolveLlmConcurrency()`.
+4. **No inherited archive**: `digests/` starts empty except `web-state.json`, which **must be
    kept** — deleting it makes the next run bootstrap-scan every sitemap URL instead of diffing
    `lastmod`.
-4. **`timeout-minutes: 90`** (upstream 40): ~60 LLM calls serialized through 2 slots against a
-   free tier, so wall time is minutes-per-call rather than seconds-per-call.
+5. **`timeout-minutes: 90`** (upstream 40): ~60 LLM calls at 30–50 s each, serialized through 2
+   slots against a free tier, so wall time is minutes-per-call rather than seconds-per-call.
 
 ## Commands
 

@@ -35,6 +35,11 @@ import {
   assertLlmHealthy,
   reportLlmHealth,
   resolveLlmConcurrency,
+  resolveTokenBudget,
+  LLM_TOKENS_DEFAULT,
+  LLM_TOKENS_TRENDING,
+  LLM_TOKENS_LISTING,
+  LLM_TOKENS_WEB,
 } from "../report.ts";
 
 // ---------------------------------------------------------------------------
@@ -284,12 +289,15 @@ describe("callLlm", () => {
     expect(mockCall).toHaveBeenCalledWith("hello", 2048);
   });
 
-  it("uses default maxTokens of 4096", async () => {
+  // Asserts against the constant rather than a literal: the default is a
+  // measured budget (see the "token budgets" suite), not a magic number that
+  // should be re-typed here every time the endpoint's model changes.
+  it("uses the default token budget when none is given", async () => {
     mockCall.mockResolvedValueOnce("ok");
 
     await callLlm("prompt");
 
-    expect(mockCall).toHaveBeenCalledWith("prompt", 4096);
+    expect(mockCall).toHaveBeenCalledWith("prompt", LLM_TOKENS_DEFAULT);
   });
 
   it("retries on 429 with exponential backoff", async () => {
@@ -646,5 +654,28 @@ describe("resolveLlmConcurrency", () => {
     expect(resolveLlmConcurrency("0")).toBe(5);
     expect(resolveLlmConcurrency("-3")).toBe(5);
     expect(resolveLlmConcurrency("2.5")).toBe(5);
+  });
+});
+
+describe("token budgets", () => {
+  // The probe on 2026-09-16 showed the OpenClaw prompt (35K chars) being cut
+  // mid-sentence at 4096 and finishing cleanly at 8192, so the shipped default
+  // is load-bearing, not cosmetic.
+  it("ships budgets large enough for the longest prompt", () => {
+    expect(LLM_TOKENS_DEFAULT).toBe(8192);
+    expect(LLM_TOKENS_WEB).toBe(12288);
+    for (const budget of [LLM_TOKENS_DEFAULT, LLM_TOKENS_TRENDING, LLM_TOKENS_LISTING, LLM_TOKENS_WEB]) {
+      expect(Number.isInteger(budget)).toBe(true);
+      expect(budget).toBeGreaterThanOrEqual(8192);
+    }
+  });
+
+  it("accepts an override and rejects junk", () => {
+    expect(resolveTokenBudget("2048", 8192)).toBe(2048);
+    expect(resolveTokenBudget(undefined, 8192)).toBe(8192);
+    expect(resolveTokenBudget("", 8192)).toBe(8192);
+    expect(resolveTokenBudget("lots", 8192)).toBe(8192);
+    expect(resolveTokenBudget("0", 8192)).toBe(8192);
+    expect(resolveTokenBudget("-1", 8192)).toBe(8192);
   });
 });

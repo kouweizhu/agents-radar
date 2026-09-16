@@ -11,9 +11,11 @@
 > |---|---|
 > | 站点 | https://kouweizhu.github.io/agents-radar |
 > | RSS | https://kouweizhu.github.io/agents-radar/feed.xml |
-> | LLM | `LLM_PROVIDER=openai` → 魔塔 API-Inference `Qwen/Qwen3-Next-80B-A3B-Instruct`（免费额度） |
-> | ⚠️ 模型约束 | **必须用非思考模型**：本项目每个 prompt 把输出限死在 4–8K `max_completion_tokens`，而思考 token 计入该上限。首跑用 `Qwen3.8-Flash-Next` 时模型把 4096 预算全花在思考上、正文返回空（`finish_reason=length`），18/20 调用失败被健康门中止 |
-> | 并发 | `LLM_CONCURRENCY=2`（上游硬编码 5）：免费档 5 并发实测 4 成 1 拒（429），降档比让重试梯子兜底更省 |
+> | LLM | `LLM_PROVIDER=openai` → 魔塔 API-Inference `deepseek-ai/DeepSeek-V4.1-Flash`（免费额度） |
+> | ⚠️ 模型会下架 | 免费档模型清单**会变**，四天内已坑两次：09-12 `Qwen3.8-Flash-Next` 把 4096 预算全花在思考上、正文返回空；09-16 `Qwen3-Next-80B-A3B-Instruct` 被下架，全部调用 `400 has no provider supported`。**排查前先查 `/v1/models`**，别先怀疑代码 |
+> | ⚠️ 别再找 GitHub | GitHub Models 已于 2026-07-30 退役，`models.github.ai` 实测返回 `410 Gone`——仓库里 `github-copilot` provider 因此是死代码；`deepseek` provider 指向官方**付费** `api.deepseek.com`，与魔塔托管的同名模型是两回事 |
+> | Token 预算 | 4096 → 8192（listing 8192，web 12288），可用 `LLM_TOKENS_*` 覆盖。实测 4096 会把 35K 字的 OpenClaw 报告截断、并偶发空正文；8192 干净收尾 |
+> | 并发 | `LLM_CONCURRENCY=2`（上游硬编码 5）：免费档 5 并发实测 4 成 1 拒 / 3 成 2 拒（429），降档比让重试梯子兜底更省 |
 > | 归档 | 未继承上游 201 天 `digests/`（省 99 MB），**保留 `digests/web-state.json`** 以免首跑全量 bootstrap |
 > | 通知 | Telegram 步骤在 `TELEGRAM_CHAT_ID` 缺失时跳过，已移除上游指向 `@agents_radar` 的兜底 |
 > | 工作流超时 | 40 → 90 分钟（~60 次调用串行过 2 个槽位，见 `daily-digest.yml` 注释） |

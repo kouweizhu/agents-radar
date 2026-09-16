@@ -10,14 +10,32 @@ import { sleep } from "./date.ts";
 
 // ---------------------------------------------------------------------------
 // LLM token budget constants
+//
+// Output caps are a property of the endpoint's model, not of this code. The
+// ModelScope free tier now serves thinking models, whose reasoning tokens are
+// billed against max_completion_tokens on some of them: at the old 4096 the
+// OpenClaw prompt (35K chars) came back finish_reason=length mid-sentence, and
+// one burst sample returned an empty content — a hard call failure. Doubling
+// the budget makes both finish cleanly (measured 2026-09-16). Env-overridable
+// so the next model swap does not need a code change.
 // ---------------------------------------------------------------------------
 
-export const LLM_TOKENS_DEFAULT = 4096;
-export const LLM_TOKENS_TRENDING = 6144;
+function positiveInt(raw: string | undefined, fallback: number): number {
+  const n = Number(raw);
+  return Number.isInteger(n) && n >= 1 ? n : fallback;
+}
+
+/** Parse an `LLM_TOKENS_*` override; anything unusable falls back to `fallback`. */
+export function resolveTokenBudget(raw: string | undefined, fallback: number): number {
+  return positiveInt(raw, fallback);
+}
+
+export const LLM_TOKENS_DEFAULT = resolveTokenBudget(process.env["LLM_TOKENS_DEFAULT"], 8192);
+export const LLM_TOKENS_TRENDING = resolveTokenBudget(process.env["LLM_TOKENS_TRENDING"], 8192);
 /** Table-formatted listing reports (HN, PH, ArXiv, HF, Community) need extra
  *  headroom for the multi-row tables plus 2-sentence summaries. */
-export const LLM_TOKENS_LISTING = 6144;
-export const LLM_TOKENS_WEB = 8192;
+export const LLM_TOKENS_LISTING = resolveTokenBudget(process.env["LLM_TOKENS_LISTING"], 8192);
+export const LLM_TOKENS_WEB = resolveTokenBudget(process.env["LLM_TOKENS_WEB"], 12288);
 import { type LlmProvider, createProvider } from "./providers/index.ts";
 
 const provider: LlmProvider = createProvider();
@@ -29,16 +47,16 @@ const provider: LlmProvider = createProvider();
 //
 // Env-overridable because the ceiling is a property of the endpoint, not of
 // this code: a commercial endpoint takes 5 easily, while ModelScope's free tier
-// answers a 5-wide burst with "4 ok / 1 x 429" (measured 2026-09-12), which the
-// retry ladder then has to absorb. See LLM_CONCURRENCY in the workflow.
+// answers a 5-wide burst with 429s (measured 4 ok / 1 x 429 on 2026-09-12 and
+// 3 ok / 2 x 429 on 2026-09-16), which the retry ladder then has to absorb on
+// every report. See LLM_CONCURRENCY in the workflow.
 // ---------------------------------------------------------------------------
 
 const LLM_CONCURRENCY_DEFAULT = 5;
 
 /** Parse the `LLM_CONCURRENCY` override; anything unusable falls back to 5. */
 export function resolveLlmConcurrency(raw: string | undefined): number {
-  const n = Number(raw);
-  return Number.isInteger(n) && n >= 1 ? n : LLM_CONCURRENCY_DEFAULT;
+  return positiveInt(raw, LLM_CONCURRENCY_DEFAULT);
 }
 
 const LLM_CONCURRENCY = resolveLlmConcurrency(process.env["LLM_CONCURRENCY"]);

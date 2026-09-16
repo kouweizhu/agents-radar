@@ -86,18 +86,24 @@ jobs:
           # ModelScope API-Inference (free tier) speaks the OpenAI protocol, so it
           # runs through the built-in `openai` provider rather than a new file.
           #
-          # The model must NOT be a thinking model. Every prompt here caps output
-          # at 4-8K tokens, and Qwen3.8-Flash-Next spends that whole budget on
-          # reasoning and returns an empty `content` with finish_reason=length —
-          # 18/20 calls on the 2026-09-12 first run. Qwen3-Next-80B-A3B-Instruct
-          # answers the real 35K-char OpenClaw prompt in 14s.
+          # Model choice is dictated by two measured traps on this endpoint:
+          #   1. Qwen3.8-Flash-Next spends the whole output budget on reasoning
+          #      and returns an empty `content` (finish_reason=length) — 18/20
+          #      failed calls on the 2026-09-12 first run.
+          #   2. Qwen3-Next-80B-A3B-Instruct was withdrawn on 2026-09-16 with
+          #      "400 Model id has no provider supported" — 19/19 calls failed.
+          # DeepSeek-V4.1-Flash answered every real probe with finish_reason=stop
+          # and its reasoning tokens do not consume max_completion_tokens, which
+          # is why the budgets in src/report.ts were raised. The endpoint's model
+          # list churns; check /v1/models before blaming the code.
           LLM_PROVIDER: openai
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OPENAI_BASE_URL: https://api-inference.modelscope.cn/v1
-          OPENAI_MODEL: Qwen/Qwen3-Next-80B-A3B-Instruct
-          # The free tier 429s at 5 concurrent (measured: 4 ok / 1 x 429 per
-          # burst), which is exactly upstream's hard-coded limiter size. Two
-          # slots keeps the retry ladder from being the thing that absorbs it.
+          OPENAI_MODEL: deepseek-ai/DeepSeek-V4.1-Flash
+          # The free tier 429s at 5 concurrent (measured 4 ok / 1 on 2026-09-12 and
+          # 3 ok / 2 on 2026-09-16), which is exactly upstream's hard-coded limiter
+          # size. Two slots keeps the retry ladder from being the thing that
+          # absorbs it on every report.
           LLM_CONCURRENCY: "2"
           PRODUCTHUNT_TOKEN: ${{ secrets.PRODUCTHUNT_TOKEN }}
           DIGEST_REPO: ${{ github.repository }}
