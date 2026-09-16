@@ -11,8 +11,9 @@
 > |---|---|
 > | 站点 | https://kouweizhu.github.io/agents-radar |
 > | RSS | https://kouweizhu.github.io/agents-radar/feed.xml |
-> | LLM | `LLM_PROVIDER=openai` → 魔塔 API-Inference `deepseek-ai/DeepSeek-V4.1-Flash`（免费额度） |
-> | ⚠️ 模型会下架 | 免费档模型清单**会变**，四天内已坑两次：09-12 `Qwen3.8-Flash-Next` 把 4096 预算全花在思考上、正文返回空；09-16 `Qwen3-Next-80B-A3B-Instruct` 被下架，全部调用 `400 has no provider supported`。**排查前先查 `/v1/models`**，别先怀疑代码 |
+> | LLM | `LLM_PROVIDER=openai` → 魔塔 API-Inference `MiniMax/MiniMax-M1-80k`（免费额度） |
+> | ⚠️ 模型会变 | 免费档模型清单**五天坑了三次**：09-12 `Qwen3.8-Flash-Next` 思考吃光 4096 预算、正文为空（18/20 失败）；09-16 `Qwen3-Next-80B-A3B-Instruct` 被下架，全部 `400 has no provider supported`（19/19 失败）；09-16 `DeepSeek-V4.1-Flash` 能跑但**思考有时计入上限**，17/51 失败（33%），trending 变成 259 字节空文件、highlights 全空。**排查前先查 `/v1/models`**，别先怀疑代码 |
+> | 选型结论 | 实测约 20 只后，`MiniMax-M1-80k` 是唯一"零思考 + 长文不塌"的：全部 prompt `reasoning=0`，35K 字最大 prompt 得到 9627 字正文（26 秒），5 并发 4 成 1 拒。其余要么吐思维链、要么把 `Thinking Process:` 写进正文、要么单次 120–160 秒、要么返回 `choices:null` |
 > | ⚠️ 别再找 GitHub | GitHub Models 已于 2026-07-30 退役，`models.github.ai` 实测返回 `410 Gone`——仓库里 `github-copilot` provider 因此是死代码；`deepseek` provider 指向官方**付费** `api.deepseek.com`，与魔塔托管的同名模型是两回事 |
 > | Token 预算 | 4096 → 8192（listing 8192，web 12288），可用 `LLM_TOKENS_*` 覆盖。实测 4096 会把 35K 字的 OpenClaw 报告截断、并偶发空正文；8192 干净收尾 |
 > | 并发 | `LLM_CONCURRENCY=2`（上游硬编码 5）：免费档 5 并发实测 4 成 1 拒 / 3 成 2 拒（429），降档比让重试梯子兜底更省 |

@@ -9,21 +9,27 @@ agents-radar is a daily digest generator for the AI open-source ecosystem. A Git
 This is a fresh repository, **not a fork** — GitHub disables scheduled workflows on forks by
 default. Five deliberate deviations, do not "fix" them back to upstream values:
 
-1. **LLM backend**: ModelScope API-Inference (`deepseek-ai/DeepSeek-V4.1-Flash`) through the
+1. **LLM backend**: ModelScope API-Inference (`MiniMax/MiniMax-M1-80k`) through the
    built-in `openai` provider (`LLM_PROVIDER=openai` + `OPENAI_BASE_URL` + `OPENAI_MODEL`).
    - Upstream's `qwen` provider hard-codes a *private* Alibaba MaaS `baseURL`, so restoring
      `DASHSCOPE_API_KEY` alone would reproduce the 2026-09-03 outage (that endpoint is
      unreachable from GHA runners — it is what killed upstream's 2026-09-12 scheduled run too).
-   - **The free tier's model list churns, and it has now broken this deployment twice.** Check
-     `/v1/models` before blaming the code:
-     - 2026-09-12: `Qwen3.8-Flash-Next` spent all 4096 tokens on reasoning and returned an empty
+   - **This endpoint's catalogue churns, and picking the wrong model has broken this deployment
+     three times in five days.** Check `/v1/models` before blaming the code:
+     - 2026-09-12 `Qwen3.8-Flash-Next`: spent all 4096 tokens on reasoning, returned an empty
        `content` with `finish_reason=length` (18/20 calls failed).
-     - 2026-09-16: `Qwen/Qwen3-Next-80B-A3B-Instruct` was delisted — every call answered
+     - 2026-09-16 `Qwen/Qwen3-Next-80B-A3B-Instruct`: delisted — every call answered
        `400 Model id : ... , has no provider supported` (19/19 failed, nothing published).
-   - `DeepSeek-V4.1-Flash` was the only surviving candidate out of nine probed: the Qwen3.5
-     family leaks `Thinking Process:` into `content` or truncates, `GLM-*`/`Hunyuan`/`V4-Pro`
-     answer `200` with `choices: null`, `MiniMax-M3` has no provider. Its reasoning tokens do
-     **not** consume `max_completion_tokens`, so it completes rather than truncating.
+     - 2026-09-16 `deepseek-ai/DeepSeek-V4.1-Flash`: *ran*, but 17/51 calls failed (33%) because
+       its reasoning sometimes bills against `max_completion_tokens` — one call burned all 8192
+       tokens on 31K chars of thinking and returned nothing, leaving `ai-trending.md` at 259 bytes
+       and `highlights.json` as `{"zh":{},"en":{}}`. Unstable, not merely slow.
+   - `MiniMax/MiniMax-M1-80k` is the one clean survivor of ~20 probed: `reasoning=0` on every
+     prompt tried, `finish_reason=stop` on the 35K-char OpenClaw prompt (9627-char report, 26s),
+     and 4/5 on a 5-wide burst. The rest of the catalogue emits chain-of-thought, leaks
+     `Thinking Process:` into `content`, takes 120–160s per call (`Mistral-Large-Instruct-2407`,
+     `CompassJudger-1-32B`), or answers `HTTP 200` with `choices: null` (`GLM-4.7/5.3-Flash`,
+     `Hunyuan/Hy3`, `ERNIE-4.5-*`, `EA-29B-A4B`, `V4-Pro`, `MiniMax-M3`).
    - **Do not look to GitHub for a free tier**: GitHub Models was retired 2026-07-30 and
      `models.github.ai` returns `410 Gone`. `src/providers/github-copilot.ts` points there and is
      therefore dead code. `src/providers/deepseek.ts` is DeepSeek's *paid* `api.deepseek.com`,
@@ -31,10 +37,12 @@ default. Five deliberate deviations, do not "fix" them back to upstream values:
 2. **Raised, env-tunable token budgets** (`src/report.ts`): default 4096 → 8192, listing
    6144 → 8192, web 8192 → 12288, overridable via `LLM_TOKENS_*`. Measured: at 4096 the 35K-char
    OpenClaw prompt was cut mid-sentence (`finish_reason=length`) and one burst sample returned an
-   empty `content` (a hard failure); at 8192 both finish with `stop`.
+   empty `content` (a hard failure); at 8192 both finish with `stop`. The lift also gives a
+   thinking model room to think *and* still answer, which is why it stays even though
+   `MiniMax-M1-80k` does not need it.
 3. **`LLM_CONCURRENCY=2`** (upstream hard-codes 5): the free tier 429s a 5-wide burst
-   (measured 4 ok / 1 on 2026-09-12, 3 ok / 2 on 2026-09-16), which the 3-step retry ladder then
-   has to absorb on every report. Env-tunable via `resolveLlmConcurrency()`.
+   (measured 4 ok / 1 on 2026-09-12, 3 ok / 2 on 2026-09-16, 4 ok / 1 for MiniMax), which the
+   3-step retry ladder then has to absorb on every report. Env-tunable via `resolveLlmConcurrency()`.
 4. **No inherited archive**: `digests/` starts empty except `web-state.json`, which **must be
    kept** — deleting it makes the next run bootstrap-scan every sitemap URL instead of diffing
    `lastmod`.
