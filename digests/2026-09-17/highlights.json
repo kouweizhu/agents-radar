@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Copilot CLI 发布 v1.0.85-1.0.86-2",
+      "OpenAI Codex 有 15 个关键 PR，9 个 Rust 发布",
+      "Claude Code v2.1.274 含 10 个热门问题",
+      "Gemini CLI v0.62.0-nightly 推送 10 个 PR",
+      "OpenCode 推动 10 个 PR，无新发布",
+      "Qwen Code 进军 CLI 领域，带来 10 个关键 PR"
+    ],
+    "ai-agents": [
+      "OpenClaw: 更新 500 个 issue 和 500 个 PR",
+      "Hermes Agent 赋能 Nous Research agent",
+      "IronClaw 推进 NEAR AI agent 生态",
+      "QwenPaw 将 Agentscope AI 引入 agents",
+      "ZeroClaw 推动零知识 agent 技术",
+      "OpenClaw 生态中追踪 5 个项目"
+    ],
+    "ai-infra": [
+      "llama.cpp 主导发布 11 个版本",
+      "LiteLLM 推出 v1.103.0-dev.1 和 rc.2",
+      "vLLM 支持 DeepSeek-V4.1-Flash SM120",
+      "SGLang 在 CUDA 追踪器上激增 312 条评论",
+      "Unsloth 添加 Windows-ARM64 二进制",
+      "Ollama 修复最新更新中的工具调用"
+    ],
+    "ai-trending": [
+      "alibaba/open-code-review 登顶趋势",
+      "cline/cline: 自主编码 agent",
+      "anthropics/claude-code 达 10k 星标",
+      "jamiepine/voicebox: AI 语音工作室",
+      "roboflow/supervision: 计算机视觉工具",
+      "multimodal-art-projection/YuE: 音乐生成"
+    ],
+    "ai-web": [
+      "OpenAI 发布 57 篇安全文章",
+      "恶意使用 AI 系列报道",
+      "模型错位报告框架",
+      "欺诈行动 disruption 详解",
+      "Spamouflage 影响力行动分析",
+      "Doppelganger 威胁文档"
+    ],
+    "ai-hn": [
+      "三元 LLM 突破 1.58 位障碍",
+      "OpenAI System One 模型首发",
+      "Claude Code 合并聊天与协作",
+      "Mistral X Mozilla: 私密多语言 AI",
+      "DeepSeek v4.1 Flash: 最强黑客模型",
+      "OpenAI 披露六起新安全事件"
+    ],
+    "ai-arxiv": [
+      "Coding agent 汇聚于 SWE-bench",
+      "自我改进研究 agent 涌现",
+      "LLM 弃权的自我提问链",
+      "LLM 发展信念状态几何",
+      "FlashVector 优化模型服务",
+      "耦合校准推进 LLM 蒸馏"
+    ],
+    "ai-community": [
+      "Claude Code 对比 Cursor: 开发者论战",
+      "Gemini Live 赋能实时语音应用",
+      "AI 对技术岗位影响引热议",
+      "临时小组: 人机混合团队",
+      "MCP 推动 agent 架构模式",
+      "AI 代码审查瓶颈显现"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Copilot CLI releases v1.0.85-1.0.86-2",
+      "OpenAI Codex has 15 key PRs, 9 Rust releases",
+      "Claude Code v2.1.274 with 10 hot issues",
+      "Gemini CLI v0.62.0-nightly pushes 10 PRs",
+      "OpenCode drives 10 PRs with no new releases",
+      "Qwen Code enters CLI space with 10 key PRs"
+    ],
+    "ai-agents": [
+      "OpenClaw: 500 issues and 500 PRs updated",
+      "Hermes Agent powers Nous Research agent",
+      "IronClaw advances NEAR AI agent ecosystem",
+      "QwenPaw brings Agentscope AI to agents",
+      "ZeroClaw pushes zero-knowledge agent tech",
+      "5 projects tracked in OpenClaw ecosystem"
+    ],
+    "ai-infra": [
+      "llama.cpp dominates with 11 releases",
+      "LiteLLM ships v1.103.0-dev.1 and rc.2",
+      "vLLM eyes DeepSeek-V4.1-Flash SM120 support",
+      "SGLang spikes 312 comments on CUDA tracker",
+      "Unsloth adds Windows-ARM64 binaries",
+      "Ollama fixes tool calling in latest updates"
+    ],
+    "ai-trending": [
+      "alibaba/open-code-review tops trending",
+      "cline/cline: autonomous coding agent",
+      "anthropics/claude-code at 10k stars",
+      "jamiepine/voicebox: AI voice studio",
+      "roboflow/supervision: computer vision tools",
+      "multimodal-art-projection/YuE: music gen"
+    ],
+    "ai-web": [
+      "OpenAI publishes 57 safety articles",
+      "Disrupting Malicious Uses Of AI series",
+      "Model Misalignment Reporting Framework",
+      "Scam operation disruption detailed",
+      "Spamouflage influence op analysis",
+      "Doppelganger threat documentation"
+    ],
+    "ai-hn": [
+      "Ternary LLMs break 1.58-bit barrier",
+      "OpenAI System One models debut",
+      "Claude Code merges chat and cowork",
+      "Mistral X Mozilla: private multilingual AI",
+      "DeepSeek v4.1 Flash: best hacking model",
+      "OpenAI discloses six new safety incidents"
+    ],
+    "ai-arxiv": [
+      "Coding agents converge on SWE-bench",
+      "Self-improving research agents emerge",
+      "Chain-of-Self-Questioning for LLM abstain",
+      "LLMs develop belief state geometry",
+      "FlashVector optimizes model serving",
+      "Coupled Calibration advances LLM distillation"
+    ],
+    "ai-community": [
+      "Claude Code vs Cursor: developer debate",
+      "Gemini Live enables real-time voice apps",
+      "AI impact on tech jobs sparks discussion",
+      "Temp Squads: mixed human-AI teams",
+      "MCP drives agent architecture patterns",
+      "AI code review bottlenecks emerge"
+    ]
+  }
+}
