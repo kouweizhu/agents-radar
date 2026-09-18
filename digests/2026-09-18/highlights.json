@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.275 发布支持MCP工具",
+      "OpenAI Codex v0.156.0-alpha.1 带来新功能",
+      "OpenCode作为开源CLI选项获关注",
+      "阿里Qwen Code加入CLI对比",
+      "Gemini CLI添加谷歌生态集成",
+      "Copilot CLI新增GitHub集成功能"
+    ],
+    "ai-agents": [
+      "OpenClaw生态涵盖5个智能体项目",
+      "Hermes智能体实现推理能力",
+      "IronClaw支持Near AI基础设施",
+      "QwenPaw集成Agentscope框架",
+      "ZeroClaw推出零样本新方案",
+      "缺陷：MCP服务器初始化超时导致Gateway崩溃"
+    ],
+    "ai-infra": [
+      "Unsloth v0.1.810-beta带来微调加速",
+      "vLLM为视觉模型添加ViT CUDA Graph",
+      "SGLang支持LLaVA-OneVision，313+注释",
+      "Ollama添加GLM-5.3和DeepSeek-V4.1支持",
+      "LiteLLM修复Prisma重连和流式传输",
+      "llama.cpp本周合并27个PR"
+    ],
+    "ai-trending": [
+      "alibaba/open-code-review登顶趋势，1200+星",
+      "cloudflare/security-audit-skill实现AI安全审计",
+      "Tencent/BrowserSkill为智能体自动化浏览器",
+      "anthropics/claude-code达50K+仓库星标",
+      "cline自主编程智能体发展势头正劲",
+      "n8n-io/n8n添加AI工作流自动化"
+    ],
+    "ai-web": [
+      "Anthropic：Claude优化30+生物分子模型",
+      "Anthropic：推出生命科学验证新计划",
+      "OpenAI推出Astra法律产品",
+      "Anthropic：安全事件对齐评估",
+      "OpenAI：ChatGPT Work金融团队指南",
+      "OpenAI：ChatGPT Work营销团队指南"
+    ],
+    "ai-hn": [
+      "Bend语言防止AI编程错误",
+      "无限参数LLM论文发布",
+      "GLM构建定制推理基础设施",
+      "Plugin4Shell零点击RCE漏洞",
+      "YC推出Skillsync AI初创",
+      "FAA计划用AI辅助空中交通"
+    ],
+    "ai-arxiv": [
+      "新分词器设计平衡目标与搜索",
+      "零阶方法用于LLM偏好对齐",
+      "研究揭示合成数据导致模型崩溃",
+      "无限参数LLM生成自适应权重",
+      "认知扩展改进双过程智能体",
+      "新基准测试衡量AI系统隐私"
+    ],
+    "ai-community": [
+      "AI展示旧版本时会写出有缺陷的代码",
+      "TypeSafe推出Jev单模型系统",
+      "RAG系统易遭受知识投毒",
+      "MCP实现自动化产品反馈循环",
+      "AI智能体面临可靠性挑战",
+      "投毒攻击针对MCP系统"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.275 released with MCP tool support",
+      "OpenAI Codex v0.156.0-alpha.1 brings new features",
+      "OpenCode gains traction as open-source CLI option",
+      "Qwen Code joins CLI comparison from Alibaba",
+      "Gemini CLI adds Google ecosystem integration",
+      "Copilot CLI adds GitHub integration features"
+    ],
+    "ai-agents": [
+      "OpenClaw ecosystem spans 5 agent projects",
+      "Hermes Agent from NousResearch enables reasoning",
+      "IronClaw brings Near AI infrastructure support",
+      "QwenPaw adds Agentscope framework integration",
+      "ZeroClaw launches new zero-shot approach",
+      "Bug: MCP server init timeout crashes Gateway"
+    ],
+    "ai-infra": [
+      "Unsloth v0.1.810-beta brings fine-tuning speedups",
+      "vLLM adds ViT CUDA Graph for vision models",
+      "SGLang supports LLaVA-OneVision with 313+ comments",
+      "Ollama adds GLM-5.3 and DeepSeek-V4.1 support",
+      "LiteLLM fixes Prisma reconnection and streaming",
+      "llama.cpp reaches 27 merged PRs this week"
+    ],
+    "ai-trending": [
+      "alibaba/open-code-review tops trending with 1200+ stars",
+      "cloudflare/security-audit-skill enables AI security",
+      "Tencent/BrowserSkill automates browser for agents",
+      "anthropics/claude-code hits 50K+ repo stars",
+      "cline autonomous coding agent gains momentum",
+      "n8n-io/n8n adds AI workflow automation"
+    ],
+    "ai-web": [
+      "Anthropic: Claude optimizes 30+ biomolecular models",
+      "Anthropic: New Life Sciences Verification Program",
+      "OpenAI launches Astra for Law product",
+      "Anthropic: Security incident alignment assessment",
+      "OpenAI: ChatGPT Work guides for Finance teams",
+      "OpenAI: ChatGPT Work guides for Marketing teams"
+    ],
+    "ai-hn": [
+      "Bend language prevents AI coding mistakes",
+      "Infinite-Parameter LLMs paper published",
+      "GLM builds custom inference infrastructure",
+      "Plugin4Shell zero-click RCE vulnerability",
+      "YC launches Skillsync AI startup",
+      "FAA plans AI for air traffic control"
+    ],
+    "ai-arxiv": [
+      "New tokenizer design balances objective and search",
+      "Zero-order methods for LLM preference alignment",
+      "Research reveals model collapse with synthetic data",
+      "Infinite-Parameter LLMs generate adaptive weights",
+      "Cognitive extensions improve dual-process agents",
+      "New benchmark measures privacy in AI systems"
+    ],
+    "ai-community": [
+      "AI writes buggy code when shown old versions",
+      "Jev system one model from TypeSafe launches",
+      "RAG systems vulnerable to knowledge poisoning",
+      "MCP enables automated product feedback loops",
+      "AI agents face reliability challenges",
+      "Tool poisoning attacks target MCP systems"
+    ]
+  }
+}
