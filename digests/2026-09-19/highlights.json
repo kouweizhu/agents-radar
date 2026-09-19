@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.277 发布",
+      "OpenAI Codex 讨论活跃",
+      "Gemini CLI v0.62.0-nightly 发布",
+      "Copilot CLI v1.0.87-0 可用",
+      "OpenCode 崭露头角",
+      "Qwen Code v0.24.1-preview.0"
+    ],
+    "ai-infra": [
+      "vLLM 领先生产推理",
+      "SGLang v0.5.20 搭载 MiniMax-M3",
+      "llama.cpp 扩展多后端",
+      "Ollama v0.34.3 简化部署",
+      "LiteLLM v1.103.0-dev.2 网关",
+      "Unsloth 加速微调"
+    ],
+    "ai-trending": [
+      "Claude Code 热门 #2",
+      "腾讯 BrowserSkill 用于代理",
+      "阿里开源代码审查工具",
+      "面向工程师的代理技能",
+      "OpenSpec 规范驱动开发",
+      "Supermemory AI 上下文引擎"
+    ],
+    "ai-web": [
+      "Anthropic 携手埃森哲 $1B",
+      "Claude 优化 30 个生物分子模型",
+      "OpenAI 今日无新文章",
+      "嵌入式评估器方法",
+      "Claude 蛋白质预测提速 4 倍",
+      "蛋白质设计竞赛 $1M"
+    ],
+    "ai-hn": [
+      "OpenAI 用 LLM 设计芯片",
+      "Claude Code 支持 AGENTS.md",
+      "LLM 聊天机器人改变想法",
+      "微软称 AI 抓取为盗窃",
+      "安全：OpenAI 仓库被入侵",
+      "LLM 写作对比传统写作"
+    ],
+    "ai-arxiv": [
+      "嵌入模型测量奇特",
+      "前沿 LLM 代理过度声称",
+      "SGLang MiniMax-M3 论文",
+      "代理线束设计研究",
+      "代理的世界模型",
+      "RAFT 检索增强"
+    ],
+    "ai-community": [
+      "瓶颈转移到证明代码",
+      "Claude Code 支持 AGENTS.md",
+      "GRPO 保持奖励模型",
+      "DistilBERT 量化为 ONNX",
+      "代理的记忆架构",
+      "git blame 显示 AI 代码"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.277 released",
+      "OpenAI Codex discussions active",
+      "Gemini CLI v0.62.0-nightly out",
+      "Copilot CLI v1.0.87-0 available",
+      "OpenCode emerging as contender",
+      "Qwen Code v0.24.1-preview.0"
+    ],
+    "ai-infra": [
+      "vLLM leads production inference",
+      "SGLang v0.5.20 with MiniMax-M3",
+      "llama.cpp expands multi-backend",
+      "Ollama v0.34.3 simplifies deployment",
+      "LiteLLM v1.103.0-dev.2 gateway",
+      "Unsloth accelerates fine-tuning"
+    ],
+    "ai-trending": [
+      "Claude Code trending #2",
+      "Tencent BrowserSkill for agents",
+      "Alibaba open-code-review tool",
+      "Agent-skills for engineers",
+      "OpenSpec spec-driven dev",
+      "Supermemory AI context engine"
+    ],
+    "ai-web": [
+      "Anthropic partners Accenture $1B",
+      "Claude optimizes 30 biomolecular models",
+      "OpenAI no new articles today",
+      "Embedded evaluator approach",
+      "Claude 4x speedup on proteins",
+      "Protein design competition $1M"
+    ],
+    "ai-hn": [
+      "OpenAI used LLMs to design chip",
+      "Claude Code AGENTS.md support",
+      "LLM chatbots change minds",
+      "Microsoft calls AI scraping theft",
+      "Security: OpenAI repos breached",
+      "LLM writing vs traditional"
+    ],
+    "ai-arxiv": [
+      "Embedding models measure oddly",
+      "Frontier LLM agents overclaim",
+      "SGLang MiniMax-M3 paper",
+      "Agent harness design study",
+      "World models for agents",
+      "RAFT retrieval-augmented"
+    ],
+    "ai-community": [
+      "Bottleneck moved to proving code",
+      "Claude Code AGENTS.md support",
+      "GRPO keeps reward model",
+      "Quantizing DistilBERT to ONNX",
+      "Memory architectures for agents",
+      "git blame shows AI code"
+    ]
+  }
+}
