@@ -1,0 +1,86 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.278 发布远程控制功能",
+      "OpenAI Codex 5 alpha 发布 (rust-v0.156.0-alpha.9)",
+      "Gemini CLI v0.62.0-nightly 专注代码智能",
+      "Copilot CLI: MCP集成与会话修复",
+      "OpenCode: 2.2.1 增强工作区支持",
+      "所有CLI工具的Windows稳定性正在修复"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.9.5: 64次提交,503位贡献者",
+      "24小时内更新500个issue和500个PR",
+      "严重:子进程泄漏导致僵尸进程累积",
+      "严重:MCP服务器初始化超时导致网关崩溃",
+      "严重:网关内存泄漏(350MB增至15.5GB RSS)",
+      "5项目生态:OpenClaw, Hermes, IronClaw, QwenPaw, ZeroClaw"
+    ],
+    "ai-infra": [
+      "SGLang: 351个PR含HiCache和sgl-router",
+      "llama.cpp: b11056版本支持Hexagon DSP",
+      "vLLM: 安全修复与DeepGEMM优化",
+      "Ollama: MLX支持与reasoning_content",
+      "GLM-5.3-Flash在vLLM/SGLang上稳定性问题",
+      "LiteLLM: 限流器与MCP改进"
+    ],
+    "ai-trending": [
+      "cloudflare/security-audit-skill: 新安全智能体",
+      "trycua/cua: 新计算机使用AI智能体",
+      "addyosmani/agent-skills: AI编码技能库",
+      "docling-project/docling: 生成式AI文档处理",
+      "cactus-compute/needle: 小型设备自动化模型",
+      "anthropics/claude-code在GitHub上流行"
+    ],
+    "ai-community": [
+      "AI智能体可通过仓库访问被攻击",
+      "AI测试在生产环境存活6个月",
+      "非自回归决策模型(lobste.rs 39分)",
+      "高效token的智能体开发策略",
+      "AI使工程师变差但员工变好",
+      "1558个测试通过无需认证"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.278 released with Remote Control",
+      "OpenAI Codex 5 alpha releases (rust-v0.156.0-alpha.9)",
+      "Gemini CLI v0.62.0-nightly with code intelligence focus",
+      "Copilot CLI: MCP integration and session fixes",
+      "OpenCode: 2.2.1 with enhanced workspace support",
+      "Windows stability being addressed across all CLI tools"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.9.5: 64 commits, 503 contributors",
+      "500 issues and 500 PRs updated in 24h",
+      "Critical: Child process leak causing zombie accumulation",
+      "Critical: MCP server init timeout crashes Gateway",
+      "Critical: Gateway Memory Leak (350MB to 15.5GB RSS)",
+      "5-project ecosystem: OpenClaw, Hermes, IronClaw, QwenPaw, ZeroClaw"
+    ],
+    "ai-infra": [
+      "SGLang: 351 PRs with HiCache and sgl-router",
+      "llama.cpp: b11056 builds with Hexagon DSP support",
+      "vLLM: Security fix and DeepGEMM optimizations",
+      "Ollama: MLX support and reasoning_content added",
+      "GLM-5.3-Flash stability issues across vLLM/SGLang",
+      "LiteLLM: Rate limiter and MCP improvements"
+    ],
+    "ai-trending": [
+      "cloudflare/security-audit-skill: new security agent",
+      "trycua/cua: new computer-use AI agent",
+      "addyosmani/agent-skills: AI coding skills library",
+      "docling-project/docling: gen AI document processing",
+      "cactus-compute/needle: tiny device automation model",
+      "anthropics/claude-code trending on GitHub"
+    ],
+    "ai-community": [
+      "AI agents can be attacked via repository access",
+      "AI tests surviving production after 6 months",
+      "Non-autoregressive decision models (lobste.rs 39 pts)",
+      "Token-efficient agentic development strategies",
+      "AI making engineers worse but employees better",
+      "1,558 tests green with no authentication required"
+    ]
+  }
+}
