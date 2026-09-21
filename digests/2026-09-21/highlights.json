@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 添加设备代码认证 RFC 8628",
+      "GitHub Copilot CLI 实现 OAuth 流程",
+      "Gemini CLI 获得 OAuth 持久化",
+      "多个 CLI 工具添加 MCP 集成",
+      "OpenAI Codex 发布 3 个 Rust alpha 版本",
+      "Pi 添加 Meta Muse OAuth 支持"
+    ],
+    "ai-agents": [
+      "OpenClaw 生态: 更新 500 个 issues 和 PRs",
+      "SQLite WAL 增长到 1.4-2.8 GB 导致存储问题",
+      "子进程泄漏影响代理可靠性",
+      "MCP 服务器初始化超时导致 Gateway 崩溃",
+      "Gateway 内存泄漏: RSS 从 350MB 增长到 15.5GB",
+      "同步代理持久化阻塞事件循环"
+    ],
+    "ai-infra": [
+      "vLLM 发布 v0.28.1rc1 新模型",
+      "llama.cpp 24 小时内发布 6 个版本",
+      "Weight Cache Daemon 在 vLLM/SGLang 间共享",
+      "SGLang 增加解码上下文并行化",
+      "LiteLLM 发布 v1.103.0-rc.1",
+      "AMD MI355X 支持扩展到推理引擎"
+    ],
+    "ai-trending": [
+      "affaan/m/ECC: 代理测试工具优化",
+      "BuilderIO/agent-native: 代理应用框架",
+      "cloudflare/security-audit-skill: 编程代理技能",
+      "trycua/cua: 计算机使用 2.0 训练/评估",
+      "anthropics/claude-code: 代理编程工具",
+      "higgsfield-ai/higgsfield: GPU 编排"
+    ],
+    "ai-hn": [
+      "ChatGPT 追踪用户网站活动",
+      "Qwen Image 2.1 热度上升 150 条评论",
+      "System One 模型以 1927 分首次亮相",
+      "Claude Code 现在读取 AGENTS.md 备用方案",
+      "堆溢出暴露 OpenAI 内部仓库",
+      "NASA-IBM 发布 Lunar Foundation 地理空间 AI"
+    ],
+    "ai-hf": [
+      "Qwen3.8 变体下载量突破 700 万",
+      "MiniMax-H3 达到 400 万下载量",
+      "DeepSeek-V4.1-Flash 领先图文模型",
+      "Lightricks 发布 LTX-2.5 文生视频",
+      "Qwen-Image-2.1 登陆 Hugging Face",
+      "Prism 三进制 GGUF 模型热度上升"
+    ],
+    "ai-community": [
+      "企业 AI 代理的 DevSecOps 流水线",
+      "Jev 推出 System 1 决策模型",
+      "非自回归决策模型获得关注",
+      "代理编程与传统编程辩论",
+      "Laya: 33ms 多语言决策引擎",
+      "基于个人设备的本地 AI 音乐工作室"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code adds device-code auth RFC 8628",
+      "GitHub Copilot CLI implements OAuth flow",
+      "Gemini CLI gains OAuth persistence",
+      "Multiple CLI tools add MCP integration",
+      "OpenAI Codex releases 3 rust alpha versions",
+      "Pi adds Meta Muse OAuth support"
+    ],
+    "ai-agents": [
+      "OpenClaw ecosystem: 500 issues and PRs updated",
+      "SQLite WAL grows to 1.4-2.8 GB causing storage issues",
+      "Child process leaks affect agent reliability",
+      "MCP server init timeout crashes Gateway",
+      "Gateway memory leak: RSS grows 350MB to 15.5GB",
+      "Synchronous agent persistence blocks event loop"
+    ],
+    "ai-infra": [
+      "vLLM releases v0.28.1rc1 with new models",
+      "llama.cpp ships 6 releases in 24 hours",
+      "Weight Cache Daemon shared across vLLM/SGLang",
+      "SGLang adds Decode Context Parallelism",
+      "LiteLLM releases v1.103.0-rc.1",
+      "AMD MI355X support expands across inference engines"
+    ],
+    "ai-trending": [
+      "affaan-m/ECC: agent harness optimization",
+      "BuilderIO/agent-native: agentic apps framework",
+      "cloudflare/security-audit-skill: coding-agent skill",
+      "trycua/cua: computer-use 2.0 training/evaluation",
+      "anthropics/claude-code: agentic coding tool",
+      "higgsfield-ai/higgsfield: GPU orchestration"
+    ],
+    "ai-hn": [
+      "ChatGPT tracks user activity across websites",
+      "Qwen Image 2.1 trends with 150 comments",
+      "System One models debut at 1927 points",
+      "Claude Code now reads AGENTS.md fallback",
+      "Heap overflow exposes OpenAI internal repos",
+      "NASA-IBM release Lunar Foundation geospatial AI"
+    ],
+    "ai-hf": [
+      "Qwen3.8 variants hit 7M+ downloads",
+      "MiniMax-H3 reaches 4M downloads",
+      "DeepSeek-V4.1-Flash leads image-text models",
+      "Lightricks releases LTX-2.5 image-to-video",
+      "Qwen-Image-2.1 debuts on Hugging Face",
+      "Prism ternary GGUF models trending"
+    ],
+    "ai-community": [
+      "DevSecOps pipeline for enterprise AI agents",
+      "Jev introduces System 1 decision models",
+      "Non-autoregressive decision models gain traction",
+      "Agentic coding vs traditional coding debate",
+      "Laya: 33ms multilingual decision engine",
+      "Local AI music studio built on personal device"
+    ]
+  }
+}
