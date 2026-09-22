@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "OpenAI Codex 发布 7 个新 alpha 版本",
+      "Claude Code 有 50 个活跃问题",
+      "Copilot CLI 推出 3 个新版本",
+      "OpenCode v1.18.32 带来 10 个 PR",
+      "Pi 在 24 小时内关闭 18 个 PR",
+      "Qwen Code 发布新版本"
+    ],
+    "ai-agents": [
+      "OpenClaw 生态系统有 500 个问题更新",
+      "OpenClaw v2026.7.35 gateway LTS",
+      "SQLite WAL 增长到 2.8GB 导致 P0 崩溃",
+      "Hermes Agent 和 IronClaw 领跑 agent 领域",
+      "内存泄漏修复 PR 已合并",
+      "ZeroClaw 和 QwenPaw 加入生态系统"
+    ],
+    "ai-infra": [
+      "vLLM 新增 Blackwell SM120 nvfp4 KV 缓存",
+      "SGLang 推出 agent 感知 KV 缓存",
+      "llama.cpp 新增 Imagination PowerVR GPU",
+      "Ollama 添加失控检测修复",
+      "LiteLLM 引入优先级路由",
+      "Unsloth 添加 Qwen3-Omni 支持"
+    ],
+    "ai-trending": [
+      "BuilderIO agent-native 登上趋势",
+      "trycua cua AI 平台走红",
+      "akitaonrails ai-memory 获 500+ 星",
+      "autoclip AI 视频工具成趋势",
+      "Codex-X 管理工具发布",
+      "多个 agent 框架成趋势"
+    ],
+    "ai-web": [
+      "Claude 优化 30 个生物分子模型",
+      "Claude 实现 4 倍加速",
+      "OpenAI 扩展 Academy 课程",
+      "OpenAI 成立 Math AI 顾问组",
+      "蛋白质设计提供 100 万 Claude 积分",
+      "ChatGPT 数据团队工作指南"
+    ],
+    "ai-hn": [
+      "Grok 4.7 模型发布",
+      "AI 编码导致 CI 系统压力",
+      "ChatGPT 收集浏览数据",
+      "小型神经网络竞赛启动",
+      "Claude CLI 添加反馈功能",
+      "LLM 评判受到质疑"
+    ],
+    "ai-community": [
+      "基于浏览器的 AI agent 成趋势",
+      "开发者删除 3800 行遗留代码",
+      "AI 发送缺陷代码引担忧",
+      "Monday.com 运行 agent 评估",
+      "Lobste.rs 讨论 AI 隐私",
+      "非自回归模型引热议"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "OpenAI Codex ships 7 new alpha releases",
+      "Claude Code has 50 active issues",
+      "Copilot CLI drops 3 new versions",
+      "OpenCode v1.18.32 brings 10 PRs",
+      "Pi closes 18 PRs in 24 hours",
+      "Qwen Code releases new version"
+    ],
+    "ai-agents": [
+      "OpenClaw ecosystem sees 500 issue updates",
+      "OpenClaw v2026.7.35 gateway LTS",
+      "SQLite WAL grows to 2.8GB causing P0 crash",
+      "Hermes Agent and IronClaw lead agent space",
+      "Memory leak fix PR merged",
+      "ZeroClaw and QwenPaw join ecosystem"
+    ],
+    "ai-infra": [
+      "vLLM adds Blackwell SM120 nvfp4 KV cache",
+      "SGLang debuts agent-aware KV cache",
+      "llama.cpp adds Imagination PowerVR GPU",
+      "Ollama adds runaway detection fix",
+      "LiteLLM introduces priority routing",
+      "Unsloth adds Qwen3-Omni support"
+    ],
+    "ai-trending": [
+      "BuilderIO agent-native hits trending",
+      "trycua cua AI platform goes viral",
+      "akitaonrails ai-memory gets 500+ stars",
+      "autoclip AI video tool trending",
+      "Codex-X management tool launches",
+      "Multiple agent frameworks trending"
+    ],
+    "ai-web": [
+      "Claude optimizes 30 biomolecular models",
+      "Claude achieves 4x speed boost",
+      "OpenAI expands Academy courses",
+      "OpenAI forms Math AI advisory group",
+      "$1M in Claude credits for protein design",
+      "ChatGPT work guide for data teams"
+    ],
+    "ai-hn": [
+      "Grok 4.7 model released",
+      "AI coding strains CI systems",
+      "ChatGPT collects browsing data",
+      "Small neural net competition launches",
+      "Claude CLI adds feedback feature",
+      "LLM judges face scrutiny"
+    ],
+    "ai-community": [
+      "Browser-based AI agents trending",
+      "Dev deletes 3800 lines of legacy code",
+      "AI shipping broken code concerns",
+      "Monday.com runs agent evals",
+      "Lobste.rs debates AI privacy",
+      "Non-autoregressive models discussed"
+    ]
+  }
+}
