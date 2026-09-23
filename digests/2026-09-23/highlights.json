@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.280 搭载 Opus 5.5",
+      "OpenAI Codex v0.156.0 新增全屏 UI 和语音",
+      "Gemini CLI v0.62.0-nightly 修复认证问题",
+      "Copilot CLI v1.0.89-0 集成 Opus 5.5",
+      "OpenCode 达 50 PRs，专注 Windows ARM64",
+      "Pi v0.87.1 新增 GPT-6 Sol 和 Luna 模型"
+    ],
+    "ai-agents": [
+      "500 issues 和 500 PRs 24 小时内更新",
+      "Gateway 内存泄漏 P0：RSS 升至 15.5GB",
+      "子代理完成丢失问题升至 P1",
+      "僵尸进程积累问题显现",
+      "SQLite 转录功能获关注",
+      "SSH 生成回归影响工作流"
+    ],
+    "ai-infra": [
+      "vLLM v0.30.0 发布支持新模型",
+      "SGLang 新增 DCP/Helix 并行提升效率",
+      "llama.cpp 推送 15 个提交至主分支",
+      "LiteLLM v1.102.0 支持 Redis 预算同步",
+      "Unsloth 发布 3 个 Beta 版支持 NVFP4",
+      "DeepSeek-V4.1-Flash 登陆 vLLM"
+    ],
+    "ai-trending": [
+      "google/ax 热门：Google 智能编排",
+      "anthropics/financial-services：金融领域 Claude",
+      "agent-substrate/substrate：智能体基础设施",
+      "dream-num/univer：AI 智能体办公工具",
+      "browser-use/video-use：智能体视频编辑",
+      "claude-code-templates：CLI 配置工具"
+    ],
+    "ai-hn": [
+      "GPT-6 Sol 和 Luna 登顶 HN 第一名",
+      "Claude Opus 5.5 排名第二获 790 评论",
+      "五角大楼 AI 过度依赖引争议",
+      "AI 编码造成 CI 瓶颈（308 分）",
+      "gzip 能成为语言模型吗？（371 分）",
+      "Unreal Agent 游戏 AI 热门排名第十"
+    ],
+    "ai-arxiv": [
+      "Critical-State RL：多轮工具使用智能体",
+      "Harness-Zero：智能体蒸馏突破",
+      "WorldCrafter：视频世界模型研究",
+      "DolphinBench：智能体内存评估",
+      "LLM 智能体中 emergent collusion 研究",
+      "Jev：科学决策框架"
+    ],
+    "ai-community": [
+      "QA 老将 15 年后回归测试（71 reactions）",
+      "开发者用 Gemini 在 Go 中构建廉价 RAG（34 reactions）",
+      "非自回归决策模型：Lobste.rs 得分 61",
+      "ChatGPT 现可追踪其他网站（60 score）",
+      "开发者将智能体测试从 2490 降至 206 次",
+      "Laya：33ms 多语言决策引擎"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.280 ships with Opus 5.5",
+      "OpenAI Codex v0.156.0 adds fullscreen UI and voice",
+      "Gemini CLI v0.62.0-nightly brings auth fixes",
+      "Copilot CLI v1.0.89-0 integrates Opus 5.5",
+      "OpenCode hits 50 PRs, focuses on Windows ARM64",
+      "Pi v0.87.1 adds GPT-6 Sol and Luna models"
+    ],
+    "ai-agents": [
+      "500 issues and 500 PRs updated in 24h",
+      "Gateway Memory Leak P0: RSS grows to 15.5GB",
+      "Subagent completion lost issue reaches P1",
+      "Zombie process accumulation problem surfaces",
+      "SQLite transcript feature gains traction",
+      "SSH spawn regression affects workflows"
+    ],
+    "ai-infra": [
+      "vLLM v0.30.0 released with new model support",
+      "SGLang adds DCP/Helix parallelism for efficiency",
+      "llama.cpp pushes 15 commits to main",
+      "LiteLLM v1.102.0 ships with Redis budget sync",
+      "Unsloth releases 3 betas with NVFP4 support",
+      "DeepSeek-V4.1-Flash lands in vLLM"
+    ],
+    "ai-trending": [
+      "google/ax trending: Google agentic orchestration",
+      "anthropics/financial-services: Claude for finance",
+      "agent-substrate/substrate: agent infrastructure",
+      "dream-num/univer: Office harness for AI agents",
+      "browser-use/video-use: video editing with agents",
+      "claude-code-templates: CLI configuration tool"
+    ],
+    "ai-hn": [
+      "GPT-6 Sol and Luna dominates HN at #1",
+      "Claude Opus 5.5 ranks #2 with 790 comments",
+      "Pentagon AI overreliance story sparks debate",
+      "AI coding creates CI bottleneck (308 points)",
+      "Can gzip be a language model? (371 points)",
+      "Unreal Agent game AI trending at #10"
+    ],
+    "ai-arxiv": [
+      "Critical-State RL: multi-turn tool use agents",
+      "Harness-Zero: agent distillation breakthrough",
+      "WorldCrafter: video world model research",
+      "DolphinBench: agent memory evaluation",
+      "Emergent Collusion in LLM agents studied",
+      "Jev: scientific decision-making framework"
+    ],
+    "ai-community": [
+      "QA veteran returns to testing after 15 years (71 reactions)",
+      "Dev builds Cheap RAG in Go with Gemini (34 reactions)",
+      "Non-autoregressive decision models: 61 score on Lobste.rs",
+      "ChatGPT now tracks other websites (60 score)",
+      "Dev cuts agent test runs from 2,490 to 206",
+      "Laya: 33ms multilingual decision engine"
+    ]
+  }
+}
