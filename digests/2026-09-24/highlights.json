@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.281 发布",
+      "OpenAI Codex 发布多个 alpha 版本",
+      "Gemini CLI v0.62.0-preview 发布",
+      "Copilot CLI v1.0.89-1 推出",
+      "OpenCode 合并 20+ 关键 PR",
+      "Qwen Code v0.24.4-nightly 发布"
+    ],
+    "ai-agents": [
+      "OpenClaw 达到 500 issues 和 PRs",
+      "v2026.9.6 发布伴有 macOS 崩溃",
+      "2026.9.7 Mac 热修复进行中",
+      "严重网关内存泄漏 (P0)",
+      "AgentSelectionRequiredError 大量日志",
+      "回复丢失回归问题追踪"
+    ],
+    "ai-infra": [
+      "llama.cpp v0.5.0 附带 ggml 0.25.0 发布",
+      "Ollama v0.34.4 修复 CPU 回归",
+      "LiteLLM 发布 v1.99.3 到 v1.104.0-dev",
+      "Unsloth v0.1.815-beta 新增 Qwen-Image-2.1",
+      "vLLM 解决 Mamba 检查点问题",
+      "SGLang 优化 ROCm AMD 支持"
+    ],
+    "ai-trending": [
+      "google/ax 引领代理编排",
+      "BuilderIO/agent-native 趋势",
+      "dream-num/univer 为 AI 代理构建 Office",
+      "HKUDS CLI-Anything 获得关注",
+      "Strands Harness SDK 推出",
+      "obra/superpowers 登上热门"
+    ],
+    "ai-web": [
+      "Claude 发现新型酶系统",
+      "OpenAI 推出 Mentalhealthbench",
+      "Sam Altman 在联合国安理会发言",
+      "OpenAI Academy 成立两周年",
+      "GPT-6 Astra 与 Airbnb 合作",
+      "Anthropic 组建生命科学团队"
+    ],
+    "ai-hn": [
+      "GPT-6 Sol 和 Luna 发布",
+      "Claude Opus 5.5 推出",
+      "Gemini 3.8 文字转语音发布",
+      "Mercury 2.5 达到 770 tokens/秒",
+      "Claude Code AGENTS.md 遥测问题",
+      "Snapdragon X2 Linux 支持"
+    ],
+    "ai-arxiv": [
+      "Agensh 扩展至 1024 代理",
+      "Flash-dLLM 优化 KV 缓存",
+      "JEV-as-a-Judge 框架亮相",
+      "贪婪解码精度研究",
+      "A2M 揭示 MCP 劫持方法",
+      "SWE-Serve 基准测试代理服务"
+    ],
+    "ai-community": [
+      "Per-Agent Cost Tracking 在 DEV 上走红",
+      "DEV.to 转型为 3D 库",
+      "Claude Opus 5.5 登陆 Google Cloud",
+      "5 款 LLM 网关工具对比",
+      "非自回归模型重新流行",
+      "ChatGPT 广告追踪引发隐私担忧"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.281 released",
+      "OpenAI Codex drops multiple alpha releases",
+      "Gemini CLI v0.62.0-preview ships",
+      "Copilot CLI v1.0.89-1 rolls out",
+      "OpenCode sees 20+ key PRs merged",
+      "Qwen Code v0.24.4-nightly drops"
+    ],
+    "ai-agents": [
+      "OpenClaw hits 500 issues and PRs",
+      "v2026.9.6 released with macOS crash",
+      "2026.9.7 Mac hotfix in progress",
+      "Critical Gateway Memory Leak (P0)",
+      "AgentSelectionRequiredError floods logs",
+      "Reply lost regression tracked"
+    ],
+    "ai-infra": [
+      "llama.cpp v0.5.0 ships with ggml 0.25.0",
+      "Ollama v0.34.4 fixes CPU regression",
+      "LiteLLM releases v1.99.3 to v1.104.0-dev",
+      "Unsloth v0.1.815-beta adds Qwen-Image-2.1",
+      "vLLM tackles Mamba checkpointing",
+      "SGLang optimizes ROCm AMD support"
+    ],
+    "ai-trending": [
+      "google/ax leads agentic orchestration",
+      "BuilderIO/agent-native trends",
+      "dream-num/univer builds Office for AI Agents",
+      "HKUDS CLI-Anything gains traction",
+      "Strands Harness SDK launches",
+      "obra/superpowers hits trending"
+    ],
+    "ai-web": [
+      "Claude discovers novel enzyme system",
+      "OpenAI introduces Mentalhealthbench",
+      "Sam Altman speaks at UN Security Council",
+      "OpenAI Academy turns two years",
+      "GPT-6 Astra partners with Airbnb",
+      "Anthropic forms life sciences group"
+    ],
+    "ai-hn": [
+      "GPT-6 Sol and Luna released",
+      "Claude Opus 5.5 launches",
+      "Gemini 3.8 text-to-speech arrives",
+      "Mercury 2.5 hits 770 tokens/sec",
+      "Claude Code AGENTS.md telemetry issue",
+      "Linux support for Snapdragon X2"
+    ],
+    "ai-arxiv": [
+      "Agensh scales to 1024 agents",
+      "Flash-dLLM optimizes KV caching",
+      "JEV-as-a-Judge framework debuts",
+      "Greedy Decoding precision study",
+      "A2M reveals MCP hijack method",
+      "SWE-Serve benchmarks agent serving"
+    ],
+    "ai-community": [
+      "Per-Agent Cost Tracking goes viral on DEV",
+      "DEV.to transformed into 3D library",
+      "Claude Opus 5.5 on Google Cloud",
+      "5 LLM Gateway Tools compared",
+      "Non-autoregressive models resurface",
+      "ChatGPT ad tracking raises privacy concerns"
+    ]
+  }
+}
