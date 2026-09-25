@@ -1,0 +1,133 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.282 发布，包含 50 个问题",
+      "OpenAI Codex Pro Max 更新推送 6 个版本",
+      "Google Gemini CLI v0.62.0-nightly 发布",
+      "GitHub Copilot CLI v1.0.89-3 更新",
+      "Qwen Code v0.24.5 稳定版/夜间版双版发布",
+      "OpenCode 达到 50 个问题，10 个活跃 PR"
+    ],
+    "ai-agents": [
+      "MCP 服务器初始化超时导致网关崩溃 (P1)",
+      "模型目录过期循环占用 CPU 核心 (P2)",
+      "网关就绪但从不服务 - 事件循环饥饿 (P0)",
+      "SQLite 清理阻塞网关事件循环 (P1)",
+      "MCP 环回自动重连在负载下失败 (P1)",
+      "Telegram 流路径泄露原始 Markdown (P2)"
+    ],
+    "ai-infra": [
+      "vLLM 新增 Blackwell 批不变内核",
+      "SGLang 新增 Lark 语法支持结构化生成",
+      "llama.cpp v0.25.3 支持 Hexagon NPU",
+      "Unsloth 集成 vLLM/SGLang 推理后端",
+      "LiteLLM 新增 Sail provider 和 Fireworks DeepSeek V4.1",
+      "Ollama 新增 GraniteForCausalLM MLX 支持"
+    ],
+    "ai-trending": [
+      "rohitg00/ai-engineering-from-scratch 登上趋势",
+      "google/ax 代理编排运行时发布",
+      "NVIDIA/Model-Optimizer 开放贡献",
+      "strands-agents/harness-sdk 发布代理 SDK",
+      "open-compass/opencompass 达 30k+ 星标",
+      "dream-num/univer 将代理带入办公套件"
+    ],
+    "ai-web": [
+      "Anthropic 宣布用 Claude 发现新型酶",
+      "Claude 驱动的代理进行经济实验交易",
+      "OpenAI 将 ChatGPT 广告扩展到东南亚",
+      "Anthropic 成立生命科学研究小组",
+      "战略转向：Anthropic 进入生物技术研究",
+      "AI 经济实验揭示代理行为模式"
+    ],
+    "ai-hn": [
+      "OpenAI 发布 GPT-6 Sol 和 Luna",
+      "Claude Opus 5.5 社区发布引发兴奋",
+      "Claude 发现新型类 CRISPR 酶系统",
+      "早期恶意 AI 代理活动引发安全担忧",
+      "Linux 支持登陆 Snapdragon X2 Elite",
+      "That 'so AI' 成为 Gen Alpha 侮辱语"
+    ],
+    "ai-arxiv": [
+      "对比学习用于作者验证发表",
+      "StudentBench 基准测试 AI 与人类辅导",
+      "LLM 难以推理运行时行为",
+      "Mizar：159M 音频语言模型发布",
+      "AgentRun DSL 将代理转为工作流",
+      "非自回归决策模型突破"
+    ],
+    "ai-community": [
+      "7 个浪费数周工作的代理评估错误",
+      "ChatGPT 现在跨网站跟踪用户",
+      "开发者用 Three.js 构建 3D 库",
+      "100% 漏洞检测还不够 - 新方法你的模型不需要更多训练数据",
+      "Laya：33ms 多语言系统 1 决策引擎"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.282 released with 50 issues",
+      "OpenAI Codex Pro Max update pushes 6 releases",
+      "Google Gemini CLI v0.62.0-nightly drops",
+      "GitHub Copilot CLI v1.0.89-3 updates",
+      "Qwen Code v0.24.5 stable/nightly dual release",
+      "OpenCode hits 50 issues with 10 active PRs"
+    ],
+    "ai-agents": [
+      "MCP server init timeout crashes Gateway (P1)",
+      "Model-catalog expiry loop pins CPU core (P2)",
+      "Gateway ready but never serves - event loop starved (P0)",
+      "SQLite transcript cleanup blocks gateway event loop (P1)",
+      "MCP loopback auto-reconnect fails under load (P1)",
+      "Telegram streaming path leaks raw Markdown (P2)"
+    ],
+    "ai-infra": [
+      "vLLM adds Blackwell batch-invariant kernels",
+      "SGLang adds Lark grammars for structured generation",
+      "llama.cpp v0.25.3 ships with Hexagon NPU support",
+      "Unsloth integrates vLLM/SGLang inference backends",
+      "LiteLLM adds Sail provider and Fireworks DeepSeek V4.1",
+      "Ollama adds GraniteForCausalLM MLX support"
+    ],
+    "ai-trending": [
+      "rohitg00/ai-engineering-from-scratch hits trending",
+      "google/ax agentic orchestration runtime launches",
+      "NVIDIA/Model-Optimizer opens for contributions",
+      "strands-agents/harness-sdk releases agent SDK",
+      "open-compass/opencompass reaches 30k+ stars",
+      "dream-num/univer brings AI agents to office suites"
+    ],
+    "ai-web": [
+      "Anthropic announces novel enzyme discovery with Claude",
+      "Claude-powered agents trade in economic experiment",
+      "OpenAI expands ChatGPT ads to Southeast Asia",
+      "Life sciences research group formed at Anthropic",
+      "Strategic pivot: Anthropic enters biotech research",
+      "AI economic experiments reveal agent behavior patterns"
+    ],
+    "ai-hn": [
+      "GPT-6 Sol and Luna released by OpenAI",
+      "Claude Opus 5.5 launches to community excitement",
+      "Claude discovers novel CRISPR-like enzyme system",
+      "Early rogue AI agent activity raises security concerns",
+      "Linux support comes to Snapdragon X2 Elite",
+      "That 'so AI' becomes Gen Alpha insult"
+    ],
+    "ai-arxiv": [
+      "Contrastive learning for authorship verification published",
+      "StudentBench benchmarks AI vs human tutoring",
+      "LLMs struggle to reason about runtime behavior",
+      "Mizar: 159M audio-language model released",
+      "AgentRun DSL turns agents into workflows",
+      "Non-autoregressive decision models breakthrough"
+    ],
+    "ai-community": [
+      "7 agent eval mistakes that cost weeks of work",
+      "ChatGPT now tracks users across websites",
+      "Developer builds 3D library in Three.js",
+      "100% vuln detection wasn't enough - new approach",
+      "Your model doesn't need more training data",
+      "Laya: 33ms multilingual System 1 decision engine"
+    ]
+  }
+}
