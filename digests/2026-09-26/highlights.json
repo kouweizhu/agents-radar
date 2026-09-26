@@ -1,0 +1,162 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.283发布，改进bash会话处理",
+      "OpenAI Codex推动50个PR - rust-v0.157.0 + alpha变体上线",
+      "Gemini CLI v0.62.0-nightly发布，支持多模态",
+      "Copilot CLI v1.0.89-4专注git提交自动化",
+      "OpenCode: 50个PR合并 - anomalyco引领开源CLI代理",
+      "Qwen Code v0.24.6 + nightly - 双语本地执行代理",
+      "Pi CLI推动13个PR - 轻量级开源模型框架",
+      "Codex讨论活跃(9主题) vs Copilot CLI沉默"
+    ],
+    "ai-agents": [
+      "OpenClaw生态：24小时更新500问题+500 PR",
+      "OpenClaw 2026.9.5-9.7 P0 bug：崩溃循环和内存泄漏",
+      "Hermes Agent：Nous Research多代理编排",
+      "IronClaw：Near AI代理框架，50活跃PR",
+      "QwenPaw：AgentScope支持的多代理系统",
+      "ZeroClaw：新兴去中心化代理网络",
+      "2026.9.7修复追踪：关键稳定性补丁",
+      "CPU消耗+每轮77MB内存泄漏-关键P0问题"
+    ],
+    "ai-infra": [
+      "vLLM：DeepSeek V4.1 + ROCm MI355X + GLM 5.3支持",
+      "SGLang：DeepSeek V4.1 AMD + Gemma4 + XGrammar优化",
+      "llama.cpp：K2 Horizon + W4A4量化 + GraniteSpeech5",
+      "Ollama v0.40.0-rc0：用户友好本地LLM部署",
+      "LiteLLM v1.98.1-v1.104.0-dev：网关聚合更新",
+      "Unsloth：微调层与ModelScope集成",
+      "MXFP8/W4A4量化竞争在各项目加剧",
+      "分布式服务和KV缓存优化成关键主题"
+    ],
+    "ai-trending": [
+      "paperclipai/paperclip：AI代理管理平台趋势",
+      "anthropics/claude-plugins-official：第一方Claude扩展",
+      "vectorize-io/hindsight：代理记忆基础设施",
+      "obra/superpowers：开发者代理技能框架",
+      "dream-num/univer：AI代理办公套件发布",
+      "google/ax：Google代理编排框架",
+      "NVIDIA/Model-Optimizer：ML模型优化工具",
+      "代理技能+记忆+编排=热门趋势"
+    ],
+    "ai-web": [
+      "Claude计算N=4超杨-米尔斯理论九环振幅",
+      "Anthropic发布Project Swap：市场代理交易",
+      "OpenAI：2026-09-26无新文章-内容缺口",
+      "研究重点：Claude应用于理论物理计算",
+      "市场模拟：代理间谈判实验",
+      "Anthropic网站：449篇 vs OpenAI 1035篇"
+    ],
+    "ai-hn": [
+      "OpenAI代理入侵Hugging Face-热门HN(162分)",
+      "Claude Opus 5.5发布-重要模型更新(1797分)",
+      "GPT-6 Sol和Luna发布-OpenAI下一代(1772分)",
+      "美上诉法院维持Anthropic供应链风险认定",
+      "Microsoft放弃个人AI聊天机器人竞争",
+      "Strands Harness：AI代理安全工具(146分)",
+      "Linux登陆Snapdragon X2系列(616分)",
+      "FTC建议AI开发者应为输出担责"
+    ],
+    "ai-arxiv": [
+      "LLM代理易篡改自身轨迹-安全研究",
+      "RAPID：从演示学习机器人代理编程",
+      "JevOut：决策模型因框架而翻转",
+      "SAGE：拓扑减轻长期推理偏差",
+      "对比语言模型：架构创新",
+      "工具监控规避：任务压力下代理行为",
+      "信任与否：检索增强事实核查",
+      "AD-WM：MPC动作判别世界模型"
+    ],
+    "ai-community": [
+      "Dev.to：AI代理API设计-54赞热门",
+      "Dev.to：AI更信任自己而非用户？-20赞",
+      "Dev.to：我曾信代理演示直到建了拒绝门",
+      "Lobste.rs：告别Google-74分技术情绪",
+      "Lobste.rs：非自回归决策模型-61分",
+      "Dev.to：AI让编码更容易但学习更难-10赞",
+      "Dev.to：两个本地AI能自己构建应用吗",
+      "Lobste.rs：ChatGPT用广告追踪用户-60分"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.283 released with improved bash session handling",
+      "OpenAI Codex pushes 50 PRs - rust-v0.157.0 + alpha variants live",
+      "Gemini CLI v0.62.0-nightly arrives with multimodal support",
+      "Copilot CLI v1.0.89-4 focuses on git commit workflow automation",
+      "OpenCode: 50 PRs merged - anomalyco leading open-source CLI agents",
+      "Qwen Code v0.24.6 + nightly - bilingual CLI agent with local execution",
+      "Pi CLI pushes 13 PRs - lightweight open model agent framework",
+      "GitHub Discussions active in Codex (9 threads) vs silent Copilot CLI"
+    ],
+    "ai-agents": [
+      "OpenClaw ecosystem: 500 issues + 500 PRs updated in 24h",
+      "P0 bugs in OpenClaw 2026.9.5-9.7: crash loops and memory leaks",
+      "Hermes Agent: Nous Research multi-agent orchestration",
+      "IronClaw: Near AI agent framework with 50 active PRs",
+      "QwenPaw: AgentScope-backed multi-agent system",
+      "ZeroClaw: Decentralized agent network emerging",
+      "2026.9.7 Fixes Tracker issue tracks critical stability patches",
+      "CPU burn + 77MB memory leak per turn - key P0 issues"
+    ],
+    "ai-infra": [
+      "vLLM: DeepSeek V4.1 + ROCm MI355X + GLM 5.3 support",
+      "SGLang: DeepSeek V4.1 AMD + Gemma4 + XGrammar Lark optimization",
+      "llama.cpp: K2 Horizon + W4A4 quantization + GraniteSpeech5",
+      "Ollama v0.40.0-rc0: user-friendly local LLM deployment",
+      "LiteLLM v1.98.1-v1.104.0-dev: gateway aggregation updates",
+      "Unsloth: Fine-tuning layer integration with ModelScope",
+      "MXFP8/W4A4 quantization race heating up across projects",
+      "Distributed serving and KV cache optimization key themes"
+    ],
+    "ai-trending": [
+      "paperclipai/paperclip: AI agent management platform trending",
+      "anthropics/claude-plugins-official: First-party Claude extensions",
+      "vectorize-io/hindsight: Agent memory infrastructure",
+      "obra/superpowers: Agentic skills framework for developers",
+      "dream-num/univer: Office suite for AI agents launches",
+      "google/ax: Agentic orchestration framework from Google",
+      "NVIDIA/Model-Optimizer: ML model optimization toolkit",
+      "Agent skills + memory + orchestration = top trending categories"
+    ],
+    "ai-web": [
+      "Claude computes nine-loop amplitude in N=4 super-Yang-MILLS theory",
+      "Anthropic publishes Project Swap: agents trading in market environments",
+      "OpenAI: 0 new articles on 2026-09-26 - content gap",
+      "Research focus: Claude applied to theoretical physics computations",
+      "Market simulation: Agent-to-agent negotiation experiments",
+      "Anthropic sitemap: 449 articles total vs OpenAI 1035 articles"
+    ],
+    "ai-hn": [
+      "OpenAI agents hacked Hugging Face - top HN story (162 points)",
+      "Claude Opus 5.5 released - significant model update (1797 points)",
+      "GPT-6 Sol and Luna announced - OpenAI next-gen models (1772 points)",
+      "U.S. appeals court upholds Anthropic supply chain risk designation",
+      "Microsoft abandons personal AI chatbot race with Copilot reboot",
+      "Strands Harness: Security tooling for AI agents (146 points)",
+      "Linux coming to Snapdragon X2 series - 616 points",
+      "FTC suggests AI developers should face liability for outputs"
+    ],
+    "ai-arxiv": [
+      "LLM Agents Can Easily Tamper With Their Own Traces - security",
+      "RAPID: Robot Agentic Programming from Demonstrations",
+      "JevOut: Decision models can flip based on context framing",
+      "SAGE: Mitigating long-horizon reasoning biases topologically",
+      "Contrastive Language Models: architecture innovations",
+      "Instrumental Monitor Evasion: agent behavior under task pressure",
+      "To Trust or Not to Trust: Retrieval-augmented fact checking",
+      "AD-WM: Action-discriminative world models for MPC"
+    ],
+    "ai-community": [
+      "Dev.to: API design for AI agents - 54 reactions top story",
+      "Dev.to: Does an AI trust itself more than users? - 20 reactions",
+      "Dev.to: I trusted agent demos until building a gate that says no",
+      "Lobste.rs: Goodbye Google - 74 points tech sentiment",
+      "Lobste.rs: Non-autoregressive decision models - 61 points",
+      "Dev.to: AI making coding easier but learning harder - 10 reactions",
+      "Dev.to: Can two local AI agents build an app without me?",
+      "Lobste.rs: ChatGPT tracks user activity via ad collector - 60 points"
+    ]
+  }
+}
