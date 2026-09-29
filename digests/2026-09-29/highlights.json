@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code：100万token上下文，原生$ARCH支持，代理模式，Mods",
+      "OpenAI Codex：O4-mini+o3推理，MCP支持，聊天/补全模式",
+      "Gemini CLI：100万上下文，多模态输入，通过搜索接地生成",
+      "Copilot CLI：$5/月，gh copilot解释/编写/建议，VS Code集成",
+      "OpenCode：100%离线，开源，支持Claude/OpenAI/Gemini后端",
+      "Pi：基于Rust的CLI，本地优先，集成Claude/OpenAI后端",
+      "Qwen Code：本地优先，Qwen3模型，零云依赖，开源权重"
+    ],
+    "ai-agents": [
+      "OpenClaw：7代理，多harness设计，Claude Code集成，可扩展",
+      "Hermes Agent：10亿参数，决策聚焦，开源，Nous Research",
+      "IronClaw：NEAR生态代理，基于Rust，灵活工具使用，可扩展",
+      "QwenPaw：AgentScope家族，Qwen驱动，多代理编排",
+      "ZeroClaw：零样本学习代理，涌现协调，研究导向",
+      "OpenClaw有500问题/PR，5项目高社区活跃度"
+    ],
+    "ai-infra": [
+      "vLLM：v1推理引擎，FP8支持，多模态，连续批处理",
+      "SGLang：KV缓存分片，PD分解，T-Head PPU，AMD MI30X",
+      "llama.cpp：GGUF量化，CPU优先，移动/边缘，Q2-Q8 K-量化",
+      "Ollama：v0.35.0发布，决策模型，System One API，MLX支持",
+      "LiteLLM：v1.103.0/v1.104.0-rc.1，网关，多提供商路由 guardrails",
+      "Unsloth：2倍更快Llama训练，RoPE，GaLore，bf16/o1微调支持"
+    ],
+    "ai-trending": [
+      "VoiceStudio：AI语音克隆，配音，语音转语音，开源",
+      "Hindsight：代理记忆系统，可学习召回，向量数据库",
+      "OpenRig：多代理harness，Claude Code驱动，基于Rust编排器",
+      "Univer：AI办公套件，文档/表格/幻灯片代理，开源",
+      "Browser-use：AI浏览器自动化，基于视觉的网站交互",
+      "Firecrawl：AI网页抓取，LLM优化提取，12k+ GitHub星标"
+    ],
+    "ai-web": [
+      "Anthropic发布代理交易实验：61%匹配率，模型质量>指令",
+      "Anthropic与Infosys合作：企业AI代理，Claude Code集成",
+      "Infosys Topaz+Claude：电信，金融，制造业，软件开发生态",
+      "印度是Anthropic第二大Claude.ai市场",
+      "OpenAI：澳大利亚AI承诺，Lenfest AI协作扩展"
+    ],
+    "ai-hn": [
+      "Anthropic Sonnet 5.5发布：Claude最新模型，增强推理",
+      "ESP32S3运行1.58位BitNet语言模型：0.4GB内存，高效惊人",
+      "Anthropic IPO招股书：AI愿景，成本飙升，安全优先",
+      "OpenAI取消Astra 6.1发布：安全顾虑，负责AI决策",
+      "Nvidia提议AI代理看门狗芯片：硬件级监控",
+      "World Labs加入AMD：空间智能，AI基础设施"
+    ],
+    "ai-community": [
+      "生产AI代理是带GPU账单的if语句，开发者调查称",
+      "AI可在人类理解前修复bug—潜在风险",
+      "RAG系统面临架构瓶颈：生产部署策略",
+      "MCP服务器处理用户输入前消耗55k+token",
+      "编码代理的上下文压缩压缩了错误的一侧",
+      "AI策略不在生产运行—你的API网关在运行"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code: 1M token context, native $ARCH support, agentic mode, Mods",
+      "OpenAI Codex: O4-mini + o3 reasoning, MCP support, chat/completion modes",
+      "Gemini CLI: 1M context, multimodal input, grounded generation via Search",
+      "Copilot CLI: $5/mo, gh copilot explain/write/suggest, VS Code integration",
+      "OpenCode: 100% offline, open-source, supports Claude/OpenAI/Gemini backends",
+      "Pi: Rust-based CLI, local-first, integrates Claude/OpenAI backends",
+      "Qwen Code: local-first, Qwen3 models, zero cloud dependency, open weights"
+    ],
+    "ai-agents": [
+      "OpenClaw: 7 agents, multi-harness design, Claude Code integration, scalable",
+      "Hermes Agent: 1B params, decision-making focus, open-source, Nous Research",
+      "IronClaw: NEAR ecosystem agent, Rust-based, flexible tool-use, scalable",
+      "QwenPaw: AgentScope family, Qwen-powered, multi-agent orchestration",
+      "ZeroClaw: Zero-shot learning agents, emergent coordination, research-focused",
+      "OpenClaw has 500 issues/PRs, high community activity across 5 projects"
+    ],
+    "ai-infra": [
+      "vLLM: v1 inference engine, FP8 support, multi-modal, continuous batching",
+      "SGLang: KV cache sharding, PD disaggregation, T-Head PPU, AMD MI30X",
+      "llama.cpp: GGUF quantization, CPU-first, mobile/edge, Q2-Q8 K-quant",
+      "Ollama: v0.35.0 released, decision models, System One API, MLX support",
+      "LiteLLM: v1.103.0/v1.104.0-rc.1, gateway, multi-provider routing, guardrails",
+      "Unsloth: 2x faster Llama training, RoPE, GaLore, bf16/o1 fine-tuning support"
+    ],
+    "ai-trending": [
+      "VoiceStudio: AI voice cloning, dubbing, speech-to-speech, open-source",
+      "Hindsight: Agent memory system with learnable recall, vector database",
+      "OpenRig: Multi-agent harness using Claude Code, Rust-based orchestrator",
+      "Univer: AI-powered office suite, agents for docs/sheets/slides, open-source",
+      "Browser-use: AI browser automation, vision-based website interaction",
+      "Firecrawl: AI web scraping, LLM-optimized extraction, 12k+ GitHub stars"
+    ],
+    "ai-web": [
+      "Anthropic publishes agent trading experiment: 61% match rate, model quality > instructions",
+      "Anthropic + Infosys partner: enterprise AI agents, Claude Code integration",
+      "Infosys Topaz + Claude: telecom, finance, manufacturing, software dev focus",
+      "India is Anthropic's second-largest Claude.ai market",
+      "OpenAI: Australia AI commitment, Lenfest AI Collaborative expansion"
+    ],
+    "ai-hn": [
+      "Anthropic Sonnet 5.5 released: Claude's latest model with enhanced reasoning",
+      "ESP32S3 runs 1.58-bit BitNet language model: 0.4GB RAM, impressive efficiency",
+      "Anthropic IPO prospectus: AI vision, surging costs, safety-first approach",
+      "OpenAI scraps Astra 6.1 release: safety concerns, responsible AI decision",
+      "Nvidia proposes watchdog chip for AI agents: hardware-level monitoring",
+      "World Labs (Fei-Fei Li) joins AMD: spatial intelligence, AI infrastructure"
+    ],
+    "ai-community": [
+      "Production AI agents are if-statements with GPU bills, says developer survey",
+      "AI can fix bugs before humans understand them—potential risk, argues post",
+      "RAG systems face architectural bottlenecks: strategies for production deployment",
+      "MCP servers cost 55k+ tokens before agent processes single word of user input",
+      "Context compression for coding agents compresses wrong side of prompt",
+      "AI policies don't run in production—your API gateway does, reminds engineer"
+    ]
+  }
+}
