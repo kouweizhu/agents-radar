@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.285，含50个问题，9个PR",
+      "OpenAI Codex 积极维护，持续发布",
+      "Gemini CLI v0.62.0 已发布，49个PR",
+      "Copilot CLI v1.0.90 系列，5个版本",
+      "OpenCode 活跃中，50个问题，20个PR",
+      "Qwen Code v0.24.7 最新，50个问题"
+    ],
+    "ai-agents": [
+      "OpenClaw：500个问题，500个PR，v2026.8.33",
+      "SQLite WAL 增至 2.8 GB（94条评论）",
+      "Agent持久化阻塞网关（P1）",
+      "并发运行返回重复回复",
+      "泄漏未回收的子进程（P1）",
+      "卡住的agent-DB阻塞所有回复"
+    ],
+    "ai-infra": [
+      "vLLM：CUDA图、MoE、多模态",
+      "SGLang：AMD ROCm、Qwen3-Next支持",
+      "llama.cpp：Vulkan、Metal、OpenCL",
+      "Ollama v0.35.1：MLX、Granite",
+      "LiteLLM v1.100.4-v1.104.0 已发布",
+      "Unsloth Studio：高效训练"
+    ],
+    "ai-trending": [
+      "VoiceStudio：AI语音克隆、配音",
+      "OpenShell：Rust AI代理运行时",
+      "Hindsight：代理记忆库",
+      "Paperclip：TS代理管理",
+      "univer：AI代理办公套件",
+      "PageIndex：向量化RAG"
+    ],
+    "ai-web": [
+      "Anthropic：GLM-5.3网络能力研究",
+      "Anthropic：AI体验公众意见征集",
+      "OpenAI：Gpt 6 1 Sol 介绍",
+      "OpenAI：Dots常驻代理发布",
+      "OpenAI：2026开发者大会回顾",
+      "OpenAI：前沿AI安全案例"
+    ],
+    "ai-hn": [
+      "GPT 6.1 Sol：1/5价格的近Astra",
+      "Sonnet 5.5热度上升（871分）",
+      "Dots：常驻代理（464分）",
+      "NAND-16：27.7万门计算机",
+      "ChatGPT Pro 500发布",
+      "AI代理隐私分析热度上升"
+    ],
+    "ai-arxiv": [
+      "TaskBridge：表格异常检测",
+      "ER-JEPA：JEPA经验回放",
+      "Cool the Sampler：GRPO温度",
+      "Neuro-Symbolic：可复用策略",
+      "SCA：GUI代理空间信任",
+      "MultiTalk：全双工语音模型"
+    ],
+    "ai-community": [
+      "AWS上的AI代理治理（33反应）",
+      "AI服从指令的责任",
+      "给ChatGPT完整代码库（安全）",
+      "任务中暂停代理（内存）",
+      "告别Google：Lobste.rs上107分",
+      "Wasmer招聘任务：37反应"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.285 with 50 issues, 9 PRs",
+      "OpenAI Codex actively maintained with releases",
+      "Gemini CLI v0.62.0 released, 49 PRs",
+      "Copilot CLI v1.0.90 series, 5 releases",
+      "OpenCode active with 50 issues, 20 PRs",
+      "Qwen Code v0.24.7 latest, 50 issues"
+    ],
+    "ai-agents": [
+      "OpenClaw: 500 issues, 500 PRs, v2026.8.33",
+      "SQLite WAL grows to 2.8 GB (94 comments)",
+      "Agent persistence blocks Gateway (P1)",
+      "Concurrent runs deliver duplicate replies",
+      "Leak unreaped child processes (P1)",
+      "Stuck agent-DB blocks all replies"
+    ],
+    "ai-infra": [
+      "vLLM: CUDA graphs, MoE, multimodal",
+      "SGLang: AMD ROCm, Qwen3-Next support",
+      "llama.cpp: Vulkan, Metal, OpenCL",
+      "Ollama v0.35.1: MLX, Granite",
+      "LiteLLM v1.100.4-v1.104.0 released",
+      "Unsloth Studio: efficient training"
+    ],
+    "ai-trending": [
+      "VoiceStudio: AI voice cloning, dubbing",
+      "OpenShell: Rust AI agent runtime",
+      "Hindsight: Agent memory library",
+      "Paperclip: Agent management in TS",
+      "univer: Office for AI Agents",
+      "PageIndex: Vectorless RAG"
+    ],
+    "ai-web": [
+      "Anthropic: GLM-5.3 cyber capabilities study",
+      "Anthropic: Public input on AI experiences",
+      "OpenAI: Introducing Gpt 6 1 Sol",
+      "OpenAI: Dots always-on agents launched",
+      "OpenAI: Devday 2026 Recap",
+      "OpenAI: Frontier AI safety cases"
+    ],
+    "ai-hn": [
+      "GPT 6.1 Sol: Near-Astra at 1/5 price",
+      "Sonnet 5.5 trending (871 points)",
+      "Dots: Always-on agents (464 points)",
+      "NAND-16: Computer from 277K gates",
+      "ChatGPT Pro 500 announced",
+      "Privacy analysis of AI agents trending"
+    ],
+    "ai-arxiv": [
+      "TaskBridge: Tabular anomaly detection",
+      "ER-JEPA: Experience replay for JEPA",
+      "Cool the Sampler: GRPO temperature",
+      "Neuro-Symbolic: Reusable policies",
+      "SCA: Spatial credit for GUI agents",
+      "MultiTalk: Full-duplex speech models"
+    ],
+    "ai-community": [
+      "AI Agent Governance on AWS (33 reactions)",
+      "Accountability when AI follows instructions",
+      "Gave ChatGPT my full codebase (security)",
+      "Pausing agents mid-task (memory)",
+      "Goodbye Google: 107 score on Lobste.rs",
+      "Wasmer hiring tasks: 37 reactions"
+    ]
+  }
+}
