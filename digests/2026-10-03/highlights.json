@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 增加模组扩展性，237 条评论",
+      "OpenAI Codex alpha.8 新增动态模型编排",
+      "Gemini CLI v0.64.0 新增 AST 感知导航",
+      "Copilot CLI v1.0.92 支持 MCP 和 BYOK",
+      "Qwen Code CLI 代理发布，获 9.9k GitHub 星标",
+      "Pi CLI 代理工具达 9.9k GitHub 星标"
+    ],
+    "ai-agents": [
+      "OpenClaw 生态：493 个问题，500 个 PR 更新",
+      "OpenClaw v2026.8.35 网关版稳定发布",
+      "OpenClaw 语音功能有 59 条资源限制评论",
+      "MCP 服务器初始化超时 bug 已修复",
+      "IronClaw 新增会话记录异步读取",
+      "QwenPaw 集成 Qwen 模型到 AgentScope"
+    ],
+    "ai-infra": [
+      "vLLM 新增可扩展 KV 缓存和 CUDA 图池",
+      "SGLang DeepSeek V4.1 获得 NVFP4 优化",
+      "llama.cpp GPU 驻留 MoE 缓存支持 Vulkan/CUDA",
+      "SGLang AMD MI355X (gfx950) 支持已添加",
+      "vLLM Blackwell (SM120) 支持日趋成熟",
+      "llama.cpp Prism Bonsai 2 模型支持已添加"
+    ],
+    "ai-trending": [
+      "Agent-Reach：AI 代理网页抓取工具",
+      "Caveman 编码代理令牌优化",
+      "NVIDIA OpenShell：自主代理运行时",
+      "Google Skills：Google 产品代理技能",
+      "Cursor Plugins：AI IDE 扩展",
+      "开源模型路由获得关注"
+    ],
+    "ai-web": [
+      "Anthropic 推出 1 亿美元 Frontier Academy",
+      "2027 年底前培养 1 万名工程师",
+      "首批学员来自埃森哲、麦肯锡、德勤",
+      "OpenAI 发布 GPT-6 实用指南",
+      "企业 AI 人才管道重点关注",
+      "主要咨询公司与 Anthropic 合作"
+    ],
+    "ai-hn": [
+      "AI 100-0 击败最佳 Stratego 玩家",
+      "FLUX 3 图像模型发布",
+      "Greg Kroah-Hartman 谈 LLM 时代安全",
+      "Gemini 4 Argon 发布",
+      "上下文语言模型论文",
+      "OpenDLSS Vulkan DLSS 实现"
+    ],
+    "ai-arxiv": [
+      "分层连续扩散 LLM 论文",
+      "网络安全 KaliBench 代理评估",
+      "基于语义通信的零样本协调",
+      "企业 Argo-Bench 工作流代理",
+      "LLM 数学推理诊断",
+      "决策模型与 LLM 判断对比"
+    ],
+    "ai-community": [
+      "模型替换攻击：73% AI 模型未报告泄露",
+      "QAT Gemma 4 在 TPU v5e 上达 675 tokens/秒",
+      "Caveman 减少 AI 代理令牌使用",
+      "AI 编码代理运行于 1.7B 本地模型",
+      "GGUF 本地 LLM VRAM 计算器",
+      "针对 AI 代码审查员的测试投毒"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code adds mod extensibility with 237 comments",
+      "OpenAI Codex alpha.8 adds dynamic model orchestration",
+      "Gemini CLI v0.64.0 adds AST-aware navigation",
+      "Copilot CLI v1.0.92 adds MCP and BYOK support",
+      "Qwen Code CLI agent released with 9.9k GitHub stars",
+      "Pi CLI agent tool reaches 9.9k GitHub stars"
+    ],
+    "ai-agents": [
+      "OpenClaw ecosystem: 493 issues, 500 PRs updated",
+      "OpenClaw v2026.8.35 gateway-only stable release",
+      "OpenClaw voice work has 59 comments on resource limits",
+      "MCP server init timeout bug fixed with crash issue",
+      "IronClaw adds session transcript async reads",
+      "QwenPaw integrates Qwen models into AgentScope"
+    ],
+    "ai-infra": [
+      "vLLM adds extensible KV cache and CUDA graph pool",
+      "SGLang DeepSeek V4.1 gets NVFP4 optimization",
+      "llama.cpp GPU-resident MoE cache for Vulkan/CUDA",
+      "SGLang AMD MI355X (gfx950) support added",
+      "vLLM Blackwell (SM120) support maturing",
+      "llama.cpp Prism Bonsai 2 model support added"
+    ],
+    "ai-trending": [
+      "Agent-Reach: AI agent web scraping tool",
+      "Caveman token optimization for coding agents",
+      "NVIDIA OpenShell: Runtime for autonomous agents",
+      "Google Skills: Agent skills for Google products",
+      "Cursor Plugins: AI IDE extensions",
+      "Open-source model routing gains traction"
+    ],
+    "ai-web": [
+      "Anthropic launches $100M Frontier Academy",
+      "Train 10,000 engineers by end of 2027",
+      "First cohorts from Accenture, McKinsey, Deloitte",
+      "OpenAI publishes GPT-6 practical guide",
+      "Enterprise AI talent pipeline focus",
+      "Major consulting firms partner with Anthropic"
+    ],
+    "ai-hn": [
+      "AI beats best Stratego player 100-0",
+      "FLUX 3 image model releases",
+      "Greg Kroah-Hartman security in LLM age",
+      "Gemini 4 Argon launches",
+      "Context Language Models paper",
+      "OpenDLSS Vulkan DLSS implementation"
+    ],
+    "ai-arxiv": [
+      "Hierarchical Continuous Diffusion LLMs paper",
+      "Cybersecurity KaliBench agent evaluation",
+      "Zero-shot coordination via semantic comm",
+      "Enterprise Argo-Bench workflow agents",
+      "Mathematical reasoning diagnosis in LLMs",
+      "Decision models vs LLM-as-judge comparison"
+    ],
+    "ai-community": [
+      "Model-swap attack: 73% AI models didn't report breach",
+      "QAT Gemma 4 runs at 675 tokens/sec on TPU v5e",
+      "Caveman reduces AI agent token usage",
+      "AI coding agent runs on 1.7B local model",
+      "GGUF VRAM calculator for local LLMs",
+      "Test poisoning against AI code reviewers"
+    ]
+  }
+}
