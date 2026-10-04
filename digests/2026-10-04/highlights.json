@@ -1,0 +1,102 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.289 带来 50 个问题",
+      "OpenAI Codex 12 个 PR 待审核",
+      "Qwen Code PR 增长最强 (20)",
+      "Pi 发布 v1.0.2 和 v1.0.1",
+      "Gemini CLI 稳定 4 个 PR",
+      "GitHub Copilot CLI 活动最少 (1 PR)"
+    ],
+    "ai-agents": [
+      "OpenClaw 发布 v2026.9.8 (43 PR, 21 贡献者)",
+      "OpenClaw 有 500 问题 和 500 PR",
+      "OpenClaw 生态 5 个项目",
+      "Hermes Agent 来自 nousresearch",
+      "IronClaw 来自 near/AI",
+      "QwenPaw 来自 agentscope-ai"
+    ],
+    "ai-infra": [
+      "llama.cpp 多版本发布 (b11372-b11382)",
+      "Ollama 发布 v1.104.0 和 v1.105.0-rc.1",
+      "LiteLLM 24 小时内 3 次发布",
+      "vLLM 支持 DeepSeek V4.1, Qwen3, MiniMax-M3",
+      "SGLang 新增 DeepSeek V4.1, GLM-5.3-Flash 支持",
+      "Unsloth 有 2 个 PR 待新模型"
+    ],
+    "ai-trending": [
+      "ponytail - AI 代理思维框架流行",
+      "impeccable - AI 设计语言发布",
+      "ecc - 代理工具性能优化",
+      "pi - 代理工具集达 300+ 星",
+      "claude-code - Anthropic 编码代理流行",
+      "agent-skills - AI 编码技能崛起"
+    ],
+    "ai-hn": [
+      "OpenAI 安全负责人因争议辞职",
+      "Claude Opus 5.5 发布为新模型",
+      "Gemini 4 Argon 从谷歌发布",
+      "Figure F.02 人形机器人退役",
+      "Pop!_OS 禁止 AI 生成代码",
+      "LeCun 再次讨论 AI 灭绝风险"
+    ],
+    "ai-community": [
+      "开发者 5 周 866 次提交，理解滞后",
+      "AI 编码使项目切换太容易",
+      "什么技能能让你被录用？(23 回应)",
+      "更多上下文损害 AI 编码代理性能",
+      "AI 返回正确行但计数错误 (10 回应)",
+      "RAG 与微调：商业决策指南"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.289 ships with 50 issues",
+      "OpenAI Codex advances with 12 PRs in review",
+      "Qwen Code shows strongest PR momentum (20)",
+      "Pi releases v1.0.2 and v1.0.1",
+      "Gemini CLI maintains steady 4 incoming PRs",
+      "GitHub Copilot CLI has minimal activity (1 PR)"
+    ],
+    "ai-agents": [
+      "OpenClaw releases v2026.9.8 (43 PRs, 21 contributors)",
+      "OpenClaw has 500 issues and 500 PRs",
+      "5 projects in OpenClaw ecosystem",
+      "Hermes Agent from nousresearch",
+      "IronClaw from near/AI",
+      "QwenPaw from agentscope-ai"
+    ],
+    "ai-infra": [
+      "llama.cpp ships multiple releases (b11372-b11382)",
+      "Ollama releases v1.104.0 and v1.105.0-rc.1",
+      "LiteLLM pushes 3 releases in 24 hours",
+      "vLLM supports DeepSeek V4.1, Qwen3, MiniMax-M3",
+      "SGLang adds DeepSeek V4.1, GLM-5.3-Flash support",
+      "Unsloth has 2 PRs with new models pending"
+    ],
+    "ai-trending": [
+      "ponytail - AI agent thinking framework trending",
+      "impeccable - AI design language launches",
+      "ecc - Agent harness performance optimization",
+      "pi - Agent toolkit reaches 300+ stars",
+      "claude-code - Anthropic coding agent trending",
+      "agent-skills - AI coding skills on the rise"
+    ],
+    "ai-hn": [
+      "OpenAI safety leader quits amid controversy",
+      "Claude Opus 5.5 released as new model",
+      "Gemini 4 Argon launches from Google",
+      "Figure F.02 humanoid robot decommissioned",
+      "Pop!_OS bans AI-generated code",
+      "LeCun debates AI extinction risk again"
+    ],
+    "ai-community": [
+      "Dev made 866 commits in 5 weeks, understanding lagged",
+      "AI coding made project-switching too easy",
+      "What skills actually get you hired? (23 reactions)",
+      "More context hurts AI coding agent performance",
+      "AI returns correct rows but counts wrong (10 reactions)",
+      "RAG vs Fine-Tuning: business decision guide"
+    ]
+  }
+}
