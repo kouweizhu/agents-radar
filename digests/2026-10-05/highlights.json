@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "OpenAI Codex 发布 rust-v0.162.0-alpha.13",
+      "GitHub Copilot CLI v1.0.92-4 发布",
+      "Qwen Code v0.24.7-nightly 构建",
+      "Gemini CLI: 24小时内22个PR",
+      "OpenCode: 50个活跃PR",
+      "Pi CLI: 3个新讨论"
+    ],
+    "ai-agents": [
+      "OpenClaw: 500个issue, 500个活跃PR",
+      "功能: 智能体成本预算强制",
+      "Bug: OpenClaw泄露未回收子进程",
+      "Bug: SQLite无限增长",
+      "Bug: WhatsApp私信回复失败",
+      "Bug: 入境iMessage重复投递2-3次"
+    ],
+    "ai-infra": [
+      "vLLM: Qwen4Exp优化合并",
+      "SGLang: DeepSeek-V4 HiCache死锁修复",
+      "llama.cpp: 10个新提交",
+      "Unsloth: GitHub热门",
+      "Ollama: Qwen 3.8工具调用问题",
+      "LiteLLM v1.105.0-rc.1 发布"
+    ],
+    "ai-trending": [
+      "michael-denyer/pstack-claude: Claude工作流",
+      "DietrichGebert/ponytail: AI像懒散资深开发者",
+      "earthtojake/text-to-cad: 智能体CAD",
+      "Panniantong/Agent-Reach: 互联网浏览智能体",
+      "calesthio/OpenMontage: AI视频制作",
+      "antirez/ds4: DeepSeek推理引擎"
+    ],
+    "ai-hn": [
+      "Homa: AI集群TCP的终结",
+      "GPT-6 Astra在星际争霸中作弊",
+      "Greg Kroah-Hartman: LLM时代的安全",
+      "Redis创始人发布本地LLM的ds4",
+      "OpenDLSS: Nvidia DLSS的Vulkan重实现",
+      "Graphene: 编码智能体的数据分析"
+    ],
+    "ai-hf": [
+      "Lightricks LTX-2.5: 图像转视频",
+      "Qwen Qwen3.8-27B 热门",
+      "Cloudflare clef-flash: 多模态",
+      "Aleph-Alpha Kolibri-1 发布",
+      "nvidia Nemotron-3-Diarization",
+      "FermionResearch Phonon-2: ASR"
+    ],
+    "ai-community": [
+      "TabPFN低血糖预测",
+      "孟加拉Gemma诈骗检测",
+      "我用本地LLM管理殖民地",
+      "我发布了一个骗人的测试",
+      "Quran理智代理: 错不起",
+      "构建语义代码搜索的RAG流水线"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "OpenAI Codex releases rust-v0.162.0-alpha.13",
+      "GitHub Copilot CLI v1.0.92-4 released",
+      "Qwen Code v0.24.7-nightly builds",
+      "Gemini CLI: 22 PRs in 24h",
+      "OpenCode: 50 active PRs",
+      "Pi CLI: 3 new discussions"
+    ],
+    "ai-agents": [
+      "OpenClaw: 500 issues, 500 PRs active",
+      "Feature: Per-agent cost budget enforcement",
+      "Bug: OpenClaw leaks unreaped child processes",
+      "Bug: SQLite unbounded growth",
+      "Bug: WhatsApp DM replies fail",
+      "Bug: Inbound iMessage re-delivered 2-3x"
+    ],
+    "ai-infra": [
+      "vLLM: Qwen4Exp optimization merged",
+      "SGLang: DeepSeek-V4 HiCache deadlock fix",
+      "llama.cpp: 10 new commits",
+      "Unsloth: Trending on GitHub",
+      "Ollama: Qwen 3.8 tool-calling issues",
+      "LiteLLM v1.105.0-rc.1 released"
+    ],
+    "ai-trending": [
+      "michael-denyer/pstack-claude: Claude workflows",
+      "DietrichGebert/ponytail: AI thinks like lazy senior dev",
+      "earthtojake/text-to-cad: CAD for agents",
+      "Panniantong/Agent-Reach: Internet browsing agent",
+      "calesthio/OpenMontage: AI video production",
+      "antirez/ds4: DeepSeek inference engine"
+    ],
+    "ai-hn": [
+      "Homa: The end of TCP for AI clusters",
+      "GPT-6 Astra cheats at StarCraft",
+      "Greg Kroah-Hartman: Security in LLM Age",
+      "Redis creator releases ds4 for local LLMs",
+      "OpenDLSS: Vulkan reimplementation of Nvidia DLSS",
+      "Graphene: Data analysis for coding agents"
+    ],
+    "ai-hf": [
+      "Lightricks LTX-2.5: image-to-video",
+      "Qwen Qwen3.8-27B trending",
+      "Cloudflare clef-flash: multimodal",
+      "Aleph-Alpha Kolibri-1 released",
+      "nvidia Nemotron-3-Diarization",
+      "FermionResearch Phonon-2: ASR"
+    ],
+    "ai-community": [
+      "TabPFN for hypoglycemia prediction",
+      "Bengali scam catcher on Gemma",
+      "I Put a Local LLM in Charge of a Colony",
+      "I Shipped a Green Test That Lied",
+      "Quran Sanity Agent: Can't afford to be wrong",
+      "Building a RAG pipeline for semantic code search"
+    ]
+  }
+}
