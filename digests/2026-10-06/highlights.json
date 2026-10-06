@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "OpenCode在24小时内以20个PR领先",
+      "Claude Code有50个issue但0个PR",
+      "Gemini CLI发布v0.64.0-nightly",
+      "GitHub Copilot CLI在v1.0.93",
+      "OpenAI Codex有10+PR和活跃讨论",
+      "π显示10+PR活动"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.10.1-beta.1发布",
+      "P0: SQLite WAL增长到1.4-2.8 GB",
+      "多个崩溃循环内存问题",
+      "500个issue和500个PR活跃",
+      "Umbrella: WebUI性能问题",
+      "Agent持久化阻塞Gateway(P1)"
+    ],
+    "ai-infra": [
+      "vLLM v0.31.0发布717个提交",
+      "llama.cpp v0.6.0添加llama_batch_ext API",
+      "SGLang: DeepSeek V4优化",
+      "Ollama: MLX延迟修复和Gemma4 CUDA",
+      "LiteLLM: 路由定价和Vertex AI修复",
+      "Unsloth: 3倍更快的LoRA训练"
+    ],
+    "ai-trending": [
+      "TheDOTMACK/claude-mem: 持久上下文",
+      "earthtojake/text-to-cad: CAD智能体",
+      "Panniantong/Agent-Reach: AI读取互联网",
+      "calesthio/OpenMontage: 视频制作",
+      "cloudflare/cloudflare-os: 智能体工作区",
+      "msitarzewski/agency-agents: AI代理"
+    ],
+    "ai-web": [
+      "Anthropic发布机器人工作影响研究",
+      "OpenAI内容今日仅含元数据",
+      "机器人暴露指数论文发表",
+      "自动化经济影响分析",
+      "Claude.com: 455篇文章索引",
+      "OpenAI.com: 1049篇文章索引"
+    ],
+    "ai-hn": [
+      "Beam: Reflection的501B开放权重模型",
+      "Opus 5.5发现室温磁半导体",
+      "Anthropic向警方报案日记",
+      "Wikipedia将OpenAI bots链接至5月故障",
+      "Claude Code让工作变得'无灵魂'",
+      "决策模型未胜过LLM作为评判"
+    ],
+    "ai-arxiv": [
+      "LLM和智能体50篇新论文",
+      "持续学习的离线策略合并",
+      "HLA: 混合线性注意力方法",
+      "通过条件门控实现自适应LoRA",
+      "MedicalHarness: LLM医学任务评估",
+      "通用测试时训练已发表"
+    ],
+    "ai-community": [
+      "AI审计日志不可信任",
+      "MCP: 49秒爬取60页",
+      "Kubernetes上的开源智能体平台",
+      "AI诚实读取驱逐通知",
+      "Hacktoberfest AI项目热度上升",
+      "AI智能体: 可靠性担忧增加"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "OpenCode leads with 20 PRs in 24h",
+      "Claude Code has 50 issues but 0 PRs",
+      "Gemini CLI ships v0.64.0-nightly",
+      "GitHub Copilot CLI at v1.0.93",
+      "OpenAI Codex has 10+ PRs and active discussions",
+      "π (Pi) showing 10+ PRs activity"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.10.1-beta.1 released",
+      "P0: SQLite WAL grows to 1.4-2.8 GB",
+      "Multiple crash-loop memory issues",
+      "500 issues and 500 PRs active",
+      "Umbrella: WebUI performance issues",
+      "Agent persistence blocks Gateway (P1)"
+    ],
+    "ai-infra": [
+      "vLLM v0.31.0 ships with 717 commits",
+      "llama.cpp v0.6.0 adds llama_batch_ext API",
+      "SGLang: DeepSeek V4 optimization",
+      "Ollama: MLX latency fix and Gemma4 CUDA",
+      "LiteLLM: router pricing and Vertex AI fixes",
+      "Unsloth: 3x faster LoRA training"
+    ],
+    "ai-trending": [
+      "TheDOTMACK/claude-mem: Persistent Context",
+      "earthtojake/text-to-cad: CAD for agents",
+      "Panniantong/Agent-Reach: AI reads internet",
+      "calesthio/OpenMontage: Video production",
+      "cloudflare/cloudflare-os: Agent workspace",
+      "msitarzewski/agency-agents: AI agency"
+    ],
+    "ai-web": [
+      "Anthropic releases robot job impact research",
+      "OpenAI content is metadata-only today",
+      "Robot exposure index paper published",
+      "Economic impacts of automation analyzed",
+      "Claude.com: 455 articles indexed",
+      "OpenAI.com: 1049 articles indexed"
+    ],
+    "ai-hn": [
+      "Beam: Reflection's 501B open-weight model",
+      "Opus 5.5 finds room-temp magnetic semiconductors",
+      "Anthropic reported diary to police",
+      "Wikipedia links OpenAI bots to May outage",
+      "Claude Code made job 'soul-sucking'",
+      "Decision models don't beat LLM-as-judge"
+    ],
+    "ai-arxiv": [
+      "50 new papers on LLMs and agents",
+      "Off-Policy Merging for Continual Learning",
+      "HLA: Hybrid Linear Attention method",
+      "Adaptive LoRA via Conditioned Gating",
+      "MedicalHarness: LLM medical task eval",
+      "Universal Test-Time Training published"
+    ],
+    "ai-community": [
+      "AI audit logs can't be trusted",
+      "MCP: 60 pages crawled in 49 seconds",
+      "Open-source agent platform on Kubernetes",
+      "AI reads eviction notices honestly",
+      "Hacktoberfest AI projects trending",
+      "AI agents: reliability concerns grow"
+    ]
+  }
+}
