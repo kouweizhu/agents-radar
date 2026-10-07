@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.292/291 发布安全修复",
+      "OpenAI Codex rust-v0.162.0-alpha.17 发布",
+      "Gemini CLI v0.65.0-nightly 改进认证",
+      "GitHub Copilot CLI v1.0.93 修复 BYOK OAuth",
+      "OpenCode v1.18.35 修复错误",
+      "关键问题：多连接账户影响 Claude Code"
+    ],
+    "ai-agents": [
+      "OpenClaw: 500 问题24小时内更新",
+      "OpenClaw: 500 PR 24小时内更新",
+      "419 个开放问题，374 个开放 PR",
+      "今天无新发布",
+      "P0 回归：报告内存泄漏和崩溃",
+      "今天合并或关闭 126 个 PR"
+    ],
+    "ai-infra": [
+      "vLLM: DFlash2/DSpark 前缀缓存严重错误",
+      "SGLang: DeepSeek HiCache 死锁问题已修复",
+      "llama.cpp: 9 次提交含 K2 Horizon 支持",
+      "Ollama: MLX 运行器性能问题已报告",
+      "LiteLLM: 代理改进 10+ PR 已合并",
+      "Unsloth: 专注微调优化"
+    ],
+    "ai-trending": [
+      "earthtojake/text-to-cad: CAD 生成的 AI 代理",
+      "thedotmack/claude-mem: 代理的 AI 记忆",
+      "deepseek-ai/DeepGEMM: CUDA BLAS 内核库",
+      "ayghri/i-have-adhd: 编码代理技能",
+      "morluto/rea: 代理逆向工程",
+      "LangGraph: 工作流 42,797 星"
+    ],
+    "ai-web": [
+      "OpenAI: 今天发布 8 篇新文章",
+      "Anthropic: 网络验证计划扩展",
+      "利用 Ironclad 推进计算机使用",
+      "分享数学 AI 进展",
+      "Atlassian 合作伙伴关系公布",
+      "五个 AI 商业价值模型"
+    ],
+    "ai-hn": [
+      "Mistral Large 4: 1591 分，964 评论",
+      "OpenAI: 整数乘法低于 n log n",
+      "Penguin Mail: Rust AI 邮件客户端",
+      "OpenTPU: 开源 AI 加速器",
+      "Opus 5.5 代理发现室温磁性半导体",
+      "Reflection's Beam: 501B 开源模型"
+    ],
+    "ai-arxiv": [
+      "部分可观测零样本协作",
+      "法律推理的测试时代理演进",
+      "循环语言模型的混合潜在注意力",
+      "多代理系统中的超越纠正记忆",
+      "SpeedrunBench: LLM 代理视频游戏",
+      "LLM 代理中的欺骗评估"
+    ],
+    "ai-community": [
+      "AI 代理风险：失败时如何生存",
+      "测试失败：绿色测试错过真实 bug",
+      "最稀缺技能：拒绝 AI 请求",
+      "我用 150 美元手机构建 AI 生态系统",
+      "免费模型无法测试金钱控制",
+      "Claude Code: 使用 OmniRoute 免费访问"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.292/291 released with security fixes",
+      "OpenAI Codex rust-v0.162.0-alpha.17 published",
+      "Gemini CLI v0.65.0-nightly brings auth improvements",
+      "GitHub Copilot CLI v1.0.93 addresses BYOK OAuth",
+      "OpenCode v1.18.35 shipped with bug fixes",
+      "Key issue: multi-connector accounts affecting Claude Code"
+    ],
+    "ai-agents": [
+      "OpenClaw: 500 issues updated in 24h",
+      "OpenClaw: 500 PRs updated in 24h",
+      "419 open issues, 374 open PRs",
+      "No new releases published today",
+      "P0 regressions: memory leaks and crashes reported",
+      "126 PRs merged or closed today"
+    ],
+    "ai-infra": [
+      "vLLM: Critical prefix caching bug with DFlash2/DSpark",
+      "SGLang: DeepSeek HiCache deadlock issue fixed",
+      "llama.cpp: 9 commits including K2 Horizon support",
+      "Ollama: MLX runner performance issues reported",
+      "LiteLLM: 10+ PRs merged on proxy improvements",
+      "Unsloth: Focus on fine-tuning optimization"
+    ],
+    "ai-trending": [
+      "earthtojake/text-to-cad: AI agents for CAD generation",
+      "thedotmack/claude-mem: AI memory for agents",
+      "deepseek-ai/DeepGEMM: CUDA BLAS kernel library",
+      "ayghri/i-have-adhd: Skill for coding agents",
+      "morluto/rea: Reverse engineer with agents",
+      "LangGraph: 42,797 stars on agent workflows"
+    ],
+    "ai-web": [
+      "OpenAI: 8 new articles published today",
+      "Anthropic: Cyber Verification Program expanded",
+      "Advancing Computer Use With Ironclad",
+      "Sharing AI Progress In Mathematics",
+      "Atlassian Partnership announced",
+      "Five AI Value Models for business"
+    ],
+    "ai-hn": [
+      "Mistral Large 4: 1591 points, 964 comments",
+      "OpenAI: Integer multiplication below n log n",
+      "Penguin Mail: Rust email client with AI",
+      "OpenTPU: Open-source AI accelerator",
+      "Opus 5.5 agents find room-temp magnetic semiconductors",
+      "Reflection's Beam: 501B open-weight model"
+    ],
+    "ai-arxiv": [
+      "Partially Observable Zero-shot Coordination",
+      "Test-Time Agent Evolution for Legal Reasoning",
+      "Hybrid Latent Attention for Looped Language Models",
+      "Beyond Corrected Memory in Multi-Agent Systems",
+      "SpeedrunBench: LLM Agents Video Gaming",
+      "Deception Evaluation in LLM Agents"
+    ],
+    "ai-community": [
+      "AI Agent Risks: How to Survive When They Fail",
+      "Testing Failures: Green Tests Miss Real Bugs",
+      "The scarcest skill: saying 'no' to AI requests",
+      "I Built an AI Ecosystem on a $150 Phone",
+      "You Can't Test Money Controls With Free Models",
+      "Claude Code: Using OmniRoute for free access"
+    ]
+  }
+}
