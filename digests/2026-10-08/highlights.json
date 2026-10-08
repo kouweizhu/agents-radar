@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.293 搭载 Haiku 5.5",
+      "OpenAI Codex v0.162.0-alpha.17.1 发布",
+      "Gemini CLI v0.65.0-nightly 来袭",
+      "Copilot CLI v1.0.94 稳定发布",
+      "Qwen Code 加入 CLI 工具竞赛",
+      "Pi CLI v1.1.0 修复发布"
+    ],
+    "ai-agents": [
+      "OpenClaw 生态: 500 issues 和 PRs",
+      "v2026.10.1-beta.2 修复内存问题",
+      "网关内存泄漏升至 P0 优先级",
+      "子进程僵尸累积",
+      "代理成本预算执行",
+      "SQLite 转录 seams 审查中"
+    ],
+    "ai-infra": [
+      "llama.cpp 24小时内发布10个版本",
+      "vLLM GB10 回归影响约16%",
+      "SGLang Apple Silicon 重新设计中",
+      "DeepSeek-V4 FP8 内存问题",
+      "Kimi-K3 支持 DCP",
+      "混合基数缓存活锁问题"
+    ],
+    "ai-trending": [
+      "用代理逆向工程一切",
+      "AI 编码代理技能发布",
+      "Claude 代理持久上下文",
+      "AI 编码终端正式推出",
+      "Rust 版计算机使用2.0规模化",
+      "代理安全审计技能"
+    ],
+    "ai-web": [
+      "Claude 发现新型 CRISPR 酶",
+      "Anthropic 扩展网络项目",
+      "新 AI 研究超8万参与者",
+      "GPT-6 全民发布",
+      "双重用途网络安全争议",
+      "Opus 5.5 加入验证"
+    ],
+    "ai-hn": [
+      "Claude Haiku 5.5 登顶 HN",
+      "Mistral Large 4 得分1996",
+      "Docker Agent 引发高关注",
+      "AI 数学进展获1408评论",
+      "GPT-6 智能 UI 预告",
+      "Strands Decider 2B 开源"
+    ],
+    "ai-arxiv": [
+      "AgentTime: LLMs 估算自身运行时间",
+      "嵌入模型的灾难性遗忘",
+      "MIRROR: LLM 个性化方法",
+      "Dual-QK: 2位 KV 缓存剪枝",
+      "ORCA: 扩散模型组合失败",
+      "SkillForge: 技能与代理协同进化"
+    ],
+    "ai-community": [
+      "AI 代理合并至生产",
+      "提示注入是数据流问题",
+      "AI SDK 发布无令牌限制",
+      "生产级意味着不止可用",
+      "最佳 ML 书籍资源精选",
+      "Burn 0.22.0 更快构建"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.293 ships with Haiku 5.5",
+      "OpenAI Codex v0.162.0-alpha.17.1 released",
+      "Gemini CLI v0.65.0-nightly rolls out",
+      "Copilot CLI v1.0.94 reaches stable",
+      "Qwen Code joins CLI tool race",
+      "Pi CLI hits v1.1.0 with fixes"
+    ],
+    "ai-agents": [
+      "OpenClaw ecosystem: 500 issues and PRs",
+      "v2026.10.1-beta.2 ships with memory fixes",
+      "Gateway memory leak hits P0 priority",
+      "Child process zombie accumulation",
+      "Per-agent cost budget enforcement",
+      "SQLite transcript seams under review"
+    ],
+    "ai-infra": [
+      "llama.cpp drops 10 releases in 24h",
+      "vLLM GB10 regression hits ~16%",
+      "SGLang Apple Silicon redesign in progress",
+      "DeepSeek-V4 FP8 memory issues",
+      "Kimi-K3 DCP support added",
+      "Hybrid radix cache livelock reported"
+    ],
+    "ai-trending": [
+      "Reverse engineer anything with agents",
+      "Skills for AI coding agents launch",
+      "Persistent context for Claude agents",
+      "Terminal for AI coding lands",
+      "Scale computer-use 2.0 in Rust",
+      "Security audit skill for agents"
+    ],
+    "ai-web": [
+      "Claude discovers novel CRISPR-like enzyme",
+      "Anthropic expands cyber program",
+      "New AI study with 80K+ participants",
+      "GPT-6 announced for everyone",
+      "Dual-use cybersecurity debate",
+      "Opus 5.5 added to verification"
+    ],
+    "ai-hn": [
+      "Claude Haiku 5.5 hits #1 on HN",
+      "Mistral Large 4 scores 1996",
+      "Docker Agent debuts to high interest",
+      "AI math progress draws 1408 comments",
+      "GPT-6 with intelligent UI teased",
+      "Strands Decider 2B open-sourced"
+    ],
+    "ai-arxiv": [
+      "AgentTime: LLMs estimate their own runtime",
+      "Catastrophic forgetting in embeddings",
+      "MIRROR: LLM personalization approach",
+      "Dual-QK: 2-bit KV cache pruning",
+      "ORCA: Compositional failures in diffusion",
+      "SkillForge: Co-evolving skills and agents"
+    ],
+    "ai-community": [
+      "AI agents merge to production",
+      "Prompt injection is a data-flow problem",
+      "AI SDKs ship calls without token limits",
+      "Production-ready means more than working",
+      "Best ML books/resources curated",
+      "Burn 0.22.0 brings faster builds"
+    ]
+  }
+}
