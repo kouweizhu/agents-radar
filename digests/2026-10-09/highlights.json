@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v1.0.44 发布，MCP 服务器改进",
+      "OpenAI Codex 领先，24h 合并 20 个 PR",
+      "GitHub Copilot CLI 发布 3 个新版本",
+      "OpenCode 合并 20 PR，势头强劲",
+      "Google Gemini CLI 活跃，10 个 PR",
+      "Pi 达成 4 次讨论"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.9.9: 185 提交，112 PR，92 贡献者",
+      "5 个代理框架：OpenClaw、Hermes、IronClaw、QwenPaw",
+      "P0 缺陷：同步代理持久化阻塞网关",
+      "P0 回退：Doctor 拒绝有效遗留工作区",
+      "内存泄漏：未回收的钩子子进程",
+      "sessions_spawn 到 claude-cli-runtime 失败"
+    ],
+    "ai-infra": [
+      "vLLM 新增 Blackwell/SM120 GPU 优化",
+      "SGLang 合并 47 优质 PR，含推测解码",
+      "llama.cpp 发布 10 新版本，支持 CUDA/Vulkan/SYCL",
+      "Ollama v0.40.2 发布用于本地部署",
+      "LiteLLM 统一 100+ 提供商，5 版本",
+      "Unsloth 首次公测民主化微调"
+    ],
+    "ai-trending": [
+      "diagram-design：代理编程图表设计",
+      "rea：AI 代理逆向工程",
+      "claude-meme：Claude Code 持久上下文",
+      "QwenPaw：agentscope 新代理",
+      "CopilotKit 与 browser-use 成趋势",
+      "langchain、langgraph、llama_index 主导基础设施"
+    ],
+    "ai-web": [
+      "Claude Science 绘制完整紫外天空地图",
+      "Anthropic 发起网络防御任务",
+      "Anthropic 开源漏洞发现器",
+      "OpenAI 干扰俄罗斯 AI 影响行动",
+      "OpenAI 瞄准 AI 虚假前线行动",
+      "Anthropic 和 OpenAI 共 7 篇新文章"
+    ],
+    "ai-hn": [
+      "Mistral Large 4：2028 分，1210 评论",
+      "AI 数学进展分享：1321 分，1506 评论",
+      "Claude Haiku 5.5：1034 分，482 评论",
+      "GPT-6 与智能 UI：744 分",
+      "AI 代理发现未知行星",
+      "OpenAI 撤回三项数学结果"
+    ],
+    "ai-arxiv": [
+      "DeltaReplay：移动 GUI 代理任务记忆",
+      "AgentEvolver：代理系统级自演化",
+      "Sub-1-Bit LLM 压缩通过潜在因子分解",
+      "LLM 轮换削弱筛选评估",
+      "扩展测试时迭代至 10k+ 用于代理",
+      "层级选择微调实现定向适应"
+    ],
+    "ai-community": [
+      "AI 决策模型重试与否？85 人参与",
+      "工程团队用 AI 替代人工",
+      "14.9 万张图像离线识别",
+      "最佳 AI/ML 学习资源分享",
+      "Burn 0.22.0：更快构建更智能自动调优",
+      "RAG 检索置信度成 Dev.to 热点"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v1.0.44 released with MCP server improvements",
+      "OpenAI Codex leads with 20 PRs merged in 24h",
+      "GitHub Copilot CLI ships 3 new releases",
+      "OpenCode merges 20 PRs, gaining momentum",
+      "Google Gemini CLI active with 10 PRs",
+      "Pi (earendil-works) hits 4 discussions"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.9.9: 185 commits, 112 PRs, 92 contributors",
+      "5 agent frameworks tracked: OpenClaw, Hermes, IronClaw, QwenPaw",
+      "P0 bug: Synchronous agent persistence blocks Gateway",
+      "P0 regression: Doctor refuses valid legacy workspace",
+      "Memory leak: Unreaped hook/tool child processes",
+      "sessions_spawn to claude-cli-runtime failing"
+    ],
+    "ai-infra": [
+      "vLLM adds Blackwell/SM120 GPU optimizations",
+      "SGLang ships 47 top PRs with speculative decoding",
+      "llama.cpp drops 10 new versions, CUDA/Vulkan/SYCL",
+      "Ollama v0.40.2 released for local deployment",
+      "LiteLLM unifies 100+ providers with 5 versions",
+      "Unsloth debuts beta for democratized fine-tuning"
+    ],
+    "ai-trending": [
+      "diagram-design: Editorial diagrams for AI coding agents",
+      "rea: Reverse engineer with AI agents",
+      "claude-mem: Persistent context for Claude Code agents",
+      "QwenPaw: New agent from agentscope-ai",
+      "CopilotKit and browser-use trending",
+      "langchain, langgraph, llama_index dominate infra"
+    ],
+    "ai-web": [
+      "Claude Science maps entire sky in UV light",
+      "Anthropic launches Cyber Mission for defense",
+      "Anthropic debuts open-source vulnerability finder",
+      "OpenAI disrupts Russian AI influence campaign",
+      "OpenAI targets AI-enabled false front operations",
+      "7 new articles across Anthropic and OpenAI"
+    ],
+    "ai-hn": [
+      "Mistral Large 4: 2028 points, 1210 comments",
+      "Sharing AI math progress: 1321 points, 1506 comments",
+      "Claude Haiku 5.5: 1034 points, 482 comments",
+      "GPT-6 and Intelligent UI: 744 points",
+      "AI agent finds unknown planet using Claude Code",
+      "OpenAI withdraws three mathematical results"
+    ],
+    "ai-arxiv": [
+      "DeltaReplay: Task-relative memory for mobile GUI agents",
+      "AgentEvolver: System-wide self-evolution for agents",
+      "Sub-1-Bit LLM compression via latent factorization",
+      "LLM turnover undermines screening evaluation",
+      "Scaling test-time iterations to 10k+ for agents",
+      "Layer-selective fine-tuning for targeted adaptation"
+    ],
+    "ai-community": [
+      "To Retry or Not to Retry? AI decision models - 85 eng",
+      "Engineering team uses AI as meat proxies",
+      "149k images into offline recognition system",
+      "Best AI/ML learning resources thread",
+      "Burn 0.22.0: Faster builds, smarter autotuning",
+      "RAG retrieval confidence debated on Dev.to"
+    ]
+  }
+}
