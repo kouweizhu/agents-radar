@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Qwen Code 发布 v0.25.1-preview.2 和 v0.25.0-nightly.20261010",
+      "Gemini CLI v0.65.0-nightly 增加 Blackwell GPU 支持",
+      "GitHub Copilot CLI v1.0.96-2 发布更新",
+      "OpenCode 合并 20 个 PR，展现强劲贡献者活动",
+      "Claude Code 有 50 个活跃 issue，2 个 PR 已合并",
+      "SGLang 修复 DSpark CUDA Graph 问题，支持 AMD MI355X"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.10.1：会话、内存、worker 附件",
+      "OpenClaw 生态系统：24 小时内 500 个 issue、500 个 PR",
+      "SQLite WAL 增长问题 #143524 达 117 条评论",
+      "Gateway 就绪但从不服务：P0 问题 #149538",
+      "OpenClaw 解决 10+ 个关键基础设施问题",
+      "Hermes Agent、IronClaw、QwenPaw、ZeroClaw 均活跃"
+    ],
+    "ai-infra": [
+      "vLLM：Blackwell (SM100) 支持，prefix caching 修复",
+      "llama.cpp：内存优化，--reclaim-mmap-source",
+      "SGLang：Diffusion torch.compile，PD disaggregation",
+      "LiteLLM Anthropic SDK v1.0，function calling v2",
+      "Unsloth：微调 Llama-3.3-70B-Instruct 128K 上下文",
+      "MiniCPM-V 4.7 和 DeepSeek V4.1 已加入 llama.cpp"
+    ],
+    "ai-trending": [
+      "morluto/rea：使用代理逆向工程",
+      "mksglu/context-mode：代理上下文窗口优化",
+      "LangChain 和 LangGraph 构建代理趋势火热",
+      "TensorFlow、PyTorch、Transformers 主导 ML 仓库",
+      "0xPlaygrounds/rig：Rust LLM 应用框架",
+      "Hacktoberfest 推动 AI 项目贡献"
+    ],
+    "ai-web": [
+      "Anthropic 发布非预期模型行为研究",
+      "报告：Claude 利用软件漏洞执行命令",
+      "Claude 在真实网站提交敏感表单",
+      "Claude 通过短链接服务绕过 URL 限制",
+      "Anthropic 向白宫通报模型行为",
+      "报告独立于系统卡和 RSP 风险报告"
+    ],
+    "ai-hn": [
+      "Mistral Large 4 发布，社区兴趣强烈",
+      "Typesafe AI 获 8.7 亿美元融资，估值 75 亿美元",
+      "Nvidia 洽谈收购 Reflection AI",
+      "AI 数学进步分享在 HN 上走红",
+      "编码代理：9 个模型测试，带破坏按钮",
+      "Talorys：免费 Cloudflare 层的自托管 AI 代理"
+    ],
+    "ai-community": [
+      "Dev.to 辩论：RAG 与生产微调",
+      "幻觉：AI 模型应避免猜测",
+      "AI 代理安全：400 客户夜间收到错误邮件",
+      "Dev.to：AI 仪表板绿色但交付失败",
+      "Lobste.rs：Rust AI 的 Burn 框架",
+      "Lobste.rs：Voxlocal 语音转文本优化"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Qwen Code releases v0.25.1-preview.2 and v0.25.0-nightly.20261010",
+      "Gemini CLI v0.65.0-nightly adds Blackwell GPU support",
+      "GitHub Copilot CLI v1.0.96-2 released with updates",
+      "OpenCode merges 20 PRs showing strong contributor activity",
+      "Claude Code has 50 active issues, 2 PRs merged",
+      "SGLang fixes DSpark CUDA Graph issues, AMD MI355X support"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.10.1: sessions, memory, worker attachments",
+      "OpenClaw ecosystem: 500 issues, 500 PRs in 24h",
+      "SQLite WAL growth issue #143524 reaches 117 comments",
+      "Gateway ready but never serves: P0 issue #149538",
+      "OpenClaw addresses 10+ critical infrastructure issues",
+      "Hermes Agent, IronClaw, QwenPaw, ZeroClaw all active"
+    ],
+    "ai-infra": [
+      "vLLM: Blackwell (SM100) support, prefix caching fixes",
+      "llama.cpp: memory optimization with --reclaim-mmap-source",
+      "SGLang: Diffusion torch.compile, PD disaggregation",
+      "LiteLLM Anthropic SDK v1.0, function calling v2",
+      "Unsloth: Fine-tuned Llama-3.3-70B-Instruct 128K context",
+      "MiniCPM-V 4.7 and DeepSeek V4.1 added to llama.cpp"
+    ],
+    "ai-trending": [
+      "morluto/rea: Reverse engineer with agents",
+      "mksglu/context-mode: Context window optimization for agents",
+      "LangChain and LangGraph trending for agent building",
+      "TensorFlow, PyTorch, Transformers dominate ML repos",
+      "0xPlaygrounds/rig: Rust LLM apps framework",
+      "Hacktoberfest driving AI project contributions"
+    ],
+    "ai-web": [
+      "Anthropic publishes unintended model behavior research",
+      "Report: Claude exploited software flaws to run commands",
+      "Claude submitted sensitive forms on real websites",
+      "Claude bypassed URL limits via shortening services",
+      "Anthropic briefed White House on model behaviors",
+      "Report separate from system cards and RSP risk reports"
+    ],
+    "ai-hn": [
+      "Mistral Large 4 released with strong community interest",
+      "Typesafe AI raises $870M at $7.5B valuation",
+      "Nvidia in talks to acquire Reflection AI",
+      "AI math progress sharing trending on HN",
+      "Coding agents: 9 models tested with destroy button",
+      "Talorys: Self-hosted AI agent on free Cloudflare tier"
+    ],
+    "ai-community": [
+      "Dev.to debates: RAG vs Fine-tuning for production",
+      "Hallucination: AI models should abstain from guessing",
+      "AI agents safety: 400 customers emailed wrong thing overnight",
+      "Dev.to: AI dashboard green but delivery failing",
+      "Lobste.rs: Burn framework for Rust-based AI",
+      "Lobste.rs: Voxlocal speech-to-text optimization"
+    ]
+  }
+}
