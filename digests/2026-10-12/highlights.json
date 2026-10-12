@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 领先50个问题，PR活动最少",
+      "OpenCode 24小时内50个PRs领先",
+      "Gemini CLI 发布 v0.65.0-nightly",
+      "Qwen Code 发布4个版本含SDK更新",
+      "Gemini CLI 工具中开放PRs最多(8)",
+      "OpenAI Codex 活跃9个讨论帖"
+    ],
+    "ai-agents": [
+      "OpenClaw 生态达500问题+PRs",
+      "v2026.10.5-beta.1 修复SQLite WAL膨胀",
+      "热门问题: SQLite WAL达2.8GB(122评论)",
+      "网关内存泄漏:RSS从350MB增至15.5GB",
+      "新版本聚焦安全更新和恢复",
+      "子进程泄漏问题持续受关注"
+    ],
+    "ai-infra": [
+      "vLLM和SGLang专注Blackwell优化",
+      "llama.cpp 发布7个新版本(b11553-b11559)",
+      "LiteLLM 发布3版本:v1.105.0和RC",
+      "SGLang 新增DeepSeek V4优化PRs",
+      "Ollama 修复工具调用和Windows问题",
+      "Unsloth 扩展微调加速功能"
+    ],
+    "ai-trending": [
+      "PyTorch 主导GitHub趋势",
+      "lyogavin/airllm实现4GB GPU跑70B推理",
+      "黑客松驱动7个新AI项目",
+      "ScrapeGraphAI 本周获1400星",
+      "Open-compass 发布LLM评测工具",
+      "Rust LLM应用框架rig正式推出"
+    ],
+    "ai-hn": [
+      "研究:AI使用10分钟后侵蚀持久力",
+      "OpenAI 争议中解雇安全研究员",
+      "微软总裁:AI监管比牛奶还少",
+      "自托管AI智能体沙盒Plimsoll发布",
+      "LLM可观测工具LLLMxRay开源",
+      "多智能体系统需独立消息通道"
+    ],
+    "ai-hf": [
+      "Kolibri-1:新型MoE推理模型",
+      "Humanizer文本生成模型走红",
+      "工具调用模型Underdog-Saluki-27B发布",
+      "DeepSeek V4.1-Flash发布",
+      "Bonsai-27B三元量化",
+      "Xing4.0-29B GGUF量化可用"
+    ],
+    "ai-community": [
+      "Touch Grass Hacktoberfest挑战走红",
+      "开发者用AI智能体替代完整工作流",
+      "金融AI API对比登上首页",
+      "Frolic户外AI应用获12个反应",
+      "8位LLM量化指南成热门",
+      "天气AI应用展示实用案例"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code leads with 50 issues, minimal PR activity",
+      "OpenCode dominates with 50 PRs in 24 hours",
+      "Gemini CLI releases v0.65.0-nightly",
+      "Qwen Code ships 4 releases including SDK updates",
+      "Gemini CLI has most open PRs (8) among tools",
+      "OpenAI Codex shows 9 discussion threads active"
+    ],
+    "ai-agents": [
+      "OpenClaw ecosystem hits 500 issues and PRs",
+      "v2026.10.5-beta.1 fixes SQLite WAL bloat",
+      "Top issue: SQLite WAL reaches 2.8GB (122 comments)",
+      "Gateway memory leak: RSS grows 350MB to 15.5GB",
+      "New release focuses on safer updates and recovery",
+      "Child process leak issue gets ongoing attention"
+    ],
+    "ai-infra": [
+      "vLLM and SGLang focus on Blackwell optimization",
+      "llama.cpp drops 7 new releases (b11553-b11559)",
+      "LiteLLM ships 3 releases: v1.105.0 and RC",
+      "SGLang adds DeepSeek V4 optimization PRs",
+      "Ollama fixes tool calling bugs and Windows issues",
+      "Unsloth expands fine-tuning acceleration features"
+    ],
+    "ai-trending": [
+      "PyTorch dominates GitHub trending",
+      "lyogavin/airllm enables 70B inference on 4GB GPU",
+      "Hackathon drives 7 new AI projects",
+      "ScrapeGraphAI gains 1400 stars this week",
+      "Open-compass releases LLM evaluation tools",
+      "Rust-based LLM app framework rig launches"
+    ],
+    "ai-hn": [
+      "AI erodes persistence after 10 min use (study)",
+      "OpenAI fires safety researchers amid disputes",
+      "AI less regulated than milk says Microsoft president",
+      "Self-hosted AI agent sandbox Plimsoll launches",
+      "LLM observability tool LLMxRay goes open-source",
+      "Multi-agent systems need separate message channels"
+    ],
+    "ai-hf": [
+      "Kolibri-1: new MoE reasoning model",
+      "Humanizer text-gen model trends",
+      "Tool-calling model Underdog-Saluki-27B drops",
+      "DeepSeek V4.1-Flash releases",
+      "Ternary quantization for Bonsai-27B",
+      "Xing4.0-29B GGUF quantization available"
+    ],
+    "ai-community": [
+      "Touch Grass Hacktoberfest challenge goes viral",
+      "Devs replace entire workflow with AI agents",
+      "Finance AI API comparison hits front page",
+      "Frolic outdoor AI app gets 12 reactions",
+      "8-bit LLM quantization guide trending",
+      "Weather-based AI app showcases practical use"
+    ]
+  }
+}
