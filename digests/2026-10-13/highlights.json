@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code: 24小时内50个issue, 0个PR",
+      "OpenAI Codex: 10月12日合并20个PR",
+      "Gemini CLI v0.65.0-nightly发布",
+      "GitHub Copilot CLI v1.0.97-2推出",
+      "OpenCode: 30个issue, 10个关键PR",
+      "Pi v1.2.0发布,含10个PR"
+    ],
+    "ai-agents": [
+      "OpenClaw: 500个issue, 500个PR",
+      "OpenClaw v2026.10.5-beta.2发布",
+      "内存泄漏: worker中4-5 GB/小时",
+      "Windows更新交接失败",
+      "OpenClaw v2026.10.2修复发布",
+      "未回收hook/tool子进程泄漏"
+    ],
+    "ai-infra": [
+      "vLLM: Mamba内核6倍加速",
+      "SGLang: 21部分LoRA堆栈系列",
+      "llama.cpp: VLLM Decision 2支持",
+      "DeepSeek-V4.1 Flash模型添加",
+      "各仓库推测解码bug",
+      "Vulkan Flash Attention回退进展"
+    ],
+    "ai-trending": [
+      "rea: AI智能体逆向工程",
+      "open-webui: AI界面平台热门",
+      "airllm: 单卡4GB GPU推理",
+      "BitNet: 1位LLM推理框架",
+      "context-mode: AI编码上下文优化",
+      "langchain: 智能体工程平台"
+    ],
+    "ai-web": [
+      "Anthropic发现自复制AI风险",
+      "Claude发现CRISPR类酶系统",
+      "蒸馏攻击被防御减少90-99%",
+      "OpenAI: 无新文章发布",
+      "前沿AI可在IoT设备复制",
+      "Anthropic进入生命科学研究"
+    ],
+    "ai-hn": [
+      "GLM-Legal: 新法律专注模型",
+      "Intel D270 AI加速器发布",
+      "Janas: 运行大于内存的LLM",
+      "Agent37: YC创业公司启动",
+      "Meta发布Muse Wonder模型",
+      "QGIS暂停AI贡献"
+    ],
+    "ai-community": [
+      "Hacktoberfest: 开源AI挑战周1",
+      "本地LLM对比Claude Code",
+      "提示注入安全风险突出",
+      "AI智能体生成更多代码但软件更少",
+      "Token消耗: 首条消息前消耗92K",
+      "人工介入: 合规标签UX"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code: 50 issues, 0 PRs in 24h",
+      "OpenAI Codex: 20 PRs merged Oct 12",
+      "Gemini CLI v0.65.0-nightly released",
+      "GitHub Copilot CLI v1.0.97-2 out",
+      "OpenCode: 30 issues, 10 key PRs",
+      "Pi v1.2.0 released with 10 PRs"
+    ],
+    "ai-agents": [
+      "OpenClaw: 500 issues, 500 PRs tracked",
+      "OpenClaw v2026.10.5-beta.2 released",
+      "Memory leak: 4-5 GB/h in worker",
+      "Windows update handoff failures",
+      "OpenClaw v2026.10.2 fixes released",
+      "Unreaped hook/tool child process leaks"
+    ],
+    "ai-infra": [
+      "vLLM: Mamba kernel 6x speedup",
+      "SGLang: 21-part LoRA stack series",
+      "llama.cpp: VLLM Decision 2 support",
+      "DeepSeek-V4.1 Flash model added",
+      "Speculative decoding bugs across repos",
+      "Vulkan Flash Attention fallback进展"
+    ],
+    "ai-trending": [
+      "rea: reverse engineering with AI agents",
+      "open-webui: AI interface platform trending",
+      "airllm: single 4GB GPU inference",
+      "BitNet: 1-bit LLM inference framework",
+      "context-mode: AI coding context optimization",
+      "langchain: agent engineering platform"
+    ],
+    "ai-web": [
+      "Anthropic discovers self-replicating AI risk",
+      "Claude finds CRISPR-like enzyme system",
+      "Distillation attacks reduced 90-99% by defenses",
+      "OpenAI: 0 new articles published",
+      "Frontier AI can replicate on IoT devices",
+      "Anthropic enters life sciences research"
+    ],
+    "ai-hn": [
+      "GLM-Legal: new legal-focused model",
+      "Intel D270 AI accelerator announced",
+      "Janas: run LLMs larger than RAM",
+      "Agent37: YC startup launches",
+      "Meta releases Muse Wonder model",
+      "QGIS moratorium on AI contributions"
+    ],
+    "ai-community": [
+      "Hacktoberfest: Open-Source AI Challenge Week 1",
+      "Local LLMs vs Claude Code comparison",
+      "Prompt injection security risks highlighted",
+      "AI agents generate more code but less software",
+      "Token costs: 92K tokens burned before first message",
+      "Human-in-the-loop: UX with compliance label"
+    ]
+  }
+}
