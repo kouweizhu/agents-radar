@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code：30 个活跃问题",
+      "OpenAI Codex v0.163.0-alpha 发布",
+      "Gemini CLI v0.65.0-preview 已发布",
+      "GitHub Copilot CLI v1.0.98 发布",
+      "OpenCode：20 个进行中的 PR",
+      "Pi CLI：14 个 PR 已更新"
+    ],
+    "ai-agents": [
+      "OpenClaw：500 个问题和 PR",
+      "OpenClaw v2026.10.5-beta.3 已发布",
+      "Gateway 稳定性、npm 修复、Bun 修复",
+      "vLLM DeepSeek V4/V4.1 SM8x 支持",
+      "SGLang 权重缓存：亚秒级加载",
+      "llama.cpp Qwen4Exp + Vulkan 优化"
+    ],
+    "ai-infra": [
+      "vLLM DeepSeek V4/V4.1 SM8x 支持",
+      "SGLang 权重缓存：亚秒级加载",
+      "llama.cpp Qwen4Exp + Vulkan 优化",
+      "Ollama：吞吐量下降 25-30%",
+      "LiteLLM v1.106.0-rc.2 发布",
+      "Unsloth v0.1.907-beta：UI 提速 10 倍"
+    ],
+    "ai-trending": [
+      "GitHub 趋势：rea 代理工具登顶",
+      "airllm 单卡 4GB GPU 运行 LLM",
+      "VoiceStudio：AI 声音克隆工具",
+      "vercel-labs/skills：开放代理技能",
+      "mksglu/context-mode：上下文优化",
+      "AI 编码工具的图表设计"
+    ],
+    "ai-web": [
+      "Anthropic 构建自定义版本控制 Scion",
+      "Anthropic 代码变更扩展至每日 3 万",
+      "Anthropic 蒸馏攻击减少 90%",
+      "Anthropic 提及 Zhipu GLM-5.3 防御",
+      "OpenAI：今日无新文章",
+      "Scion 处理 Anthropic 的大规模业务"
+    ],
+    "ai-hn": [
+      "HN：Gemini 4 Argon 达 978 点",
+      "HN：Anthropic 源码管理重新设计",
+      "HN：Codex CLI 持久守护进程",
+      "HN：GLM-Legal 论文讨论",
+      "HN：AI 模型可隐藏能力",
+      "HN：Intel D270 GPU 加速器"
+    ],
+    "ai-community": [
+      "Dev.to：AI 疲劳成趋势",
+      "Dev.to：Vibe-coding 克隆讨论",
+      "Dev.to：代理认证绕过安全",
+      "Dev.to：Kubernetes 中测试 AI 代码",
+      "Dev.to：6 个月零基础到开发工作",
+      "Dev.to：本地 AI 代理设置指南"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code: 30 issues active",
+      "OpenAI Codex v0.163.0-alpha released",
+      "Gemini CLI v0.65.0-preview shipped",
+      "GitHub Copilot CLI v1.0.98 released",
+      "OpenCode: 20 PRs in progress",
+      "Pi CLI: 14 PRs updated"
+    ],
+    "ai-agents": [
+      "OpenClaw: 500 issues and PRs",
+      "OpenClaw v2026.10.5-beta.3 shipped",
+      "Gateway stability, npm fixes, Bun fixes",
+      "vLLM DeepSeek V4/V4.1 SM8x support",
+      "SGLang Weight Cache: sub-second loading",
+      "llama.cpp Qwen4Exp + Vulkan opt"
+    ],
+    "ai-infra": [
+      "vLLM DeepSeek V4/V4.1 SM8x support",
+      "SGLang Weight Cache: sub-second loading",
+      "llama.cpp Qwen4Exp + Vulkan optimization",
+      "Ollama: 25-30% throughput regression",
+      "LiteLLM v1.106.0-rc.2 released",
+      "Unsloth v0.1.907-beta: 10x faster UI"
+    ],
+    "ai-trending": [
+      "GitHub trending: rea agent tool tops",
+      "airllm runs LLM on single 4GB GPU",
+      "VoiceStudio: AI voice cloning tool",
+      "vercel-labs/skills: open agent skills",
+      "mksglu/context-mode: context optimization",
+      "diagram-design for AI coding tools"
+    ],
+    "ai-web": [
+      "Anthropic built custom version control Scion",
+      "Anthropic scaled code changes 2500→30000 daily",
+      "Anthropic reduced distillation attacks by 90%",
+      "Anthropic mentions Zhipu GLM-5.3 defense",
+      "OpenAI: no new articles today",
+      "Scion handles Anthropic's massive scale"
+    ],
+    "ai-hn": [
+      "HN: Gemini 4 Argon at 978 points",
+      "HN: Anthropic source control redesign",
+      "HN: Codex CLI persistent daemon",
+      "HN: GLM-Legal paper discussion",
+      "HN: AI models can hide capabilities",
+      "HN: Intel D270 GPU accelerator"
+    ],
+    "ai-community": [
+      "Dev.to: AI Fatigue trending",
+      "Dev.to: Vibe-coding clones discussion",
+      "Dev.to: Agent auth bypass security",
+      "Dev.to: Testing AI code in Kubernetes",
+      "Dev.to: From $0 to dev job in 6 months",
+      "Dev.to: Local AI agents setup guide"
+    ]
+  }
+}
