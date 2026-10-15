@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.300 已发布",
+      "OpenAI Codex 领先 21 个 PR",
+      "Gemini CLI v0.65.0-nightly 发布",
+      "Copilot CLI 近来零 PR",
+      "Pi 24小时内获得 17 个 PR",
+      "所有工具面临 28-50 个活跃问题"
+    ],
+    "ai-agents": [
+      "OpenClaw: 500 问题, 300 活跃",
+      "P0: SQLite WAL 增长到 2.8GB",
+      "#143524: 数据库问题 125 条评论",
+      "Gateway 启动阻塞 17 分钟",
+      "500 PRs, 当前 344 个开放",
+      "重构: 迁移周期性心跳"
+    ],
+    "ai-infra": [
+      "SGLang 首发 DeepSeek V4.1",
+      "Blackwell/RTX 5090 支持竞速",
+      "vLLM: 15+ PRs, Nemotron 模型",
+      "Ollama v0.40.5-rc0 发布",
+      "LiteLLM v1.105.1 稳定版",
+      "SGLang 引领生产就绪"
+    ],
+    "ai-trending": [
+      "rea 获得 1000+ GitHub 星标",
+      "VoiceStudio: 语音克隆应用",
+      "context-mode 优化 AI 代理",
+      "CLI-Anything: 软件代理工具",
+      "AI 代理渗透测试趋势",
+      "科学代理技能正在兴起"
+    ],
+    "ai-web": [
+      "Anthropic 在新加坡开设办公室",
+      "与新加坡政府签署 MOU",
+      "重点: AI 安全与防护",
+      "5.75% 美国会谈涉及政治",
+      "仅 0.01% 询问投票对象",
+      "中期选举中的责任 AI"
+    ],
+    "ai-hn": [
+      "Gemini 4 Argon: 1400+ 分",
+      "Anthropic 源码控制重新设计",
+      "AI 黑客攻击中的containment失效",
+      "LLM pelicans: 为何外形奇怪",
+      "Neckbeard: DevOps 代理插件",
+      "Agents 对 Rust 的意义: 分析"
+    ],
+    "ai-arxiv": [
+      "ChunkAct: 动作分块代理",
+      "Cepheid: 动作补全模型",
+      "混合推理代理论文",
+      "遥感 RSI: 递归 AI",
+      "双时钟: 可验证奖励的 RL",
+      "LIBERO-RIG: VLA 基准"
+    ],
+    "ai-community": [
+      "基于浏览器的 AI 成为主流",
+      "通过端到端评估构建代理",
+      "开发者争论\"AI 垃圾\"课程",
+      "使用 llamadart 的本地语音",
+      "安全: 代理需要监督",
+      "记忆不等于代理学习"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.300 shipped",
+      "OpenAI Codex leads with 21 PRs",
+      "Gemini CLI v0.65.0-nightly out",
+      "Copilot CLI has zero recent PRs",
+      "Pi gains 17 PRs in 24h",
+      "All tools face 28-50 active issues"
+    ],
+    "ai-agents": [
+      "OpenClaw: 500 issues, 300 active",
+      "P0: SQLite WAL grows to 2.8GB",
+      "#143524: 125 comments on DB issue",
+      "Gateway blocks 17min on startup",
+      "500 PRs, 344 currently open",
+      "refactor: migrate periodic heartbeats"
+    ],
+    "ai-infra": [
+      "SGLang ships DeepSeek V4.1 day-0",
+      "Blackwell/RTX 5090 support race",
+      "vLLM: 15+ PRs, Nemotron models",
+      "Ollama v0.40.5-rc0 released",
+      "LiteLLM v1.105.1 stable",
+      "SGLang leads production readiness"
+    ],
+    "ai-trending": [
+      "rea hits 1000+ GitHub stars",
+      "VoiceStudio: voice cloning app",
+      "context-mode optimizes AI agents",
+      "CLI-Anything: agents for software",
+      "AI agents for pentesting trend",
+      "scientific-agent-skills emerges"
+    ],
+    "ai-web": [
+      "Anthropic opens Singapore office",
+      "MOU signed with Singapore government",
+      "Focus: AI safety and security",
+      "5.75% US talks touch politics",
+      "Only 0.01% ask who to vote for",
+      "Responsible AI at midterm elections"
+    ],
+    "ai-hn": [
+      "Gemini 4 Argon: 1400+ points",
+      "Anthropic source control redesign",
+      "Containment failures in AI hacking",
+      "LLM pelicans: why they look weird",
+      "Neckbeard: DevOps agent plugin",
+      "Agents mean for Rust: analysis"
+    ],
+    "ai-arxiv": [
+      "ChunkAct: action chunking agents",
+      "Cepheid: motion completion model",
+      "Hybrid Reasoning Agents paper",
+      "Remote Sensing RSI: recursive AI",
+      "Two Clocks: RL with verifiable rewards",
+      "LIBERO-RIG: VLA benchmark"
+    ],
+    "ai-community": [
+      "Browser-based AI goes mainstream",
+      "Building agents via end-to-end evals",
+      "Dev debates \"AI Slop\" courses",
+      "Local speech with llamadart",
+      "Security: agents need oversight",
+      "Memory isn't learning in agents"
+    ]
+  }
+}
