@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1 新增 OpenTelemetry 追踪",
+      "OpenAI Codex v0.163 新增 /config 界面",
+      "Copilot CLI v1.0.99 推出会话共享",
+      "OpenCode v1.19 停止会话共享",
+      "Copilot CLI 新增 --trust-folder 参数",
+      "Pi Rust CLI 助手遇到 50 个问题"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.10.10 修复 Gateway 性能",
+      "OpenClaw SQLite WAL 问题达 2.8GB (P0)",
+      "五智能体生态：OpenClaw、Hermes、IronClaw",
+      "Gateway 插件阻塞已在最新测试版修复",
+      "OpenClaw v2026.10.5 修复 macOS、systemd 问题",
+      "ZeroClaw 加入 OpenClaw 生态"
+    ],
+    "ai-infra": [
+      "llama.cpp v0.7.0 发布",
+      "DeepSeek V4.1-Flash 优化在 vLLM、SGLang",
+      "Muse Spark Open 在 vLLM、SGLang 支持",
+      "LiteLLM v1.107.0-dev.2 发布",
+      "AMD ROCm 加速日趋成熟",
+      "最新更新对比六种推理引擎"
+    ],
+    "ai-trending": [
+      "Open-webui 登顶 AI 趋势",
+      "Claude-plugins-official 上线",
+      "语音克隆 VoiceStudio 首发",
+      "Agentic 框架 Superpowers 推出",
+      "多智能体系统 ruflo 首发",
+      "Tokenspeed 推理引擎上线"
+    ],
+    "ai-web": [
+      "Anthropic 发布 METR、SecureBio 评估器",
+      "Anthropic 向美国政府提供 Claude",
+      "Anthropic 揭示定制 Scion 版本控制",
+      "Anthropic 网站地图：共 468 篇文章",
+      "OpenAI 网站地图：共 1069 篇文章",
+      "OpenAI 发布 3 篇新文章（仅元数据）"
+    ],
+    "ai-hn": [
+      "Gemini 4 Argon：1456 分，1036 评论",
+      "Anthropic Scion 版本控制：885 分",
+      "防御 AI 黑客攻击失败：939 分",
+      "AI 是工具：786 分，智能体技能辩论",
+      "Meta 发布 Muse Spark Open 模型",
+      "Liquid 发布 LFM2.5-24B-A2B 端侧模型"
+    ],
+    "ai-arxiv": [
+      "Elastic Transformer 架构论文发布",
+      "提出连续注意力机制",
+      "Manacá-1B-Instruct 巴西葡萄牙语 LLM",
+      "自动化研究发现的 LLM 智能体",
+      "协同演化行动与预测智能体",
+      "多开发者智能体系统论文"
+    ],
+    "ai-community": [
+      "Dev.to 上 AI 编码智能体测谎仪",
+      "Vibe-coding 故事主导 Dev.to",
+      "模型路由器是 Dev.to 上的分类器",
+      "AI 生成的测试可能与 bug 一致",
+      "OpenFatigue 讽刺文章登上 Lobste.rs",
+      "MCP 安全：调试日志泄露凭证"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1 adds OpenTelemetry tracing",
+      "OpenAI Codex v0.163 adds /config UI",
+      "Copilot CLI v1.0.99 debuts session sharing",
+      "OpenCode v1.19 discontinues session sharing",
+      "Copilot CLI adds --trust-folder flag",
+      "Pi Rust CLI assistant sees 50 issues"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.10.10 fixes Gateway performance",
+      "OpenClaw SQLite WAL issue hits 2.8GB (P0)",
+      "Five-agent ecosystem: OpenClaw, Hermes, IronClaw",
+      "Gateway blocks on plugins fixed in latest beta",
+      "OpenClaw v2026.10.5 fixes macOS, systemd issues",
+      "ZeroClaw joins OpenClaw ecosystem"
+    ],
+    "ai-infra": [
+      "llama.cpp v0.7.0 released",
+      "DeepSeek V4.1-Flash optimization in vLLM, SGLang",
+      "Muse Spark Open support across vLLM, SGLang",
+      "LiteLLM v1.107.0-dev.2 released",
+      "AMD ROCm acceleration maturing",
+      "Six inference engines compared in latest update"
+    ],
+    "ai-trending": [
+      "Open-webui tops AI trending",
+      "Claude-plugins-official launches",
+      "Voice cloning VoiceStudio debuts",
+      "Agentic framework Superpowers launches",
+      "Multi-agent system ruflo debuts",
+      "Tokenspeed inference engine launches"
+    ],
+    "ai-web": [
+      "Anthropic announces METR, SecureBio evaluators",
+      "Anthropic offers Claude to US government at $1",
+      "Anthropic reveals custom Scion version control",
+      "Anthropic sitemap: 468 articles total",
+      "OpenAI sitemap: 1069 articles total",
+      "OpenAI posts 3 new articles (metadata only)"
+    ],
+    "ai-hn": [
+      "Gemini 4 Argon: 1456 pts, 1036 comments",
+      "Anthropic Scion version control: 885 pts",
+      "Containment AI hacking failures: 939 pts",
+      "AI is a tool: 786 pts, agent skills debate",
+      "Meta releases Muse Spark Open model",
+      "Liquid releases LFM2.5-24B-A2B on-device model"
+    ],
+    "ai-arxiv": [
+      "Elastic Transformer architectures paper released",
+      "Continuum Attention mechanism proposed",
+      "Manacá-1B-Instruct Brazilian Portuguese LLM",
+      "LLM agents for automated research discovery",
+      "Co-Evolving Acting and Forecasting agents",
+      "Multi-developer agentic systems paper"
+    ],
+    "ai-community": [
+      "Lie detector for AI coding agents on Dev.to",
+      "Vibe-coding stories dominate Dev.to",
+      "Model router is a classifier on Dev.to",
+      "AI-generated tests can agree with bugs",
+      "OpenFatigue satire hits Lobste.rs",
+      "MCP security: debug logs leak credentials"
+    ]
+  }
+}
