@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.302 发布",
+      "OpenAI Codex v0.164.0-alpha.2",
+      "Gemini CLI v0.66.0-nightly 发布",
+      "Copilot CLI v1.0.100-1 发布",
+      "OpenCode v1.19.3 是最新版本",
+      "Qwen Code v1.5.0 发布"
+    ],
+    "ai-agents": [
+      "OpenClaw: 500 个 issue 和 500 个 PR",
+      "SQLite WAL 增长到 1.4–2.8 GB (P0)",
+      "回复丢失，无活动工具权限",
+      "启动回归：就绪 ~1030s 对比 ~410s",
+      "并发运行完成重复回复",
+      "插件源码重写每个 CLI 约 1.3 GB"
+    ],
+    "ai-infra": [
+      "vLLM 有 95 个 issue 和 500 个 PR",
+      "Qwen3.8 支持 ROCm gfx950/MI355X",
+      "DeepSeek-V4.1 Flash 在 RTX PRO 6000 上",
+      "FlashAttention KV-cache 重建已合并",
+      "Qwen3-Next 融合内核已优化",
+      "LiteLLM 有 45 个 issue 和 1 个发布"
+    ],
+    "ai-trending": [
+      "anthropics/claude-plugins-official 趋势上升",
+      "K-Dense-AI/scientific-agent-skills 发布",
+      "CLI-Anything: 代理的 CLI",
+      "cursor/plugins 达 4.3K 星",
+      "obra/superpowers 代理技能",
+      "NousResearch/hermes-agent 达 254K 星"
+    ],
+    "ai-web": [
+      "Anthropic 发布 6 篇新文章",
+      "Claude 高效设计量子电路",
+      "METR 获得员工级评估器访问权限",
+      "Anthropic 揭示 ECDSA 曲线起源",
+      "AI 代理数量现超过员工 6:1",
+      "OpenAI 今天无新文章"
+    ],
+    "ai-hn": [
+      "Claude 揭示 ECDSA 曲线起源 (636 分)",
+      "FLUX 3 Image Klein 发布",
+      "Apple Muse Spark Open 使用 MLX",
+      "90% 工作时间不在 AI 基准测试覆盖范围",
+      "Postgres 19 因 AI 缺陷发现延迟",
+      "Gemini 4 Argon 玩星际争霸"
+    ],
+    "ai-arxiv": [
+      "50 篇关于变换器和代理的新论文",
+      "学习引导多代理系统",
+      "训练多样化思维的推理模型",
+      "向 LLM 提出更聪明的问题",
+      "不确定性感知弱到强升级",
+      "EliteReplay: 前沿模型评估"
+    ],
+    "ai-community": [
+      "并行 AI 编码代理指南 (47 反应)",
+      "AI 应用构建者信任度分析",
+      "AI 代理交付存在漏洞的代码",
+      "内存和上下文泄漏问题",
+      "GPU 推理优化技巧",
+      "RAG 和代理内存系统"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.302 released",
+      "OpenAI Codex v0.164.0-alpha.2",
+      "Gemini CLI v0.66.0-nightly released",
+      "Copilot CLI v1.0.100-1 released",
+      "OpenCode v1.19.3 is latest",
+      "Qwen Code v1.5.0 released"
+    ],
+    "ai-agents": [
+      "OpenClaw: 500 issues and 500 PRs",
+      "SQLite WAL grows to 1.4–2.8 GB (P0)",
+      "Reply lost with no active tool authority",
+      "Startup regression: ready ~1030s vs ~410s",
+      "Concurrent runs complete duplicate replies",
+      "Plugin source rewrites ~1.3 GB per CLI"
+    ],
+    "ai-infra": [
+      "vLLM has 95 issues and 500 PRs",
+      "ROCm gfx950/MI355X support for Qwen3.8",
+      "DeepSeek-V4.1 Flash on RTX PRO 6000",
+      "FlashAttention KV-cache rebuild merged",
+      "Qwen3-Next fused kernel optimized",
+      "LiteLLM has 45 issues and 1 release"
+    ],
+    "ai-trending": [
+      "anthropics/claude-plugins-official trending",
+      "K-Dense-AI/scientific-agent-skills launches",
+      "CLI-Anything: CLI for agents",
+      "cursor/plugins reaches 4.3K stars",
+      "obra/superpowers agentic skills",
+      "NousResearch/hermes-agent at 254K stars"
+    ],
+    "ai-web": [
+      "Anthropic publishes 6 new articles",
+      "Claude designs quantum circuits efficiently",
+      "METR gets employee-like evaluator access",
+      "Anthropic reveals ECDSA curve origins",
+      "AI agents now outnumber employees 6:1",
+      "OpenAI has 0 new articles today"
+    ],
+    "ai-hn": [
+      "Claude reveals ECDSA curve origins (636 pts)",
+      "FLUX 3 Image Klein released",
+      "Apple Muse Spark Open with MLX",
+      "90% of work hours not covered by AI benchmarks",
+      "Postgres 19 delayed after AI bug finds",
+      "Gemini 4 Argon plays StarCraft"
+    ],
+    "ai-arxiv": [
+      "50 new papers on transformers and agents",
+      "Learning to steer multi-agent systems",
+      "Training reasoning models for diverse ideas",
+      "Asking smarter questions to LLMs",
+      "Uncertainty-aware weak-to-strong escalation",
+      "EliteReplay: frontier model evaluation"
+    ],
+    "ai-community": [
+      "Parallel AI coding agents guide (47 reactions)",
+      "Trust in AI app builders analysis",
+      "AI agents shipping vulnerable code",
+      "Memory and context bleeding issues",
+      "GPU inference optimization tips",
+      "RAG and agent memory systems"
+    ]
+  }
+}
