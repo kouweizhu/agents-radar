@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Gemini CLI 领先，有 23 个活跃 PR",
+      "Qwen Code 发布 v0.25.2-nightly",
+      "Claude Code 有 50 个开放问题",
+      "OpenCode 有 10 个进行中的 PR",
+      "Copilot CLI 有 19 个开放问题",
+      "生态系统中比较了 7 个 CLI 工具"
+    ],
+    "ai-agents": [
+      "OpenClaw 生态系统达 500 问题",
+      "OpenClaw 生态系统达 500 PR",
+      "追踪 Hermes Agent (NousResearch)",
+      "涵盖 IronClaw (Near AI)",
+      "包含 QwenPaw (agentscope-ai)",
+      "追踪 ZeroClaw Labs 项目"
+    ],
+    "ai-infra": [
+      "LiteLLM 发布 v1.103.5 支持 Docker",
+      "追踪 vLLM、SGLang、llama.cpp、Ollama",
+      "基础设施摘要包含 Unsloth",
+      "跨工具专注性能优化",
+      "包含模型支持对比",
+      "监控 6 个 AI 基础设施项目"
+    ],
+    "ai-trending": [
+      "Claude Code 在 GitHub 上走红",
+      "opencode by anomalyco 渐受关注",
+      "HKUDS 的 CLI-Anything 走红",
+      "debpalash 的 VoiceStudio 走红",
+      "stablyai 的 orca 进入代理领域",
+      "ruflo 多玩家集群正在兴起"
+    ],
+    "ai-web": [
+      "Anthropic 发布 5 篇新文章",
+      "Anthropic 发表就业研究",
+      "Claude 揭示 ECDSA 曲线起源",
+      "量子电路设计研究发布",
+      "AI 期望差距研究发布",
+      "OpenAI 今日无新文章"
+    ],
+    "ai-hn": [
+      "DeepSeek-v4.1-Flash-1017 发布",
+      "Codex Desktop 崩溃问题讨论",
+      "Claude 揭示 ECDSA 曲线起源",
+      "FLUX 3 Image Klein 模型推出",
+      "Gemini 4 Argon 玩星际争霸",
+      "Anthropic 获得垃圾信用评级"
+    ],
+    "ai-community": [
+      "AI 代理图记忆系统走红",
+      "本地优先 AI 副业流行",
+      "提示工程技术分享",
+      "Claude Code 上下文管理讨论",
+      "FalkorDB 出现在多篇文章",
+      "Hacktoberfest AI 项目涌现"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Gemini CLI leads with 23 active PRs",
+      "Qwen Code drops v0.25.2-nightly release",
+      "Claude Code shows 50 open issues",
+      "OpenCode has 10 PRs in progress",
+      "Copilot CLI has 19 open issues",
+      "7 CLI tools compared in ecosystem"
+    ],
+    "ai-agents": [
+      "OpenClaw ecosystem hits 500 issues",
+      "OpenClaw ecosystem hits 500 PRs",
+      "Hermes Agent from NousResearch tracked",
+      "IronClaw from Near AI covered",
+      "QwenPaw by agentscope-ai included",
+      "ZeroClaw Labs project tracked"
+    ],
+    "ai-infra": [
+      "LiteLLM releases v1.103.5 with Docker verification",
+      "vLLM, SGLang, llama.cpp, Ollama tracked",
+      "Unsloth covered in infrastructure digest",
+      "Performance optimization focus across tools",
+      "Model support comparison included",
+      "6 AI infra projects monitored"
+    ],
+    "ai-trending": [
+      "Claude Code trending on GitHub",
+      "opencode by anomalyco gaining traction",
+      "CLI-Anything from HKUDS trending",
+      "VoiceStudio by debpalash trending",
+      "orca by stablyai in fleet agents",
+      "ruflo multi-player swarms emerging"
+    ],
+    "ai-web": [
+      "Anthropic publishes 5 new articles",
+      "Employment research at Anthropic published",
+      "Claude reveals ECDSA curve origins",
+      "Quantum circuit design research out",
+      "AI expectations gap research released",
+      "OpenAI has zero new articles today"
+    ],
+    "ai-hn": [
+      "DeepSeek-v4.1-Flash-1017 released",
+      "Codex Desktop crash issue discussed",
+      "Claude reveals ECDSA curve origins",
+      "FLUX 3 Image Klein model out",
+      "Gemini 4 Argon plays StarCraft",
+      "Anthropic gets junk credit rating"
+    ],
+    "ai-community": [
+      "AI agent graph memory systems trending",
+      "Local-first AI side hustles popular",
+      "Prompt engineering techniques shared",
+      "Claude Code context management discussed",
+      "FalkorDB appears in multiple articles",
+      "Hacktoberfest AI projects emerging"
+    ]
+  }
+}
