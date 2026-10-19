@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.303 发布",
+      "OpenCode 开源编程代理热门",
+      "Gemini CLI 领先23个PR",
+      "Qwen Code: 50问题50 PR",
+      "OpenAI Codex: 18个活跃讨论",
+      "追踪50问题:Claude,Gemini,Qwen"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.10.5 发布",
+      "OpenClaw生态:5项目追踪",
+      "P0: 网关内存泄漏",
+      "P1: 子代理结果静默丢失",
+      "P1: 同步代理持久化阻塞",
+      "P1: 回复丢失工具权限"
+    ],
+    "ai-infra": [
+      "vLLM v0.32.0 稳定版发布",
+      "LiteLLM v1.106.0 and v1.107.0-rc.1",
+      "llama.cpp b11721 发布",
+      "DeepSeek V4.1 SGLang优化",
+      "NVIDIA Nemotron 3.5 ASR转vLLM",
+      "IQ2-IQ6_K量化llama.cpp"
+    ],
+    "ai-trending": [
+      "OpenCode: 开源编程代理",
+      "Claude插件官方仓库热门",
+      "ai-job-search AI框架热门",
+      "llm-course 热门",
+      "ComfyUI 扩散GUI热门",
+      "CLI-Anything 代理原生软件"
+    ],
+    "ai-web": [
+      "Anthropic将5%股份投入基金",
+      "额外2%实现50%价值增长",
+      "Anthropic已承诺2亿美元",
+      "公益基金LLC已成立",
+      "需经股东批准",
+      "10月18日新闻发布"
+    ],
+    "ai-hn": [
+      "DeepSeek-v4.1-Flash: 936分",
+      "Claude ECDSA曲线起源:1050分",
+      "Transformers教程:622分",
+      "Claude Code代码审查:472分",
+      "Muse Spark Open: 916分",
+      "混合推理Agents论文:102条评论"
+    ],
+    "ai-hf": [
+      "Qwen3.8-27B: 1.79万赞",
+      "LTX-2.5视频模型: 8400赞",
+      "Flux-3-image-klein: 33.8万下载",
+      "Qwen-Image-2.1: 270万下载",
+      "DeepSeek-V4.1-Flash: 130万下载",
+      "MiniCPM-V-4.7: 5.8万下载"
+    ],
+    "ai-community": [
+      "微调Qwen3-8B: 38个反应",
+      "AI实验客户端故事: 34个反应",
+      "GlowUp本地AI: 18个反应",
+      "LeetCode AI编程: 14个反应",
+      "StoreScribe: 14个反应",
+      "STOP shipping broken code: 9个反应"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.303 released",
+      "OpenCode open source coding agent trending",
+      "Gemini CLI leads with 23 PRs",
+      "Qwen Code: 50 issues and 50 PRs",
+      "OpenAI Codex: 18 discussions active",
+      "50 issues tracked across Claude, Gemini, Qwen"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.10.5 released",
+      "OpenClaw ecosystem: 5 projects tracked",
+      "P0: Gateway memory leak issue",
+      "P1: Subagent completion silently lost",
+      "P1: Synchronous agent persistence blocks",
+      "P1: Reply lost tool authority issue"
+    ],
+    "ai-infra": [
+      "vLLM v0.32.0 stable released",
+      "LiteLLM v1.106.0 and v1.107.0-rc.1",
+      "llama.cpp b11721 released",
+      "DeepSeek V4.1 optimization in SGLang",
+      "NVIDIA Nemotron 3.5 ASR to vLLM",
+      "IQ2-IQ6_K quantization in llama.cpp"
+    ],
+    "ai-trending": [
+      "OpenCode: open source coding agent",
+      "Claude plugins official repo trending",
+      "ai-job-search AI framework trending",
+      "llm-course hits trending",
+      "ComfyUI diffusion GUI trending",
+      "CLI-Anything agent-native software"
+    ],
+    "ai-web": [
+      "Anthropic commits 5% shares to Fund",
+      "Additional 2% for 50% value increase",
+      "Anthropic committed $200M already",
+      "Public Benefit Fund LLC established",
+      "Subject to stockholder approval",
+      "News article published Oct 18"
+    ],
+    "ai-hn": [
+      "DeepSeek-v4.1-Flash: 936 points",
+      "Claude ECDSA curve origins: 1050 pts",
+      "Transformers tutorial: 622 points",
+      "Claude Code code review: 472 pts",
+      "Muse Spark Open: 916 points",
+      "Hybrid Reasoning Agents paper: 102 comments"
+    ],
+    "ai-hf": [
+      "Qwen3.8-27B: 17.9K likes",
+      "LTX-2.5 video model: 8.4K likes",
+      "Flux-3-image-klein: 338K downloads",
+      "Qwen-Image-2.1: 2.7M downloads",
+      "DeepSeek-V4.1-Flash: 1.3M downloads",
+      "MiniCPM-V-4.7: 58K downloads"
+    ],
+    "ai-community": [
+      "Fine-tuning Qwen3-8B: 38 reactions",
+      "AI experiment client story: 34 reactions",
+      "GlowUp Local AI: 18 reactions",
+      "LeetCode AI coding: 14 reactions",
+      "StoreScribe: 14 reactions",
+      "STOP shipping broken code: 9 reactions"
+    ]
+  }
+}
