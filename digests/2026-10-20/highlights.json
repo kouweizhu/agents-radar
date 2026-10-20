@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.304 发布",
+      "OpenCode 有 50 个开放 PR",
+      "Gemini CLI v0.66.0-nightly",
+      "Qwen Code v0.25.3 发布",
+      "Copilot CLI v1.0.101-0",
+      "OpenAI Codex alpha 发布"
+    ],
+    "ai-agents": [
+      "OpenClaw: 500 个问题和 PR",
+      "v2026.10.10-beta.2 发布",
+      "24小时内合并 337 个 PR",
+      "仍有 343 个开放问题",
+      "跟踪 5 个项目",
+      "社区高度活跃"
+    ],
+    "ai-infra": [
+      "SGLang v0.5.22 发布",
+      "vLLM V1 引擎严重死锁",
+      "llama.cpp: 13 次提交",
+      "来自 245 位贡献者的 950 个 PR",
+      "新模型支持",
+      "ROCm 硬件支持"
+    ],
+    "ai-trending": [
+      "Headroom: 76k+ 星标",
+      "ComfyUI: 64k 星标",
+      "OpenCode: 14.4k 星标上升趋势",
+      "CLI-Anything 趋势上升",
+      "Claude Code 趋势上升",
+      "Kronos: 金融模型"
+    ],
+    "ai-web": [
+      "Anthropic AI 期望差距论文",
+      "评估器进度更新",
+      "低资源语言文章",
+      "经济研究已发表",
+      "安全承诺讨论中",
+      "各 2 篇新文章"
+    ],
+    "ai-hn": [
+      "RuneScape 智能体基准",
+      "代币最大化已终结",
+      "Timestral 时序模型",
+      "Mistral 与 CERN 合作",
+      "混合推理智能体",
+      "AI 证明准黎曼猜想"
+    ],
+    "ai-community": [
+      "智能体可靠性问题",
+      "MCP 服务器部署技巧",
+      "AI 验证陷阱讨论",
+      "Mistral 时序模型",
+      "神经网络可解释性",
+      "浏览器中的 RAG"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.304 released",
+      "OpenCode has 50 open PRs",
+      "Gemini CLI v0.66.0-nightly",
+      "Qwen Code v0.25.3 released",
+      "Copilot CLI v1.0.101-0",
+      "OpenAI Codex alpha releases"
+    ],
+    "ai-agents": [
+      "OpenClaw: 500 issues and PRs",
+      "v2026.10.10-beta.2 released",
+      "337 PRs merged in 24h",
+      "343 open issues remain",
+      "5 projects tracked",
+      "High community activity"
+    ],
+    "ai-infra": [
+      "SGLang v0.5.22 released",
+      "vLLM critical V1 engine deadlock",
+      "llama.cpp: 13 commits",
+      "950 PRs from 245 contributors",
+      "New model support",
+      "ROCm hardware support"
+    ],
+    "ai-trending": [
+      "Headroom: 76k+ stars",
+      "ComfyUI: 64k stars",
+      "OpenCode: 14.4k stars trending",
+      "CLI-Anything trending",
+      "Claude Code trending",
+      "Kronos: financial model"
+    ],
+    "ai-web": [
+      "Anthropic AI expectations gap paper",
+      "Evaluator progress update",
+      "Low resource languages article",
+      "Economic research published",
+      "Safety commitments discussed",
+      "2 new articles each"
+    ],
+    "ai-hn": [
+      "RuneScape Bench for agents",
+      "Token-maxxing is dead",
+      "Timestral time-series model",
+      "Mistral and CERN partnership",
+      "Hybrid reasoning agents",
+      "AI proves Quasi-Riemann"
+    ],
+    "ai-community": [
+      "Agent reliability concerns",
+      "MCP server deployment tips",
+      "AI verification trap debate",
+      "Mistral time-series model",
+      "Neural network interpretability",
+      "RAG in browser"
+    ]
+  }
+}
