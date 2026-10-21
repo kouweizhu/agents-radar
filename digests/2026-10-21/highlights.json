@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.305发布，100+反应问题",
+      "OpenAI Codex alpha发布(v0.164.0-alpha.8)",
+      "Gemini CLI v0.65.0和v0.66.0-preview发布",
+      "GitHub Copilot CLI v1.0.101-1小更新",
+      "OpenCode: 10个新PR，活跃开发",
+      "Qwen Code v0.25.4-preview.0发布"
+    ],
+    "ai-agents": [
+      "OpenClaw: 严重网关内存泄漏(41条评论)",
+      "OpenClaw: 大型插件网关阻塞",
+      "OpenClaw: WAL自动检查点永不完成",
+      "OpenClaw: MCP工具渠道审批",
+      "OpenClaw: Windows可靠性问题(P0)",
+      "OpenClaw: 24h内500问题500 PR"
+    ],
+    "ai-infra": [
+      "vLLM, SGLang, llama.cpp, Ollama: 各17问题",
+      "LiteLLM: 5个版本发布(v1.106.1等)",
+      "Unsloth: 44问题174 PR-活跃",
+      "vLLM新增DeepSeek-V4-Flash、GLM-5.3-Flash",
+      "SGLang: FlashInfer KDA、DeepSeek大内核",
+      "llama.cpp b11768发布修复"
+    ],
+    "ai-trending": [
+      "Comfy-Org/ComfyUI登顶趋势",
+      "vllm-project/vllm: LLM推理趋势",
+      "anomalyco/opencode: 编码代理趋势",
+      "Kronos: 金融市场基础模型",
+      "security-audit-skill: 安全审计代理",
+      "15/15趋势仓库均为AI相关"
+    ],
+    "ai-web": [
+      "Anthropic: 单次抓取476篇新文章",
+      "OpenAI: 今日1篇新文章",
+      "Claude: 攻击面减少研究",
+      "Claude: 蛋白结合剂设计研究",
+      "Claude: LLM决策公平性研究",
+      "Claude: 通过RL教AI理解原因"
+    ],
+    "ai-hn": [
+      "Anthropic 2026上半年净亏损800亿",
+      "DeepSeek被美国联邦机构禁用",
+      "DeepInfer: 高性能推理框架",
+      "Claude Code: Tmux会话集成",
+      "Laminar: RL模型发现代理追踪错误",
+      "Mistral发布Timestral时序模型"
+    ],
+    "ai-arxiv": [
+      "Halcyon: 无语言预训练文生图",
+      "OpenVLHarness: 代理多模态记忆",
+      "KEEP-Bench: 上下文压缩评估",
+      "TokenGate: LLM学习Token剪枝",
+      "SOMA: System Two推理配System One",
+      "Agent World Model: 计算机使用基准"
+    ],
+    "ai-community": [
+      "Dev.to: 开源支持工具获57赞",
+      "Dev.to: 编程还有趣吗？(39赞)",
+      "Dev.to: 用Claude为一人造应用",
+      "Dev.to: 前端开发者代理技能",
+      "Dev.to: 安全-OpenCode丢失密钥",
+      "Lobste.rs: Mistral Timestral时序"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.305 released, 100+ reaction issues",
+      "OpenAI Codex alpha releases (v0.164.0-alpha.8)",
+      "Gemini CLI v0.65.0 and v0.66.0-preview out",
+      "GitHub Copilot CLI v1.0.101-1 minor update",
+      "OpenCode: 10 new PRs, active development",
+      "Qwen Code v0.25.4-preview.0 released"
+    ],
+    "ai-agents": [
+      "OpenClaw: Critical Gateway Memory Leak (41 comments)",
+      "OpenClaw: Gateway blocks for large plugins",
+      "OpenClaw: WAL auto-checkpoint never completes",
+      "OpenClaw: Channel-mediated approval for MCP tools",
+      "OpenClaw: Windows reliability issues (P0)",
+      "OpenClaw: 500 issues, 500 PRs in 24h"
+    ],
+    "ai-infra": [
+      "vLLM, SGLang, llama.cpp, Ollama: 17 issues each",
+      "LiteLLM: 5 releases (v1.106.1, v1.105.2, etc)",
+      "Unsloth: 44 issues, 174 PRs - huge activity",
+      "vLLM adds DeepSeek-V4-Flash, GLM-5.3-Flash",
+      "SGLang: FlashInfer KDA, DeepSeek megakernels",
+      "llama.cpp b11768 released with fixes"
+    ],
+    "ai-trending": [
+      "Comfy-Org/ComfyUI tops trending",
+      "vllm-project/vllm: LLM inference trending",
+      "anomalyco/opencode: coding agent trending",
+      "Kronos: Financial markets foundation model",
+      "security-audit-skill: Security audit agent",
+      "15/15 trending repos are AI-related"
+    ],
+    "ai-web": [
+      "Anthropic: 476 new articles in single crawl",
+      "OpenAI: 1 new article today",
+      "Claude: attack surface reduction research",
+      "Claude: protein binder design research",
+      "Claude: fairness in LLM decisions research",
+      "Claude: teaching AI why through RL"
+    ],
+    "ai-hn": [
+      "Anthropic logged $80B net loss in H1 2026",
+      "DeepSeek banned from US federal agencies",
+      "DeepInfer: high-performance inference framework",
+      "Claude Code: Tmux sessions integration",
+      "Laminar: RL model finds agent trace errors",
+      "Mistral releases Timestral time-series models"
+    ],
+    "ai-arxiv": [
+      "Halcyon: text-to-image without language pretraining",
+      "OpenVLHarness: multimodal memory for agents",
+      "KEEP-Bench: context compression evaluation",
+      "TokenGate: learned token pruning for LLMs",
+      "SOMA: System Two reasoning with System One",
+      "Agent World Model: computer-use benchmark"
+    ],
+    "ai-community": [
+      "Dev.to: Open-source support tool hits 57 reactions",
+      "Dev.to: Is coding still fun? (39 reactions)",
+      "Dev.to: An App Built for One with Claude",
+      "Dev.to: Agent skills for frontend developers",
+      "Dev.to: Security - OpenCode lost keys",
+      "Lobste.rs: Mistral Timestral time-series"
+    ]
+  }
+}
