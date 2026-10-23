@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.309和v2.308发布安全修复",
+      "OpenAI Codex发布rust-v0.164.0-alpha.12/11",
+      "GitHub Copilot CLI v1.0.103推出权限修复",
+      "Gemini CLI v0.67.0-nightly新增AST功能",
+      "OpenCode v1.19.4推出协作编辑功能",
+      "MCP协议问题主导Codex讨论"
+    ],
+    "ai-infra": [
+      "vLLM新增DeepSeek-V4.1 SM120 GPU支持",
+      "SGLang引入DeepGEMM MegaGate加速",
+      "llama.cpp带来GigaChat 3.5 MoE模型",
+      "SGLang新增Kimi-K3 DCP a2a支持",
+      "Ollama新增vLLM后端集成",
+      "Unsloth新增DeepSeek-V4.1微调支持"
+    ],
+    "ai-trending": [
+      "Anthropic发布Claude知识工作插件",
+      "Cloudflare推出安全审计编码技能",
+      "Graphify从代码构建知识图谱",
+      "Claude指南登上热门榜单",
+      "LangChain LangGraph登上前三热门",
+      "AI浏览器代理在GitHub上流行"
+    ],
+    "ai-web": [
+      "Anthropic: LLM实现大规模形式验证",
+      "Anthropic向AI Foundation捐赠Agent技能",
+      "Anthropic探索模型福利研究",
+      "OpenAI推出Decisions API",
+      "OpenAI扩展ChatGPT Work企业部署",
+      "Anthropic开放生命科学研究者招募"
+    ],
+    "ai-hn": [
+      "Anthropic: LLM实现大规模软件验证",
+      "NVIDIA发布AI代理运行时OpenShell",
+      "经济学人: AI算力是新石油",
+      "LLM置信度评分不是好主意",
+      "大多数美国人认为AI对社会有害",
+      "Claude现在支持Google Docs和Slides"
+    ],
+    "ai-arxiv": [
+      "LongZero增强LLM长上下文推理",
+      "论文: AI实现形式化软件验证",
+      "SWE-DIVE基准测试编码代理",
+      "新基准测试LLM代理量化交易",
+      "用于AI文本检测的稀疏自编码器",
+      "并行AI代理协作的图优化"
+    ],
+    "ai-community": [
+      "Dev.to: 别在我和AI之间当代理",
+      "Dev.to: 重复API请求背后的隐藏bug",
+      "Dev.to: 93%置信度是字符串非概率",
+      "Dev.to: 重试循环是昂贵特性",
+      "Dev.to: Anthropic同时运行3万代理",
+      "Dev.to: n8n AI工作流中的7个静默失败"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.309 & v2.1.308 released with security fixes",
+      "OpenAI Codex releases rust-v0.164.0-alpha.12/11",
+      "GitHub Copilot CLI v1.0.103 ships permission fixes",
+      "Gemini CLI v0.67.0-nightly adds AST features",
+      "OpenCode v1.19.4 debuts with collaborative editing",
+      "MCP protocol issues dominate Codex discussions"
+    ],
+    "ai-infra": [
+      "vLLM adds DeepSeek-V4.1 SM120 GPU support",
+      "SGLang introduces DeepGEMM MegaGate acceleration",
+      "llama.cpp brings GigaChat 3.5 MoE model",
+      "SGLang adds Kimi-K3 DCP a2a support",
+      "Ollama adds vLLM backend integration",
+      "Unsloth adds DeepSeek-V4.1 fine-tuning support"
+    ],
+    "ai-trending": [
+      "Anthropic releases Claude knowledge work plugins",
+      "Cloudflare debuts security audit coding skill",
+      "Graphify builds knowledge graphs from code",
+      "Claude how-to guide hits trending",
+      "LangChain LangGraph hits #3 trending",
+      "AI browser agents trending on GitHub"
+    ],
+    "ai-web": [
+      "Anthropic: LLMs enable large-scale formal verification",
+      "Anthropic donates Agent Skills to AI Foundation",
+      "Anthropic explores model welfare in research",
+      "OpenAI launches Decisions API",
+      "OpenAI expands ChatGPT Work enterprise rollout",
+      "Anthropic opens life sciences investigator call"
+    ],
+    "ai-hn": [
+      "Anthropic: LLMs enable large-scale software verification",
+      "NVIDIA releases OpenShell for AI agent runtime",
+      "Economist: AI compute is the new oil",
+      "LLM confidence scoring is a bad idea",
+      "Most Americans say AI is bad for society",
+      "Claude now works with Google Docs & Slides"
+    ],
+    "ai-arxiv": [
+      "LongZero enhances LLM long-context reasoning",
+      "ArXiv paper: AI enables formal software verification",
+      "SWE-DIVE benchmarks coding agents",
+      "New benchmark tests LLM agents on quantitative trading",
+      "Sparse autoencoders for AI text detection",
+      "Parallel AI agent collaboration as graph optimization"
+    ],
+    "ai-community": [
+      "Dev.to: Don't be a proxy between me and AI",
+      "Dev.to: Hidden bugs behind duplicate API requests",
+      "Dev.to: 93% confidence is a string, not probability",
+      "Dev.to: Retry loops are expensive features",
+      "Dev.to: Anthropic runs 30,000 agents at once",
+      "Dev.to: 7 silent failures in n8n AI workflows"
+    ]
+  }
+}
