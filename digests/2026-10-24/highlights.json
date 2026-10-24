@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "OpenCode获9000+ GitHub星标",
+      "Claude Code v2.1.310发布",
+      "OpenAI Codex达v0.164.0",
+      "Gemini CLI v0.67.0-nightly可用",
+      "GitHub Copilot CLI v1.0.104发布",
+      "Qwen Code加入CLI对比"
+    ],
+    "ai-agents": [
+      "OpenClaw: 500个issue和PR",
+      "IronClaw达1200 GitHub星标",
+      "Hermes Agent获700 GitHub星标",
+      "QwenPaw达580 GitHub星标",
+      "ZeroClaw开启280个issue",
+      "OpenClaw: v2026.10.1网关回退"
+    ],
+    "ai-infra": [
+      "llama.cpp发布b11846和b11840",
+      "Ollama v0.40.11-rc0和v0.40.10发布",
+      "LiteLLM v1.107.0因安全下架",
+      "Unsloth v0.1.910-beta发布",
+      "vLLM新增DeepSeek-V4-Flash支持",
+      "SGLang新增Cambricon MLU支持"
+    ],
+    "ai-trending": [
+      "NVIDIA OpenShell达1300星标",
+      "Cloudflare安全审计技能走红",
+      "Anthropic知识工作插件发布",
+      "Claude-Red新增攻击安全技能",
+      "VoxCPM达850 GitHub星标",
+      "firecrawl破4700+ GitHub星标"
+    ],
+    "ai-web": [
+      "Anthropic发布86篇新文章",
+      "OpenAI新增2篇文章",
+      "LLM发现0day研究发布",
+      "AI核保障研究发布",
+      "自我复制AI研究发布",
+      "AI就业影响经济指数发布"
+    ],
+    "ai-hn": [
+      "Kimi K3.1 Pro登顶HN获700分",
+      "DeepInfer: 2300+分,890条评论",
+      "OpenShell: 代理安全获489分",
+      "Claude Duet: 561分,528条评论",
+      "LLMs实现大规模形式验证",
+      "Voxtral 3发布获768分"
+    ],
+    "ai-arxiv": [
+      "直接Pass@k优化思维剪枝",
+      "因果思维链论文发布",
+      "EpiSEM-Bench: LLM代理安全评估",
+      "METTA: 记忆增强测试时适应",
+      "SpectralCanary: T2I数据集使用审计",
+      "BeNice! KV共享方法提出"
+    ],
+    "ai-community": [
+      "OpenShell: AI代理安全运行时",
+      "笔记本本地AI: Gemma TabPFN指南",
+      "AI调试: 误导性测试结果",
+      "Hacktoberfest AI挑战第三周",
+      "带证据验证的RAG指南",
+      "代理与内存架构讨论"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "OpenCode reaches 9000+ GitHub stars",
+      "Claude Code v2.1.310 released",
+      "OpenAI Codex hits v0.164.0",
+      "Gemini CLI v0.67.0-nightly available",
+      "GitHub Copilot CLI v1.0.104 released",
+      "Qwen Code joins CLI comparison"
+    ],
+    "ai-agents": [
+      "OpenClaw: 500 issues and 500 PRs",
+      "IronClaw reaches 1200 GitHub stars",
+      "Hermes Agent gains 700 GitHub stars",
+      "QwenPaw hits 580 GitHub stars",
+      "ZeroClaw opens 280 issues",
+      "OpenClaw: Gateway regression in v2026.10.1"
+    ],
+    "ai-infra": [
+      "llama.cpp releases b11846 and b11840",
+      "Ollama v0.40.11-rc0 and v0.40.10 out",
+      "LiteLLM v1.107.0 yanked for security",
+      "Unsloth v0.1.910-beta published",
+      "vLLM adds DeepSeek-V4-Flash support",
+      "SGLang adds Cambricon MLU support"
+    ],
+    "ai-trending": [
+      "NVIDIA OpenShell hits 1300 stars",
+      "Cloudflare security-audit-skill trending",
+      "Anthropic knowledge-work-plugins launches",
+      "Claude-Red adds offensive security skills",
+      "VoxCPM reaches 850 GitHub stars",
+      "firecrawl hits 4700+ GitHub stars"
+    ],
+    "ai-web": [
+      "Anthropic publishes 86 new articles",
+      "OpenAI adds 2 new articles",
+      "LLM-discovered 0-days research out",
+      "Nuclear safeguards for AI published",
+      "Self-replicating AI research released",
+      "Economic Index on AI employment impacts"
+    ],
+    "ai-hn": [
+      "Kimi K3.1 Pro tops HN with 700 points",
+      "DeepInfer: 2300+ points, 890 comments",
+      "OpenShell: 489 points for agent security",
+      "Claude Duet: 561 points, 528 comments",
+      "LLMs enable formal verification at scale",
+      "Voxtral 3 released with 768 points"
+    ],
+    "ai-arxiv": [
+      "Direct Pass@k optimization for thought pruning",
+      "Causal Chain of Thought paper published",
+      "EpiSEM-Bench: LLM agent safety eval",
+      "METTA: memory-enhanced test-time adaptation",
+      "SpectralCanary: T2I dataset-use auditing",
+      "BeNice! KV-sharing method proposed"
+    ],
+    "ai-community": [
+      "OpenShell: safe runtime for AI agents",
+      "Local AI on laptop: Gemma TabPFN guide",
+      "AI debugging: misleading test results",
+      "Hacktoberfest AI challenge week 3",
+      "RAG with evidence verification guide",
+      "Agents and memory architecture discussed"
+    ]
+  }
+}
