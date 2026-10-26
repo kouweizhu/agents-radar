@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 技能现已可用",
+      "Gemini CLI v0.67.0-nightly 发布",
+      "Qwen Code v0.26.1-nightly 发布",
+      "OpenCode 有 50 个活跃 PR",
+      "Pi CLI 有 9 个新 PR",
+      "Copilot CLI 有 24 个问题"
+    ],
+    "ai-agents": [
+      "OpenClaw 有 358 个活跃问题",
+      "24 小时内合并 500 个 PR",
+      "SQLite WAL 增长到 2.8 GB",
+      "大型插件导致网关阻塞",
+      "启动性能回退: 1030秒对410秒",
+      "内存锯齿问题持续存在"
+    ],
+    "ai-infra": [
+      "vLLM 新增 Blackwell GPU 支持",
+      "SGLang 新增权重缓存守护进程",
+      "llama.cpp 新增 Qwen4Exp 模型",
+      "Ollama 新增 MoE CPU 卸载",
+      "LiteLLM 4 在 24 小时内发布",
+      "Unsloth 有 221 个活跃 PR"
+    ],
+    "ai-trading": [
+      "TradingAgents: 多代理 LLM 交易",
+      "OpenShell: 安全 AI 代理运行时",
+      "Anything-LLM 达 9 万星",
+      "Qdrant 向量库达 5.3 万星",
+      "VoiceStudio: 语音克隆工具",
+      "Claude 安全审计技能"
+    ],
+    "ai-hn": [
+      "Kimi K3.1 Pro 首秀 (670 评论)",
+      "OpenShell: 安全代理运行时",
+      "Cerebras 万亿参数模型",
+      "AI 代理快 2.3 倍: 披露",
+      "10 年 CNN 超越前沿 LLM",
+      "LLM 使形式验证可扩展"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4.1-Flash 登顶热门",
+      "FLUX.3 Klein 图像模型发布",
+      "LTX-2.5 视频生成",
+      "Nanbeige4.3-33B 语言模型",
+      "Mistral Timestral-209M 时序",
+      "Qwen3.8-27B 多模态模型"
+    ],
+    "ai-community": [
+      "Hacktoberfest AI 挑战进行中",
+      "KV 缓存限制 LLM 服务器用户",
+      "测试失败但 LLM 正确",
+      "事后分析: AI 法案无人负责",
+      "语义搜索背后的数学",
+      "590MB 文件导致 OOM 错误"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code skills now available",
+      "Gemini CLI v0.67.0-nightly released",
+      "Qwen Code v0.26.1-nightly out",
+      "OpenCode has 50 active PRs",
+      "Pi CLI has 9 new PRs",
+      "Copilot CLI has 24 issues"
+    ],
+    "ai-agents": [
+      "OpenClaw has 358 active issues",
+      "500 PRs merged in 24 hours",
+      "SQLite WAL grows to 2.8 GB",
+      "Gateway blocks on large plugins",
+      "Startup regression: 1030s vs 410s",
+      "Memory sawtooth issue persists"
+    ],
+    "ai-infra": [
+      "vLLM adds Blackwell GPU support",
+      "SGLang adds weight cache daemon",
+      "llama.cpp adds Qwen4Exp model",
+      "Ollama adds MoE CPU offload",
+      "LiteLLM 4 releases in 24h",
+      "Unsloth has 221 active PRs"
+    ],
+    "ai-trending": [
+      "TradingAgents: Multi-Agent LLM Trading",
+      "OpenShell: Safe AI agent runtime",
+      "Anything-LLM hits 90k stars",
+      "Qdrant vector DB at 53k stars",
+      "VoiceStudio: Voice cloning tool",
+      "Security audit skill for Claude"
+    ],
+    "ai-hn": [
+      "Kimi K3.1 Pro debuts (670 comments)",
+      "OpenShell: Secure agent runtime",
+      "Cerebras trillion-parameter models",
+      "AI agents 2.3x faster: disclosure",
+      "10-year-old CNN beats frontier LLMs",
+      "LLMs make formal verification scalable"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4.1-Flash tops trending",
+      "FLUX.3 Klein image model released",
+      "LTX-2.5 video generation",
+      "Nanbeige4.3-33B language model",
+      "Mistral Timestral-209M time series",
+      "Qwen3.8-27B multimodal model"
+    ],
+    "ai-community": [
+      "Hacktoberfest AI Challenge ongoing",
+      "KV cache limits LLM server users",
+      "Test failed but LLM was right",
+      "Postmortem: AI bill had no owner",
+      "Math behind semantic search",
+      "590MB file caused OOM error"
+    ]
+  }
+}
