@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.311 发布，包含最新修复",
+      "OpenAI Codex 快速发布 rust 版本 (v0.166-v0.165)",
+      "Google Gemini CLI v0.67.0-nightly 拉取最新提交",
+      "GitHub Copilot CLI v1.0.104-4 专注企业功能",
+      "Qwen Code v0.26.2-preview.0 现已可用",
+      "Pi CLI 追踪 16 个活跃 PR"
+    ],
+    "ai-agents": [
+      "OpenClaw 生态：24 小时内 500 个 issue、500 个 PR",
+      "P0: SQLite WAL 增长至 1.4-2.8 GB - 139 条评论",
+      "P0: 网关在大插件捕获时阻塞数分钟",
+      "P0: prepared-model-catalog.worker.js 内存泄漏",
+      "报告：Windows 启动缓慢，插件未正常关闭",
+      "跨项目共有 400 个未结问题，183 个未结 PR"
+    ],
+    "ai-infra": [
+      "vLLM: 98 个问题，500 个 PR - 全新 Decision 3.0 模型",
+      "SGLang: 465 个问题，600 多个 PR - 支持 DeepSeek V4.1",
+      "llama.cpp: 重要提交 (b11913-b11901) - IQ4 量化",
+      "Ollama v0.40.12 - 支持 DFlash2 和 YaRN",
+      "Unsloth v0.1.911-beta - 显存回收",
+      "LiteLLM: 速率限制与 Redis 优化"
+    ],
+    "ai-trading": [
+      "TradingAgents：多智能体 LLM 金融交易",
+      "cindy：TypeScript 开源 AI 代理",
+      "ECC：代理线束性能优化",
+      "impeccable：AI 代理的 Rust 设计语言",
+      "SkillSpector：AI 代理技能安全扫描器",
+      "openbot：AI 队友的本地优先桌面工作区"
+    ],
+    "ai-web": [
+      "Anthropic 在 Nasdaq 提交 S-1 上市申请，代码 ANT",
+      "OpenAI 发布 GPT-6.1 Terra 公告",
+      "5 篇 OpenAI 新文章（仅元数据）",
+      "Anthropic 文章总数：487",
+      "OpenAI 文章总数：1089",
+      "主要 AI 公司 IPO 里程碑临近"
+    ],
+    "ai-hn": [
+      "OpenAI 公布数学/计算机科学/物理学的三项新发现",
+      "Anthropic 提交 S-1 - 重大 AI IPO 新闻",
+      "GPT-6.1 Terra 排名首页第四",
+      "OpenAI/Anthropic LLM 价格下调高达 80%",
+      "Nvidia 讨论每年 2000 美元的 GPU 软件费用",
+      "中国 AI 泡沫已破裂（排名 23）"
+    ],
+    "ai-arxiv": [
+      "TCSP3.0：基于模板的晶体结构预测",
+      "ETH 是错误的 - OpenAI 数学预印本突破",
+      "频谱预测的深度科学推理",
+      "BriLLM-MetaPred：表示-预测统一",
+      "表示形成的信息几何",
+      "引导教师：改进思维模型的自我蒸馏"
+    ],
+    "ai-community": [
+      "AI 代理拥有你电脑的密钥（20 个反应）",
+      "你的秘密不需要 git 提交就会泄露（15 个反应）",
+      "我用 Claude Code 编码 30 天（14 个反应）",
+      "MCP Token 成本：15 个工具精简至 4 个（12 个反应）",
+      "情境工程优于提示工程（8 个反应）",
+      "JetBrains 开源了一个代理型 IDE（8 个反应）"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.311 released with recent fixes",
+      "OpenAI Codex shipping rapid rust releases (v0.166-v0.165)",
+      "Google Gemini CLI v0.67.0-nightly pulls latest commits",
+      "GitHub Copilot CLI v1.0.104-4 with enterprise focus",
+      "Qwen Code v0.26.2-preview.0 now available",
+      "Pi CLI tracking 16 active PRs"
+    ],
+    "ai-agents": [
+      "OpenClaw ecosystem: 500 issues, 500 PRs in 24h",
+      "P0: SQLite WAL grows to 1.4-2.8 GB - 139 comments",
+      "P0: Gateway blocks minutes on large plugin capture",
+      "P0: prepared-model-catalog.worker.js memory leak",
+      "Windows slow startup and unclean plugin shutdown reported",
+      "400 open issues, 183 open PRs across projects"
+    ],
+    "ai-infra": [
+      "vLLM: 98 issues, 500 PRs - new Decision 3.0 model",
+      "SGLang: 465 issues, 600+ PRs - DeepSeek V4.1 support",
+      "llama.cpp: major commits (b11913-b11901) - IQ4 quant",
+      "Ollama v0.40.12 - DFlash2 and YaRN support",
+      "Unsloth v0.1.911-beta - VRAM reclamation",
+      "LiteLLM: rate limiting and Redis optimization"
+    ],
+    "ai-trending": [
+      "TradingAgents: Multi-Agents LLM Financial Trading",
+      "cindy: TypeScript open-source AI agent",
+      "ECC: agent harness performance optimization",
+      "impeccable: Rust design language for AI harness",
+      "SkillSpector: Security scanner for AI agent skills",
+      "openbot: local-first desktop workspace for AI teammates"
+    ],
+    "ai-web": [
+      "Anthropic files S-1 for IPO on Nasdaq under ANT",
+      "OpenAI publishes GPT-6.1 Terra announcement",
+      "5 new OpenAI articles (metadata only)",
+      "Anthropic total articles: 487",
+      "OpenAI total articles: 1089",
+      "Major AI company IPO milestone approaches"
+    ],
+    "ai-hn": [
+      "OpenAI announces three new discoveries in math/CS/physics",
+      "Anthropic S-1 filing - major AI IPO news",
+      "GPT-6.1 Terra ranks #4 on front page",
+      "OpenAI/Anthropic cut LLM prices up to 80%",
+      "Nvidia discusses $2k/year GPU software fee",
+      "China AI bubble has already burst (rank #23)"
+    ],
+    "ai-arxiv": [
+      "TCSP3.0: Template-Based Crystal Structure Prediction",
+      "ETH is False - OpenAI math preprint breakthrough",
+      "Deep Scientific Reasoning for Spectrum Prediction",
+      "BriLLM-MetaPred: Representation-Prediction Unity",
+      "Information Geometry of Representation Formation",
+      "Steering Teacher: Improving Self-Distillation for Thinking Models"
+    ],
+    "ai-community": [
+      "AI Agents Have the Keys to Your Computer (20 reactions)",
+      "Your secrets don't need a git commit to leak (15 reactions)",
+      "I Coded for 30 Days Using Only Claude Code (14 reactions)",
+      "MCP Token Cost: 15 tools reduced to 4 (12 reactions)",
+      "Context Engineering over Prompt Engineering (8 reactions)",
+      "JetBrains open-sourced an agentic IDE (8 reactions)"
+    ]
+  }
+}
