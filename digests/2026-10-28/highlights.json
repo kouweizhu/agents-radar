@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.312 添加点击发送和 OIDC 支持",
+      "OpenAI Codex 更新支持 GCP Vertex AI",
+      "Gemini CLI v0.67.0-preview 启用子代理恢复",
+      "Copilot CLI v1.0.105 修复等级选择错误",
+      "OpenCode 集成 VSCode 达 4.4K 星标",
+      "Pi CLI 首次亮相 Rust 原生代理框架"
+    ],
+    "ai-infra": [
+      "vLLM 新增 Intel Gaudi 3 和 MI355X 支持",
+      "SGLang 增强 PD 分解支持更长上下文",
+      "llama.cpp 发布 b11944 支持 LiquidAI LFM3",
+      "Ollama 首次推出 Apple Silicon 的 MLX 集成",
+      "LiteLLM v1.106.5 新增 Databricks 定价模型",
+      "Unsloth 发布 302 PR 修复 FP8 优化"
+    ],
+    "ai-trending": [
+      "Nightly OpenBot 桌面 AI 代理达 3.7K 星标",
+      "Obra Superpowers 代理技能达 2.1K 星标",
+      "Gitroom Postiz AI 社交排程达 6.7K 星标",
+      "Makecindy AI 代理平台达 1.9K 星标",
+      "HKU DeepTutor 个性化学习达 2.3K 星标",
+      "JetBrains Thinkrail 首次亮相氛围编程 IDE"
+    ],
+    "ai-web": [
+      "Anthropic 宣布政府 Claude 的 GSA 合作",
+      "Anthropic 在 Nasdaq 提交 ANT 的 S-1 文件",
+      "Claude 与 6 家药企合作加速药物研发",
+      "研究显示 AI 代理重塑专家判断",
+      "红队用 Claude 发现真实软件漏洞",
+      "OpenAI 发布 GPT-6.1 Terra 更新"
+    ],
+    "ai-hn": [
+      "Claude 药物开发合作登 HN 榜首",
+      "LiquidAI LFM3 推出原生多模态支持",
+      "亚马逊 AI 部门持续失败后重组",
+      "Anthropic S-1 显示政府业务增长 20 倍",
+      "维基百科清理 AI 生成内容争议",
+      "Lean 定理证明器形式化数学分类"
+    ],
+    "ai-arxiv": [
+      "DCKV 引入学习式提示 KV 缓存压缩",
+      "Select-TTT 实现 LLM 快速权重更新",
+      "儿童规模语言模型揭示专业化模式",
+      "Mamba-2 状态压缩提升效率",
+      "AI 发现数学 CS 物理 3 个新定理",
+      "前沿 LLM 展现阿希从众行为模式"
+    ],
+    "ai-community": [
+      "Dev.to: AI 声称已修复但跳过运行测试",
+      "Dev.to: 前 90% AI 编码快 后 10% 痛苦",
+      "Lobste.r: OCaml 独核获 ML 研究关注",
+      "Dev.to: 人类在环代理需要审批门",
+      "Lobste.r: 欧盟讨论 AI 数字征用",
+      "Dev.to: MCP 成为代理工具使用标准"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.312 adds click-to-send and OIDC",
+      "OpenAI Codex updates with GCP Vertex AI support",
+      "Gemini CLI v0.67.0-preview enables subagent recovery",
+      "Copilot CLI v1.0.105 fixes tier selection bugs",
+      "OpenCode reaches 4.4K stars with VSCode integration",
+      "Pi CLI debuts as Rust-native agent framework"
+    ],
+    "ai-infra": [
+      "vLLM adds Intel Gaudi 3 and MI355X support",
+      "SGLang enhances PD disaggregation for longer contexts",
+      "llama.cpp releases b11944 with LiquidAI LFM3 support",
+      "Ollama debuts MLX integration for Apple Silicon",
+      "LiteLLM v1.106.5 adds Databricks pricing models",
+      "Unsloth posts 302 PRs with FP8 optimization fixes"
+    ],
+    "ai-trending": [
+      "Nightly OpenBot hits 3.7K stars for desktop AI agents",
+      "Obra Superpowers reaches 2.1K stars for agent skills",
+      "Gitroom Postiz hits 6.7K stars for AI social scheduling",
+      "Makecindy hits 1.9K stars for AI agent platform",
+      "HKU DeepTutor reaches 2.3K stars for personalized learning",
+      "JetBrains Thinkrail debuts for vibe coding IDE"
+    ],
+    "ai-web": [
+      "Anthropic announces GSA partnership for government Claude",
+      "Anthropic files S-1 under ANT on Nasdaq",
+      "Claude accelerates drug development with 6 pharma partners",
+      "Study shows AI agents reshape expert judgment calls",
+      "Red team finds real software vulnerabilities with Claude",
+      "OpenAI posts GPT-6.1 Terra update"
+    ],
+    "ai-hn": [
+      "Claude drug development partnerships make HN #1",
+      "LiquidAI LFM3 launches with native multimodal support",
+      "Amazon AI division restructuring after sustained failure",
+      "Anthropic S-1 filing shows 20x government growth",
+      "Wikipedia cleans up AI-generated content controversy",
+      "Mathematical classification formalized in Lean theorem prover"
+    ],
+    "ai-arxiv": [
+      "DCKV introduces learned prompt KV cache compression",
+      "Select-TTT enables fast weight updates for LLMs",
+      "Child-scale language models reveal specialization patterns",
+      "Mamba-2 state compression improves efficiency",
+      "AI discovers 3 new theorems in math, CS, physics",
+      "Frontier LLMs show Asch conformity behavior patterns"
+    ],
+    "ai-community": [
+      "Dev.to: AI claims fixed but skips running tests",
+      "Dev.to: First 90% AI coding fast, last 10% painful",
+      "Lobste.rs: OCaml unikernels gain ML research interest",
+      "Dev.to: Human-in-loop agents need approval gates",
+      "Lobste.rs: EU debates digital expropriation for AI",
+      "Dev.to: MCP emerges as standard for agent tool use"
+    ]
+  }
+}
