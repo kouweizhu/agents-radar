@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.314 新增 IdP 群组集成",
+      "OpenAI Codex rust-v0.166.0 支持键盘转录",
+      "Gemini CLI v0.67.0-nightly 修复内联历史",
+      "OpenCode v2.2.2 附带进程守护",
+      "Qwen Code v0.26.4 推出 CLI、SDK、桌面版",
+      "OpenCode 领跑 CLI 工具获 50 个 PR"
+    ],
+    "ai-agents": [
+      "OpenClaw 生态达 500 issues 和 PRs",
+      "OpenClaw v2026.10.9 修复 fast-uri 和 Zod",
+      "OpenClaw v2026.9.36 作为 LTS 网关",
+      "网关状态 DB WAL 检查点引热议",
+      "原生子代理分配内存泄漏浮现",
+      "短期记忆保留机制热议中"
+    ],
+    "ai-infra": [
+      "vLLM 发 8 版支持 MiniMax-M3",
+      "SGLang 新增 T-Head PPU 和循环",
+      "llama.cpp 带来 Mistral Le Chonk 和 Gemma4",
+      "Ollama 推出 MLX 并发生成",
+      "LiteLLM v1.11.0-rc.0 瞄准流式修复",
+      "Unsloth 为 MLX 添加弹性注意力"
+    ],
+    "ai-trending": [
+      "HKUDS/DeepTutor 领跑 AI 辅导项目",
+      "obra/superpowers 赋能代理技能",
+      "JetBrains 推出氛围编程 IDE",
+      "CopilotKit/OpenBot 构建 AI 同事",
+      "mintplex-labs/anything-llm 达 37k 星",
+      "langchain4j/langchain4j 达 33k 星"
+    ],
+    "ai-web": [
+      "Claude Code 最佳实践指南发布",
+      "Anthropic 发布托管代理论文",
+      "GSA 合作提供政府 4 折优惠",
+      "AI for Science 扩展至 20 机构",
+      "Claude Enterprise 周用户增 8 倍",
+      "联邦机构使用量年增 20 倍"
+    ],
+    "ai-hn": [
+      "Mistral 发布 Large 4 权重",
+      "谷歌因 AI 担忧市值蒸发 5000 亿",
+      "Gemini 4 Carbon 登顶 AI 指数",
+      "Claude Duet 推出个人助理 Harness",
+      "Simantic 推出 YC F26 固件模拟器",
+      "Dayjob Tax 评估 50 项代理任务"
+    ],
+    "ai-arxiv": [
+      "编码代理中先例与意图探析",
+      "角色根基攻击瞄准代理记忆",
+      "临床多代理系统缺乏公平性",
+      "Skeleton Coding 提出程序结构规范",
+      "DecompGym 基准分解算法",
+      "LLM 评估规则生成研究"
+    ],
+    "ai-community": [
+      "提示注入仍居 AI 安全首位",
+      "AI 代理获批准仍做错事",
+      "Claude Code 工具引讨论",
+      "AI 总结安全修复失效",
+      "Qwen3.5 CPU 模拟 Lobste 引议",
+      "欧盟 AI 法规促合规讨论"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.314 adds IdP groups integration",
+      "OpenAI Codex rust-v0.166.0 has keyboard transcript",
+      "Gemini CLI v0.67.0-nightly fixes inline history",
+      "OpenCode v2.2.2 ships with process-daemon",
+      "Qwen Code v0.26.4 debuts CLI, SDK, Desktop",
+      "OpenCode leads CLI tools with 50 recent PRs"
+    ],
+    "ai-agents": [
+      "OpenClaw ecosystem hits 500 issues and 500 PRs",
+      "OpenClaw v2026.10.9 patches fast-uri and Zod",
+      "OpenClaw v2026.9.36 serves as LTS gateway",
+      "Gateway state DB WAL checkpoint tops discussions",
+      "nativeSubagentAssignments memory leak surfaces",
+      "Short-term recall retention actively debated"
+    ],
+    "ai-infra": [
+      "vLLM ships 8 releases supporting MiniMax-M3",
+      "SGLang adds T-Head PPU and Sensenova Loop",
+      "llama.cpp brings Mistral Le Chonk and Gemma4",
+      "Ollama debuts MLX concurrent generation",
+      "LiteLLM v1.11.0-rc.0 targets streaming fix",
+      "Unsloth adds Flex Attention for MLX"
+    ],
+    "ai-trending": [
+      "HKUDS/DeepTutor leads AI tutoring repos",
+      "obra/superpowers enables agentic skills",
+      "JetBrains launches vibe coding IDE thinkrail",
+      "CopilotKit/OpenBot builds AI coworkers",
+      "mintplex-labs/anything-llm hits 37k stars",
+      "langchain4j/langchain4j reaches 33k stars"
+    ],
+    "ai-web": [
+      "Claude Code Best Practices guide published",
+      "Anthropic releases Managed Agents paper",
+      "GSA partnership offers 40% government discount",
+      "AI for Science expands to 20 institutions",
+      "Claude Enterprise sees 8x weekly user growth",
+      "Federal agency usage up 20x in one year"
+    ],
+    "ai-hn": [
+      "Mistral releases Large 4 weights",
+      "Google value plunges $500B on AI fears",
+      "Gemini 4 Carbon hits #1 on AI Index",
+      "Claude Duet debuts personal assistant harness",
+      "Simantic launches as YC F26 firmware simulator",
+      "Dayjob Tax evaluates agents on 50 assignments"
+    ],
+    "ai-arxiv": [
+      "Precedent vs intent in coding agents explored",
+      "Role grounding attacks target agent memory",
+      "Clinical multi-agent systems lack fairness",
+      "Skeleton Coding proposes program structure spec",
+      "DecompGym benchmarks decomposition algorithms",
+      "LLM evaluation rubric generation studied"
+    ],
+    "ai-community": [
+      "Prompt injection remains top AI security concern",
+      "AI agents do wrong things despite approval",
+      "Claude Code tools generate discussion",
+      "AI summaries fail for security fixes",
+      "Qwen3.5 CPU simulation debated on Lobste",
+      "EU AI regulation drives compliance talks"
+    ]
+  }
+}
