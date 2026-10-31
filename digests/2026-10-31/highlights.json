@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.316: 50个问题，企业MCP功能",
+      "OpenAI Codex: 50问题，50 PR，Windows平台",
+      "Gemini CLI v0.67.0-nightly: 子代理恢复",
+      "GitHub Copilot CLI: 34问题，Docker容器化",
+      "OpenCode: 148评论，活跃社区",
+      "Aider: 多模型支持，统一diff"
+    ],
+    "ai-infra": [
+      "vLLM: 30天21版本，MoE优化",
+      "SGLang: 10版本，AMD ROCm+Ascend NPU",
+      "llama.cpp: 10版本，GGUF改进，本地推理",
+      "Ollama: 消费级本地运行时，MLX支持",
+      "LiteLLM: 多提供商路由，代理层",
+      "Unsloth: 微调优化，LoRA+GGUF"
+    ],
+    "ai-trending": [
+      "anthropics/skills: AI代理技能框架",
+      "CopilotKit/OpenBot: 开源AI同事",
+      "DeepTutor: 港大AI辅导系统",
+      "claude-mem: AI代理记忆",
+      "lightpanda-io: AI自动化无头浏览器",
+      "Macro: 统一AI记忆工作区"
+    ],
+    "ai-web": [
+      "Anthropic: 托管代理稳定接口研究",
+      "Anthropic: 红队发现Chrome/Safari/Android/Windows漏洞",
+      "Anthropic: 协调披露时间线90+45天",
+      "OpenAI: 合理使用惠及所有人",
+      "OpenAI: 网站可表达AI训练偏好",
+      "OpenAI: 社区安全报告，新青少年保护"
+    ],
+    "ai-hn": [
+      "Mistral Large 4权重发布，1677分",
+      "Claude Code VS Code扩展后门，776分",
+      "Gemini 4 Carbon发布，1011分",
+      "Sleep框架: LLM持续学习，166分",
+      "Simantic: AI代理固件模拟，YC F26",
+      "IgE过敏原设计AI disruptor"
+    ],
+    "ai-arxiv": [
+      "LM数据归属: 阐明设计空间",
+      "ShallowDefend: 浅层安全对齐利用",
+      "Agentic AI: 农业后果研究",
+      "协作AI代理: 自主实验研究",
+      "Pre-Crime代理: 代理安全框架",
+      "VeriCUA: 验证如代理探索"
+    ],
+    "ai-community": [
+      "黑客月AI挑战: 机器幽灵周",
+      "MoE卸载: 实际性能测试结果",
+      "特洛伊木马Claude扩展: 安全警告",
+      "模型路由表: 成本优化策略",
+      "AI代理记忆: 数据库方法",
+      "Qwenputer: Qwen3.5实现RISC-V CPU"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.316: 50 issues, enterprise MCP features",
+      "OpenAI Codex: 50 issues, 50 PRs, Windows platform focus",
+      "Gemini CLI v0.67.0-nightly: subagent recovery",
+      "GitHub Copilot CLI: 34 issues, Docker containerization",
+      "OpenCode: 148 comments on top issue, active community",
+      "Aider: Multi-model support, unified diff, edittype"
+    ],
+    "ai-infra": [
+      "vLLM: 21 releases in 30 days, MoE optimization",
+      "SGLang: 10 releases, AMD ROCm + Ascend NPU support",
+      "llama.cpp: 10 releases, GGUF improvements, local inference",
+      "Ollama: Consumer-friendly local runtime, MLX support",
+      "LiteLLM: Multi-provider routing, proxy layer",
+      "Unsloth: Fine-tuning optimization, LoRA + GGUFs"
+    ],
+    "ai-trending": [
+      "anthropics/skills: AI agent skills framework",
+      "CopilotKit/OpenBot: Open-source AI coworkers",
+      "DeepTutor: AI tutoring system from HKU",
+      "claude-mem: AI memory for agents",
+      "lightpanda-io: Headless browser for AI automation",
+      "Macro: Workspace with unified AI memory"
+    ],
+    "ai-web": [
+      "Anthropic: Managed agents with stable interfaces research",
+      "Anthropic: Red team found Chrome/Safari/Android/Windows vulnerabilities",
+      "Anthropic: Coordinated disclosure timeline 90+45 days",
+      "OpenAI: Fair use benefits everyone",
+      "OpenAI: Websites can express AI training preferences",
+      "OpenAI: Community safety report, new teen protections"
+    ],
+    "ai-hn": [
+      "Mistral Large 4 weights released, 1677 points",
+      "Backdoor in Claude Code VS Code extension on Cursor, 776 points",
+      "Gemini 4 Carbon released, 1011 points",
+      "Sleep framework: LLM continual learning, 166 points",
+      "Simantic: Firmware simulation for AI agents, YC F26",
+      "Claude-enabled IgE disruptor for food allergy design"
+    ],
+    "ai-arxiv": [
+      "LM Data Attribution: Elucidating design space",
+      "ShallowDefend: Harnessing shallow safety alignment",
+      "Agentic AI: Agricultural consequences research",
+      "Collaborative AI agents: Autonomous experimental research",
+      "Pre-Crime for Agents: Agentic security framework",
+      "VeriCUA: Verification as agentic exploration"
+    ],
+    "ai-community": [
+      "Hacktoberfest AI Challenge: Ghost in the Machine week",
+      "MoE Offloading: Practical performance testing results",
+      "Trojanized Claude extension: Security warning",
+      "Model routing table: Cost optimization strategies",
+      "AI Agent Memory: Database-backed approach",
+      "Qwenputer: RISC-V CPU implementation in Qwen3.5"
+    ]
+  }
+}
