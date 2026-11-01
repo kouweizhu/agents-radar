@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Gemini CLI v0.67.0-nightly 发布",
+      "GitHub Copilot CLI v1.0.106-1 发布",
+      "Qwen Code: 50 个PR, 39 个活跃issue",
+      "Pi CLI: 32 个issue, 10 个PR",
+      "Claude Code: 30 个issue, 3 个PR",
+      "OpenAI Codex: 50 个issue, 9 个讨论"
+    ],
+    "ai-agents": [
+      "OpenClaw: 500 个issue 24小时内更新",
+      "OpenClaw: 500 个PR 24小时内更新",
+      "OpenClaw 生态: 5 个项目追踪中",
+      "OpenClaw: 399 个开放, 101 个已关闭issue",
+      "OpenClaw: 248 个开放PR, 252 个已合并",
+      "过去24小时无发布"
+    ],
+    "ai-infra": [
+      "llama.cpp 发布7个新版本",
+      "vLLM 新增 DeepSeek-V4-Flash 支持 SM8x",
+      "SGLang 集成 NCCL 2.30 EP 后端",
+      "Ollama 遇到 Windows Gemma4 错误",
+      "LiteLLM 修复热重载和预算问题",
+      "Unsloth 解决 CUDA P2P 带宽问题"
+    ],
+    "ai-trending": [
+      "thedotmack/claude-mem 登榜",
+      "OpenMausBot: 开源AI机器人",
+      "HKUDS/DeepTutor: AI辅导系统",
+      "Orkas-AI/Orkas: 桌面AI团队",
+      "THU-MAIC/OpenMAIC: 多智能体学习",
+      "obra/superpowers: 智能体技能框架"
+    ],
+    "ai-web": [
+      "Anthropic 发布 Claude 使用研究",
+      "OpenAI: 今日无新文章",
+      "Anthropic: 1 篇新研究论文",
+      "Anthropic 开放独立AI研究",
+      "OpenAI 维护 1097 篇站点地图文章",
+      "Anthropic 达 492 篇站点地图文章"
+    ],
+    "ai-hn": [
+      "Mistral Large 4 权重在HN泄露",
+      "Claude Code 后门曝光",
+      "Anthropic 阻止游戏逆向工程",
+      "ChatGPT 账户通过 MathLive 被黑",
+      "Minecraft 中 AI 代理群体出现",
+      "Claude Code 游戏工作室成立"
+    ],
+    "ai-community": [
+      "双行函数检测AI合谋",
+      "ChatGPT 账户因漏洞被黑",
+      "MoE 卸载基准重新测试",
+      "代理技能漂移受审查",
+      "构建人机协作AI支持",
+      "Qwenputer: RISC-V CPU 上的 Qwen3.5"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Gemini CLI v0.67.0-nightly released",
+      "GitHub Copilot CLI v1.0.106-1 shipped",
+      "Qwen Code: 50 PRs, 39 active issues",
+      "Pi CLI: 32 issues, 10 PRs",
+      "Claude Code: 30 issues, 3 PRs",
+      "OpenAI Codex: 50 issues, 9 discussions"
+    ],
+    "ai-agents": [
+      "OpenClaw: 500 issues updated in 24h",
+      "OpenClaw: 500 PRs updated in 24h",
+      "OpenClaw ecosystem: 5 projects tracked",
+      "OpenClaw: 399 open, 101 closed issues",
+      "OpenClaw: 248 open PRs, 252 merged",
+      "No releases in last 24h"
+    ],
+    "ai-infra": [
+      "llama.cpp drops 7 new releases",
+      "vLLM adds DeepSeek-V4-Flash for SM8x",
+      "SGLang integrates NCCL 2.30 EP backend",
+      "Ollama faces Windows Gemma4 errors",
+      "LiteLLM patches hot reload and budget issues",
+      "Unsloth tackles CUDA P2P bandwidth"
+    ],
+    "ai-trending": [
+      "thedotmack/claude-mem hits trending",
+      "OpenMausBot: open-source AI bot",
+      "HKUDS/DeepTutor: AI tutoring system",
+      "Orkas-AI/Orkas: AI team for desktop",
+      "THU-MAIC/OpenMAIC: multi-agent learning",
+      "obra/superpowers: agentic skills framework"
+    ],
+    "ai-web": [
+      "Anthropic publishes Claude usage research",
+      "OpenAI: 0 new articles today",
+      "Anthropic: 1 new research article",
+      "Anthropic enables independent AI research",
+      "OpenAI maintains 1097 sitemap articles",
+      "Anthropic reaches 492 sitemap articles"
+    ],
+    "ai-hn": [
+      "Mistral Large 4 weights drop on HN",
+      "Claude Code backdoor surfaces",
+      "Anthropic blocks game reverse-engineering",
+      "ChatGPT accounts hacked via MathLive",
+      "AI agent swarms in Minecraft",
+      "Claude Code game studio launches"
+    ],
+    "ai-community": [
+      "Two-line function catches AI collusion",
+      "ChatGPT accounts hacked via vulnerability",
+      "MoE offloading benchmarks retested",
+      "Agent skills drift under scrutiny",
+      "Human-in-loop AI support built",
+      "Qwenputer: Qwen3.5 in RISC-V CPU"
+    ]
+  }
+}
