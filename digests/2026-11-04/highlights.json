@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Copilot CLI 发布 2 个版本 (v1.0.106-6/7)",
+      "Claude Code 发布 v2.1.318",
+      "OpenAI Codex 更新至 libcap-v2.75",
+      "Gemini CLI 发布 v0.67.0-nightly",
+      "Qwen Code 达 7.6K GitHub 星标",
+      "OpenCode 达 5.4K 星标"
+    ],
+    "ai-agents": [
+      "OpenClaw 生态：5 个开源代理",
+      "OpenClaw：4825 次提交，454 位贡献者",
+      "24 小时内更新 500 个 PR",
+      "24 小时内更新 401 个问题",
+      "v2026.10.10 发布",
+      "Nous Research 的 Hermes Agent"
+    ],
+    "ai-infra": [
+      "llama.cpp 发布 3 个版本 (Metis-1.6, NVFP4)",
+      "Ollama v0.40.15 集成 CUDA 与 MLX",
+      "vLLM：DeepSeek V4.1 SM120 支持",
+      "SGLang 新增 SM120 DeepGEMM block32",
+      "LiteLLM 达 13.5K GitHub 星标",
+      "Unsloth 3 倍微调速度提升"
+    ],
+    "ai-trending": [
+      "claude-mem：代理 AI 上下文",
+      "Vercel 的 agent-desktop 达 2.1K 星标",
+      "colibri：MoE 推理引擎",
+      "Kronos：金融市场 LLM",
+      "skills：AI 代理技能市场",
+      "heretic：LLM 修改研究"
+    ],
+    "ai-web": [
+      "Anthropic 发布 FlashProve",
+      "FlashProve：可证明 AI 推理",
+      "OpenAI：物理世界工程",
+      "Jill Hazelbaker 资料更新",
+      "Anthropic 网站地图 493 篇文章",
+      "OpenAI 网站地图 1107 篇文章"
+    ],
+    "ai-hn": [
+      "富士康为 AI 归档将磁带容量提升 5 倍",
+      "LLM 阅读权重并非超人类",
+      "美国科技巨头 AI 债务增 90%",
+      "Google 为拒绝 AI 的学校削减搜索",
+      "OpenAI 训练 Codex 聊天引争议",
+      "权重空间编程的火花"
+    ],
+    "ai-arxiv": [
+      "COMPREEND：超细粒度 LLM 基准",
+      "Length Is Cheap：上下文检索研究",
+      "蒸馏学生在哪里存储思维？",
+      "LoopKV：KV 缓存压缩",
+      "Say Less：免训练语气控制",
+      "追踪科学发现链"
+    ],
+    "ai-community": [
+      "AI 自信与正确性的差距",
+      "AI 在不完整上下文中构建功能",
+      "权重空间编程论文",
+      "Qwen 作为 RISC-V CPU 模拟器",
+      "监督 AI 令人疲惫",
+      "让我们构建一个大脑教程"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Copilot CLI drops 2 releases (v1.0.106-6/7)",
+      "Claude Code ships v2.1.318",
+      "OpenAI Codex updates to libcap-v2.75",
+      "Gemini CLI releases v0.67.0-nightly",
+      "Qwen Code hits 7.6K GitHub stars",
+      "OpenCode reaches 5.4K stars"
+    ],
+    "ai-agents": [
+      "OpenClaw ecosystem: 5 open-source agents",
+      "OpenClaw: 4,825 commits, 454 contributors",
+      "500 PRs updated in 24h",
+      "401 issues updated in 24h",
+      "v2026.10.10 released",
+      "Hermes Agent from Nous Research"
+    ],
+    "ai-infra": [
+      "llama.cpp drops 3 releases (Metis-1.6, NVFP4)",
+      "Ollama v0.40.15 bundles CUDA for MLX",
+      "vLLM: DeepSeek V4.1 SM120 support",
+      "SGLang adds SM120 DeepGEMM block32",
+      "LiteLLM at 13.5K GitHub stars",
+      "Unsloth 3x faster fine-tuning focus"
+    ],
+    "ai-trending": [
+      "claude-mem: AI context for agents",
+      "agent-desktop by Vercel hits 2.1K stars",
+      "colibri: MoE inference engine",
+      "Kronos: Financial markets LLM",
+      "skills: AI agent skills marketplace",
+      "heretic: LLM modification research"
+    ],
+    "ai-web": [
+      "Anthropic releases FlashProve",
+      "FlashProve: provable AI inference",
+      "OpenAI: Engineering for physical world",
+      "Jill Hazelbaker profile update",
+      "493 articles on Anthropic sitemap",
+      "1107 articles on OpenAI sitemap"
+    ],
+    "ai-hn": [
+      "Fujifilm boosts tape 5x for AI archiving",
+      "LLMs not superhuman at reading weights",
+      "US tech giants' AI debt up 90%",
+      "Google cuts Search for schools rejecting AI",
+      "OpenAI training on Codex chats debated",
+      "Sparks of Weight-Space Programming"
+    ],
+    "ai-arxiv": [
+      "COMPREEND: ultra-fine LLM benchmark",
+      "Length Is Cheap: context retrieval study",
+      "Where Do Distilled Students Store Thinking?",
+      "LoopKV: KV cache compression",
+      "Say Less: training-free verbosity control",
+      "Tracing the Scientific Discovery Chain"
+    ],
+    "ai-community": [
+      "AI confidence vs correctness gap",
+      "AI builds feature without full context",
+      "Weight-space programming paper",
+      "Qwen as RISC-V CPU emulator",
+      "Supervising AI is exhausting",
+      "Let's Build a Brain tutorial"
+    ]
+  }
+}
