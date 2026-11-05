@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "OpenAI Codex patches $10K critical security flaw",
+      "Gemini CLI v0.68.0-preview.0 lands with subagent fixes",
+      "GitHub Copilot CLI v1.0.106-9 rolls out",
+      "Claude Code copy/paste broken, GitHub integration broken",
+      "Codex ships 4 alpha releases in 24h",
+      "Gemini CLI browser agent fragility reported by users"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.11.5-beta.1: Knowledge Scribes + PostgreSQL",
+      "OpenClaw explodes: 395 issues, 500 PRs in 24h",
+      "P0: Gateway blocks for minutes with large plugins",
+      "IronClaw, Hermes Agent, QwenPaw join OpenClaw ecosystem",
+      "P1: Native host exec integrity-admission error",
+      "Windows schtasks permission errors and slow startup"
+    ],
+    "ai-infra": [
+      "vLLM speculative decoding boosts throughput",
+      "SGLang multimodal memory optimizations land",
+      "llama.cpp adds Meta MobileMoE and Ripple models",
+      "Ollama v0.5.0-rc.5: Qwen3.8 Flash Next support",
+      "LiteLLM 3 releases in 24h: cold spend tracking added",
+      "Unsloth: CUDA graph decoding for 30B models"
+    ],
+    "ai-trending": [
+      "Vercel agentDesktop: full AI agent desktop OS",
+      "NVIDIA auto-ontology: semantic reasoning for agents",
+      "PR Agent v4: AI-powered PR reviewer goes viral",
+      "FareedKhan-dev/kimi-k3-in-c: open LLM inference",
+      "harry0703/MoneyPrinterTurbo: AI video generator",
+      "Local AI surges: Ollama + llama.cpp trending"
+    ],
+    "ai-web": [
+      "Anthropic: Claude helped discover vault particle structure",
+      "OpenAI Images 2.6 update",
+      "OpenAI to acquire Pierre Computer Company",
+      "OpenAI Daybreak Red for AWS GovCloud",
+      "Anthropic publishes first AI-assisted biology research",
+      "OpenAI publishes 5 articles, Anthropic 1"
+    ],
+    "ai-hn": [
+      "OpenAI Images 2.6 launches",
+      "OpenAI acquires Pierre Computer Company",
+      "YC's Garry Tan spends $200K/year on AI agents",
+      "Qualcomm Cloud AI 100 Ultra announced",
+      "OpenAI silently re-enables Codex chat training",
+      "American voters reject AI data centers"
+    ],
+    "ai-arxiv": [
+      "MoE test-time compute reshaping paper drops",
+      "MambaByte: sub-wordless language model proposed",
+      "LongRAG: long-context retrieval-augmented generation",
+      "Direct Nash Optimization aligns LLMs with preferences",
+      "Circuit-level explanation of in-context learning",
+      "LoRA from Scratch: minimalist fine-tuning guide"
+    ],
+    "ai-community": [
+      "We're Building AI to Replace Ourselves (103 reactions)",
+      "GPT Image 2.5: the quality knob explained",
+      "Your AI's code is almost right",
+      "The Myth of the 10x Solo AI Developer",
+      "Don't let AI agents run naked Bash",
+      "Postman silently auto-installs AI plugins"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "OpenAI Codex patches $10K critical security flaw",
+      "Gemini CLI v0.68.0-preview.0 lands with subagent fixes",
+      "GitHub Copilot CLI v1.0.106-9 rolls out",
+      "Claude Code copy/paste broken, GitHub integration broken",
+      "Codex ships 4 alpha releases in 24h",
+      "Gemini CLI browser agent fragility reported by users"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.11.5-beta.1: Knowledge Scribes + PostgreSQL",
+      "OpenClaw explodes: 395 issues, 500 PRs in 24h",
+      "P0: Gateway blocks for minutes with large plugins",
+      "IronClaw, Hermes Agent, QwenPaw join OpenClaw ecosystem",
+      "P1: Native host exec integrity-admission error",
+      "Windows schtasks permission errors and slow startup"
+    ],
+    "ai-infra": [
+      "vLLM speculative decoding boosts throughput",
+      "SGLang multimodal memory optimizations land",
+      "llama.cpp adds Meta MobileMoE and Ripple models",
+      "Ollama v0.5.0-rc.5: Qwen3.8 Flash Next support",
+      "LiteLLM 3 releases in 24h: cold spend tracking added",
+      "Unsloth: CUDA graph decoding for 30B models"
+    ],
+    "ai-trending": [
+      "Vercel agentDesktop: full AI agent desktop OS",
+      "NVIDIA auto-ontology: semantic reasoning for agents",
+      "PR Agent v4: AI-powered PR reviewer goes viral",
+      "FareedKhan-dev/kimi-k3-in-c: open LLM inference",
+      "harry0703/MoneyPrinterTurbo: AI video generator",
+      "Local AI surges: Ollama + llama.cpp trending"
+    ],
+    "ai-web": [
+      "Anthropic: Claude helped discover vault particle structure",
+      "OpenAI Images 2.6 update",
+      "OpenAI to acquire Pierre Computer Company",
+      "OpenAI Daybreak Red for AWS GovCloud",
+      "Anthropic publishes first AI-assisted biology research",
+      "OpenAI publishes 5 articles, Anthropic 1"
+    ],
+    "ai-hn": [
+      "OpenAI Images 2.6 launches",
+      "OpenAI acquires Pierre Computer Company",
+      "YC's Garry Tan spends $200K/year on AI agents",
+      "Qualcomm Cloud AI 100 Ultra announced",
+      "OpenAI silently re-enables Codex chat training",
+      "American voters reject AI data centers"
+    ],
+    "ai-arxiv": [
+      "MoE test-time compute reshaping paper drops",
+      "MambaByte: sub-wordless language model proposed",
+      "LongRAG: long-context retrieval-augmented generation",
+      "Direct Nash Optimization aligns LLMs with preferences",
+      "Circuit-level explanation of in-context learning",
+      "LoRA from Scratch: minimalist fine-tuning guide"
+    ],
+    "ai-community": [
+      "We're Building AI to Replace Ourselves (103 reactions)",
+      "GPT Image 2.5: the quality knob explained",
+      "Your AI's code is almost right",
+      "The Myth of the 10x Solo AI Developer",
+      "Don't let AI agents run naked Bash",
+      "Postman silently auto-installs AI plugins"
+    ]
+  }
+}
