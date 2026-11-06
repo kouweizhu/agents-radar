@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 技能发布为 Anthropic mod 生态",
+      "Claude Code 隐私漏洞：User-Agent 头暴露邮箱",
+      "OpenAI Codex 达成 4 个版本活跃开发",
+      "Qwen Code 达 50+ issues，开源热度上升",
+      "Gemini CLI 远程执行功能获关注",
+      "Pi 架构强调本地隐私与沙盒控制"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.11.1 修复 Mac secrets 覆写 bug",
+      "P0: 网关阻塞数分钟 (2026.9.6 回归)",
+      "Windows 开关机问题困扰多个 agent",
+      "Write 工具缺少追加模式—独立 cron 会话破坏文件",
+      "Telegram/Discord 集成可靠性提升",
+      "Plugin update 和 doctor --fix 创建循环依赖"
+    ],
+    "ai-infra": [
+      "Unsloth 实现 2x 更快微调，VRAM 减少 70%",
+      "LiteLLM v1.108.1 支持 Docker 签名",
+      "llama.cpp: W4A8 MXFP4 Blackwell 内核 10 commits",
+      "SGLang MLX 支持让 Apple Silicon 推理更近",
+      "vLLM 新增 DeepSeek-V4.1 和 Qwen3.8 原生支持",
+      "Ollama 引入 Qwen3.8 Flash Next 优化"
+    ],
+    "ai-trending": [
+      "NVIDIA/auto-ontology: 基于语义图的 AI 推理",
+      "vercel-labs/agent-desktop: AI agent 的计算机使用 CLI",
+      "google/skills: Google 产品的 Agent Skills 框架",
+      "vercel-labs/agent-browser: AI agent 的浏览器自动化",
+      "scenario-labs/skills: AI 图像/视频/音频生成技能",
+      "garrytan/gstack: Claude Code 环境配置工具"
+    ],
+    "ai-web": [
+      "Anthropic 发布金库粒子调查研究报告",
+      "Anthropic 强调 AI 加速药物研发",
+      "OpenAI GPT-6 Cyber 新公告 11 月 5 日发布",
+      "Anthropic 邀请生命科学客座研究员",
+      "英国 AISI 网络测试对齐评估发布",
+      "Anthropic 分享科学家如何在研究中使用 Claude"
+    ],
+    "ai-hn": [
+      "Claude Code 邮箱隐私漏洞引发 290 点讨论",
+      "Inkling 2 Small 从 Thinking Machines 发布",
+      "腾讯发布开源 Hy4 AI 模型",
+      "Show HN: 约 $20K 训练的文生图模型",
+      "GPT-6 Astra 安全研究担忧引热议",
+      "$2.5T 从纳斯达克蒸发—AI 市场波动持续"
+    ],
+    "ai-arxiv": [
+      "进化 k-NN: LLMs 自适应邻域学习",
+      "时序上下文 EHR 基础模型用于癌症预测",
+      "递归稀疏注意力支持百万 token 上下文",
+      "SPILLWAY: AI agent 的提示注入防御",
+      "源平衡 Fisher 防止用户推理攻击",
+      "D²-OPD: 改进 RL 泛化的 on-policy 蒸馏"
+    ],
+    "ai-community": [
+      "GPT Image 2.5 引发 Dev.to 成本与质量辩论",
+      "WebMCP Attack Lab 揭示 AI agent 安全风险",
+      "建议开发者：别为编码 agent 写 Markdown",
+      "Lobste.rs: Weight-Space Programming 论文火花",
+      "为 AI agent 构建细粒度版本控制",
+      "LLM 时代 Rust：性能与新范式相遇"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code Skills launches as Anthropic mod ecosystem",
+      "Claude Code privacy bug: email exposed in User-Agent header",
+      "OpenAI Codex hits 4 releases with active development",
+      "Qwen Code reaches 50+ issues, growing open-source traction",
+      "Gemini CLI remote execution feature gains attention",
+      "Pi architecture emphasizes local privacy and sandbox control"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.11.1 fixes Mac secrets overwrite bug",
+      "P0: Gateway blocks for minutes (2026.9.6 regression)",
+      "Windows startup/shutdown problems plague multiple agents",
+      "Write tool lacks append mode—isolated cron sessions break files",
+      "Telegram/Discord integration reliability improved",
+      "Plugin update and doctor --fix create circular dependency"
+    ],
+    "ai-infra": [
+      "Unsloth achieves 2x faster fine-tuning, 70% less VRAM",
+      "LiteLLM v1.108.1 ships with Docker signing support",
+      "llama.cpp: W4A8 MXFP4 Blackwell kernel in 10 commits",
+      "SGLang MLX support brings Apple Silicon inference closer",
+      "vLLM adds DeepSeek-V4.1 and Qwen3.8 native support",
+      "Ollama introduces Qwen3.8 Flash Next optimization"
+    ],
+    "ai-trending": [
+      "NVIDIA/auto-ontology: semantic graph-based AI reasoning",
+      "vercel-labs/agent-desktop: computer use CLI for AI agents",
+      "google/skills: Agent Skills framework for Google products",
+      "vercel-labs/agent-browser: browser automation for AI agents",
+      "scenario-labs/skills: AI image/video/audio generation skills",
+      "garrytan/gstack: Claude Code environment setup tools"
+    ],
+    "ai-web": [
+      "Anthropic publishes research on vault particle investigation",
+      "Anthropic highlights AI accelerating drug development research",
+      "New OpenAI GPT-6 Cyber announcement published Nov 5",
+      "Anthropic invites life sciences guest investigators",
+      "UK AISI cybertesting alignment assessment published",
+      "Anthropic shares how scientists use Claude in research"
+    ],
+    "ai-hn": [
+      "Claude Code email privacy bug sparks 290-point discussion",
+      "Inkling 2 Small launches from Thinking Machines",
+      "Tencent releases open-source Hy4 AI model",
+      "Show HN: text-to-image model trained for ~$20K",
+      "GPT-6 Astra safety research concerns debated",
+      "$2.5T wiped off Nasdaq—AI market volatility continues"
+    ],
+    "ai-arxiv": [
+      "Evolutionary k-NN: adaptive neighborhood learning for LLMs",
+      "Time-context EHR foundation models for cancer prediction",
+      "Recursive Sparse Attention enables million-token contexts",
+      "SPILLWAY: prompt injection defense for AI agents",
+      "Source-balanced Fisher prevents user inference attacks",
+      "D²-OPD: on-policy distillation for better RL generalization"
+    ],
+    "ai-community": [
+      "GPT Image 2.5 sparks cost vs quality debate on Dev.to",
+      "WebMCP Attack Lab reveals AI agent security risks",
+      "Devs advised: don't write Markdown for coding agents",
+      "Lobste.rs: Sparks of Weight-Space Programming paper",
+      "Building fine-grained version control for AI agents",
+      "Rust in the LLM age: performance meets new paradigms"
+    ]
+  }
+}
