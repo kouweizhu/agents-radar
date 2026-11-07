@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v1.2.1: Skills auto-update feature released",
+      "OpenAI Codex 1.0.2: Fixes critical Windows IME crash",
+      "Gemini CLI v0.9 launched with native MCP support",
+      "GitHub Copilot CLI: New interactive mode in beta",
+      "OpenCode hits 50k GitHub stars milestone",
+      "Qwen Code 2.5 debuts with 32k context window"
+    ],
+    "ai-agents": [
+      "OpenClaw: Gateway blocks for minutes (P0 regression)",
+      "WAL auto-checkpoint never completes (P2 bug filed)",
+      "Hermes Agent v2.3 released with memory improvements",
+      "IronClaw v1.0 launches from near.ai integration",
+      "Native host exec returns shared-state error (P1)",
+      "MCP groups retained after agent turn (P1 regression)"
+    ],
+    "ai-infra": [
+      "vLLM v0.6.0 adds Nemotron 3.5 ASR support",
+      "SGLang v0.4.0 ships RadixAttention optimization",
+      "llama.cpp b12180: Kimi-K3.1-Pro DSA attention",
+      "Ollama v0.5.2: MLX concurrency improvements",
+      "LiteLLM v1.108.2 LTS released today",
+      "Unsloth v0.1.916-beta: LFM3-Audio-2B support"
+    ],
+    "ai-trending": [
+      "NVIDIA/auto-ontology climbs to #1 on GitHub Trending",
+      "google/skills: Agent Skills framework for Google products",
+      "firecrawl/firecrawl: Web data extraction for AI agents",
+      "Significant-Gravitas/AutoGPT hits 300k stars",
+      "browser-use/browser-use: AI browser agents trending",
+      "milvus-io/milvus: Top vector DB for RAG applications"
+    ],
+    "ai-web": [
+      "Anthropic: New paper on agent memory components",
+      "Anthropic: Teaching AI to build scientific models",
+      "Anthropic: Project EVE - Claude plays MMORPGs",
+      "Anthropic: Study on how scientists use Claude (207k sessions)",
+      "OpenAI: Measuring AI agents in wet lab science",
+      "Anthropic opens guest investigator program"
+    ],
+    "ai-hn": [
+      "Show HN: Claude computer use benchmark (98 points)",
+      "Ask HN: Best open-source LLM for coding? (87 points)",
+      "OpenAI announces o3-mini research API (76 points)",
+      "DeepSeek-R2 rumored to be in training (65 points)",
+      "Anthropic raises $2B at $60B valuation (52 points)",
+      "Gemini 2.0 Flash Thinking demo goes viral (71 points)"
+    ],
+    "ai-arxiv": [
+      "New: User Embeddings as Superpositions of Behavioral Modes",
+      "Scientist World: AI-Scientists research environment",
+      "SwarmEvolve: Latent Agent Swarms optimization paper",
+      "Chain-of-Draft: CoT alternative using fewer tokens",
+      "Diffu-1.1B: New 1B param diffusion model released",
+      "Self-Playing MCTS: Autonomous game-playing research"
+    ],
+    "ai-community": [
+      "Hacktoberfest AI Challenge 2026 winners announced",
+      "AWS Computer Vision ASL recognition tutorial",
+      "Claude Code privacy: your code trains their models?",
+      "Ollama vs vLLM: Local LLM inference showdown",
+      "State machines for AI agents architecture guide",
+      "On-device TTS models: 6 models compared"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v1.2.1: Skills auto-update feature released",
+      "OpenAI Codex 1.0.2: Fixes critical Windows IME crash",
+      "Gemini CLI v0.9 launched with native MCP support",
+      "GitHub Copilot CLI: New interactive mode in beta",
+      "OpenCode hits 50k GitHub stars milestone",
+      "Qwen Code 2.5 debuts with 32k context window"
+    ],
+    "ai-agents": [
+      "OpenClaw: Gateway blocks for minutes (P0 regression)",
+      "WAL auto-checkpoint never completes (P2 bug filed)",
+      "Hermes Agent v2.3 released with memory improvements",
+      "IronClaw v1.0 launches from near.ai integration",
+      "Native host exec returns shared-state error (P1)",
+      "MCP groups retained after agent turn (P1 regression)"
+    ],
+    "ai-infra": [
+      "vLLM v0.6.0 adds Nemotron 3.5 ASR support",
+      "SGLang v0.4.0 ships RadixAttention optimization",
+      "llama.cpp b12180: Kimi-K3.1-Pro DSA attention",
+      "Ollama v0.5.2: MLX concurrency improvements",
+      "LiteLLM v1.108.2 LTS released today",
+      "Unsloth v0.1.916-beta: LFM3-Audio-2B support"
+    ],
+    "ai-trending": [
+      "NVIDIA/auto-ontology climbs to #1 on GitHub Trending",
+      "google/skills: Agent Skills framework for Google products",
+      "firecrawl/firecrawl: Web data extraction for AI agents",
+      "Significant-Gravitas/AutoGPT hits 300k stars",
+      "browser-use/browser-use: AI browser agents trending",
+      "milvus-io/milvus: Top vector DB for RAG applications"
+    ],
+    "ai-web": [
+      "Anthropic: New paper on agent memory components",
+      "Anthropic: Teaching AI to build scientific models",
+      "Anthropic: Project EVE - Claude plays MMORPGs",
+      "Anthropic: Study on how scientists use Claude (207k sessions)",
+      "OpenAI: Measuring AI agents in wet lab science",
+      "Anthropic opens guest investigator program"
+    ],
+    "ai-hn": [
+      "Show HN: Claude computer use benchmark (98 points)",
+      "Ask HN: Best open-source LLM for coding? (87 points)",
+      "OpenAI announces o3-mini research API (76 points)",
+      "DeepSeek-R2 rumored to be in training (65 points)",
+      "Anthropic raises $2B at $60B valuation (52 points)",
+      "Gemini 2.0 Flash Thinking demo goes viral (71 points)"
+    ],
+    "ai-arxiv": [
+      "New: User Embeddings as Superpositions of Behavioral Modes",
+      "Scientist World: AI-Scientists research environment",
+      "SwarmEvolve: Latent Agent Swarms optimization paper",
+      "Chain-of-Draft: CoT alternative using fewer tokens",
+      "Diffu-1.1B: New 1B param diffusion model released",
+      "Self-Playing MCTS: Autonomous game-playing research"
+    ],
+    "ai-community": [
+      "Hacktoberfest AI Challenge 2026 winners announced",
+      "AWS Computer Vision ASL recognition tutorial",
+      "Claude Code privacy: your code trains their models?",
+      "Ollama vs vLLM: Local LLM inference showdown",
+      "State machines for AI agents architecture guide",
+      "On-device TTS models: 6 models compared"
+    ]
+  }
+}
