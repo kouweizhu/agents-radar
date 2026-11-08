@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "OpenAI Codex ships rust-v0.169.0-alpha.3 release",
+      "Claude Code leads CLI ecosystem with 50 open issues",
+      "Gemini CLI shows strong activity: 50 issues, 26 PRs",
+      "GitHub Copilot CLI gaining traction: 26 active issues",
+      "OpenCode hits 500 PRs, signaling high community interest",
+      "Qwen Code joins CLI ecosystem with 50 open issues"
+    ],
+    "ai-agents": [
+      "OpenClaw ecosystem hits 500 issues + 500 PRs updated",
+      "191 PRs merged in 24h: intense development velocity",
+      "P1 bugs: SQLite corruption, memory leaks, session loss",
+      "Multi-channel issues: Telegram, Signal, WhatsApp down",
+      "Security vulnerabilities under active investigation",
+      "Zero releases shipped today amid bug-fixing push"
+    ],
+    "ai-infra": [
+      "vLLM tackles Blackwell/SM120 support and KV offloading",
+      "SGLang leads diffusion model optimization research",
+      "llama.cpp ships SYCL fixes, MTMD multimodal support",
+      "Ollama MLX backend gains Windows and CPU support",
+      "Unsloth adds multimodal training and FlashAttention-3",
+      "6 inference engines competing on Blackwell optimization"
+    ],
+    "ai-trending": [
+      "vercel-labs/agent-browser tops AI trending repos",
+      "browser-use framework hits 12k stars for agent browsing",
+      "Skills ecosystem grows: google, anthropics, mattpocock",
+      "meta/astryx: Agent-ready design system, 1.7k stars",
+      "ranxianglei/billion-context: 1M token context window",
+      "dsx-ai-factory/nvke: NVIDIA K8s for GPU workloads"
+    ],
+    "ai-web": [
+      "Anthropic publishes 'Teaching AI to build scientific models'",
+      "AI for Science program funds ELLIS Institute Tübingen research",
+      "New article covers AI-driven neuroscience modeling workflows",
+      "Research bridges ML capabilities and scientific methodology",
+      "OpenAI publishes zero new articles on 2026-11-08",
+      "Anthropic has 495 total articles vs OpenAI's 1116"
+    ],
+    "ai-hn": [
+      "Claude Code 'Don't Ask Again' feature exposes passwords",
+      "Microsoft Research AI Frontiers group faces restructuring",
+      "Anthropic IPO valuation estimated at $1.1T",
+      "MaxxBench benchmark accuracy questioned by community",
+      "Apple Intelligence ships undocumented family classifier",
+      "Gemini Omni 1.2 Flash released amid AI sell-off"
+    ],
+    "ai-community": [
+      "'An agent told me it deployed...' goes viral at 58 reactions",
+      "'You tried git-lrc. Meet LiveReview' gains 46 reactions",
+      "Qwen3.5-0.8B neuron interpretability sparks interest",
+      "Devs keep logs of every rule their AI agent broke",
+      "Sparks of Weight-Space Programming hits 50 on Lobste.rs",
+      "AI agents and DevOps integration dominate discussion"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "OpenAI Codex ships rust-v0.169.0-alpha.3 release",
+      "Claude Code leads CLI ecosystem with 50 open issues",
+      "Gemini CLI shows strong activity: 50 issues, 26 PRs",
+      "GitHub Copilot CLI gaining traction: 26 active issues",
+      "OpenCode hits 500 PRs, signaling high community interest",
+      "Qwen Code joins CLI ecosystem with 50 open issues"
+    ],
+    "ai-agents": [
+      "OpenClaw ecosystem hits 500 issues + 500 PRs updated",
+      "191 PRs merged in 24h: intense development velocity",
+      "P1 bugs: SQLite corruption, memory leaks, session loss",
+      "Multi-channel issues: Telegram, Signal, WhatsApp down",
+      "Security vulnerabilities under active investigation",
+      "Zero releases shipped today amid bug-fixing push"
+    ],
+    "ai-infra": [
+      "vLLM tackles Blackwell/SM120 support and KV offloading",
+      "SGLang leads diffusion model optimization research",
+      "llama.cpp ships SYCL fixes, MTMD multimodal support",
+      "Ollama MLX backend gains Windows and CPU support",
+      "Unsloth adds multimodal training and FlashAttention-3",
+      "6 inference engines competing on Blackwell optimization"
+    ],
+    "ai-trending": [
+      "vercel-labs/agent-browser tops AI trending repos",
+      "browser-use framework hits 12k stars for agent browsing",
+      "Skills ecosystem grows: google, anthropics, mattpocock",
+      "meta/astryx: Agent-ready design system, 1.7k stars",
+      "ranxianglei/billion-context: 1M token context window",
+      "dsx-ai-factory/nvke: NVIDIA K8s for GPU workloads"
+    ],
+    "ai-web": [
+      "Anthropic publishes 'Teaching AI to build scientific models'",
+      "AI for Science program funds ELLIS Institute Tübingen research",
+      "New article covers AI-driven neuroscience modeling workflows",
+      "Research bridges ML capabilities and scientific methodology",
+      "OpenAI publishes zero new articles on 2026-11-08",
+      "Anthropic has 495 total articles vs OpenAI's 1116"
+    ],
+    "ai-hn": [
+      "Claude Code 'Don't Ask Again' feature exposes passwords",
+      "Microsoft Research AI Frontiers group faces restructuring",
+      "Anthropic IPO valuation estimated at $1.1T",
+      "MaxxBench benchmark accuracy questioned by community",
+      "Apple Intelligence ships undocumented family classifier",
+      "Gemini Omni 1.2 Flash released amid AI sell-off"
+    ],
+    "ai-community": [
+      "'An agent told me it deployed...' goes viral at 58 reactions",
+      "'You tried git-lrc. Meet LiveReview' gains 46 reactions",
+      "Qwen3.5-0.8B neuron interpretability sparks interest",
+      "Devs keep logs of every rule their AI agent broke",
+      "Sparks of Weight-Space Programming hits 50 on Lobste.rs",
+      "AI agents and DevOps integration dominate discussion"
+    ]
+  }
+}
