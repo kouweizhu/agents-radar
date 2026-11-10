@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.322 ships with new terminal capabilities",
+      "OpenAI Codex ships 3 new rust alpha releases",
+      "GitHub Copilot CLI hits v1.0.109 with bug fixes",
+      "Anthropic releases Claude Code Skills repo",
+      "Gemini CLI merges 10 new pull requests",
+      "OpenCode hits 50 active issues in 24h"
+    ],
+    "ai-agents": [
+      "P0: Windows startup reliability issues surface",
+      "P1: Linux glibc child reaping regression found",
+      "P1: Gateway restart leaves agents degraded",
+      "P1: Kubernetes pod restart breaks Gateway start",
+      "500 issues and 500 PRs updated in 24 hours",
+      "Patrick-Erichsen ships big template feature work"
+    ],
+    "ai-infra": [
+      "SGLang adds Gemma-4 with FP8 e4m3 KV cache support",
+      "vLLM adds DeepSeek-V4.1-Flash model support",
+      "llama.cpp adds Gemma 4 input audio support",
+      "SGLang launches Rust server backend",
+      "vLLM adds RTX 5090 (SM120) GPU support",
+      "llama.cpp ships 9 commits across Vulkan/CUDA/SYCL"
+    ],
+    "ai-trending": [
+      "anthropics/skills reaches 5.2k stars on GitHub",
+      "meta/astryx: design system for AI agents launches",
+      "google-deepmind/mujoco gains 2.8k trending stars",
+      "garrytan/gbrain: agent brain framework trending",
+      "vercel-labs/agent-browser: browser for AI agents",
+      "NousResearch/Hermes-Agent: 3.1k GitHub stars"
+    ],
+    "ai-web": [
+      "Anthropic: Claude designs complete electronics prototypes",
+      "Anthropic: FlashProve enables provable AI inference",
+      "Anthropic proves responses came from claimed model",
+      "OpenAI launches Control Room product page",
+      "OpenAI: ChatGPT Enterprise hits AWS Marketplace",
+      "496 Anthropic articles + 1118 OpenAI articles indexed"
+    ],
+    "ai-hn": [
+      "Claude Fable 5.2 and Mythos 5.2 score 65 on benchmarks",
+      "Goldman Sachs pulls Claude Code (885 pts, 475 comments)",
+      "Microsoft Research AI Frontiers group ends (509 pts)",
+      "Ask HN: How do you manage AI agents context? (91 pts)",
+      "Claude Code exposes passwords via Don't Ask Again",
+      "Show HN: USB trust layer for AI skills and MCP servers"
+    ],
+    "ai-community": [
+      "Prompt injection is an authorization problem not a prompt problem",
+      "Why AI agents lie after 20 minutes of operation",
+      "Top 7 best agent gateways for AI infrastructure",
+      "Claude Code above average with Antigravity review",
+      "Shadow backlog: Agentic code generation overwhelms architecture",
+      "Per-agent tokens for MCP servers sparks debate"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.322 ships with new terminal capabilities",
+      "OpenAI Codex ships 3 new rust alpha releases",
+      "GitHub Copilot CLI hits v1.0.109 with bug fixes",
+      "Anthropic releases Claude Code Skills repo",
+      "Gemini CLI merges 10 new pull requests",
+      "OpenCode hits 50 active issues in 24h"
+    ],
+    "ai-agents": [
+      "P0: Windows startup reliability issues surface",
+      "P1: Linux glibc child reaping regression found",
+      "P1: Gateway restart leaves agents degraded",
+      "P1: Kubernetes pod restart breaks Gateway start",
+      "500 issues and 500 PRs updated in 24 hours",
+      "Patrick-Erichsen ships big template feature work"
+    ],
+    "ai-infra": [
+      "SGLang adds Gemma-4 with FP8 e4m3 KV cache support",
+      "vLLM adds DeepSeek-V4.1-Flash model support",
+      "llama.cpp adds Gemma 4 input audio support",
+      "SGLang launches Rust server backend",
+      "vLLM adds RTX 5090 (SM120) GPU support",
+      "llama.cpp ships 9 commits across Vulkan/CUDA/SYCL"
+    ],
+    "ai-trending": [
+      "anthropics/skills reaches 5.2k stars on GitHub",
+      "meta/astryx: design system for AI agents launches",
+      "google-deepmind/mujoco gains 2.8k trending stars",
+      "garrytan/gbrain: agent brain framework trending",
+      "vercel-labs/agent-browser: browser for AI agents",
+      "NousResearch/Hermes-Agent: 3.1k GitHub stars"
+    ],
+    "ai-web": [
+      "Anthropic: Claude designs complete electronics prototypes",
+      "Anthropic: FlashProve enables provable AI inference",
+      "Anthropic proves responses came from claimed model",
+      "OpenAI launches Control Room product page",
+      "OpenAI: ChatGPT Enterprise hits AWS Marketplace",
+      "496 Anthropic articles + 1118 OpenAI articles indexed"
+    ],
+    "ai-hn": [
+      "Claude Fable 5.2 and Mythos 5.2 score 65 on benchmarks",
+      "Goldman Sachs pulls Claude Code (885 pts, 475 comments)",
+      "Microsoft Research AI Frontiers group ends (509 pts)",
+      "Ask HN: How do you manage AI agents context? (91 pts)",
+      "Claude Code exposes passwords via Don't Ask Again",
+      "Show HN: USB trust layer for AI skills and MCP servers"
+    ],
+    "ai-community": [
+      "Prompt injection is an authorization problem not a prompt problem",
+      "Why AI agents lie after 20 minutes of operation",
+      "Top 7 best agent gateways for AI infrastructure",
+      "Claude Code above average with Antigravity review",
+      "Shadow backlog: Agentic code generation overwhelms architecture",
+      "Per-agent tokens for MCP servers sparks debate"
+    ]
+  }
+}
