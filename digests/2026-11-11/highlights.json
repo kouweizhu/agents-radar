@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.322 发布多智能体协作",
+      "OpenAI Codex 专注 Windows 稳定性与 MCP 安全",
+      "Gemini CLI v0.69.0-preview 新增 AST 感知工具",
+      "Copilot CLI v1.0.110 改进 MCP 集成",
+      "OpenCode v2.7.0 AI 原生 IDE 获 21.6k 星",
+      "浏览器自动化成为 CLI 新前沿"
+    ],
+    "ai-agents": [
+      "OpenClaw 24 小时内完成 500 个 PR",
+      "OpenClaw v2026.11.3：私有任务结果与交接",
+      "修复 OpenClaw 核心召回保留 bug",
+      "SQLite header-probe 超时问题已解决",
+      "5 个生态项目：Hermes、IronClaw、QwenPaw、ZeroClaw",
+      "v2026.9.37 扩展稳定版发布"
+    ],
+    "ai-infra": [
+      "vLLM 新增 GLM-5.3、Kimi K3.1 Pro、DeepSeek V4",
+      "SGLang HiCache 统一记忆存储",
+      "llama.cpp q8_0/q4_0 KV 去量化落地",
+      "Ollama v0.40.17 稳定版发布",
+      "Blackwell (SM120/RTX PRO 6000) 支持初现",
+      "AMD MI355X (gfx950) 加速 vLLM 与 SGLang"
+    ],
+    "ai-trending": [
+      "anthropics/skills 达 22.1k 星，代理技能热潮",
+      "Open WebUI 66.5k 星，browser-use 34.9k 星",
+      "Meta astryx 面向 AI 智能体的设计系统",
+      "十亿上下文仓库处理 1B token",
+      "LangGraph v0.3 复杂代理工作流",
+      "Dify 79.9k 星，AI 工作流自动化"
+    ],
+    "ai-web": [
+      "Anthropic IPO 路演定价 $70-$78/股",
+      "OpenAI 分享 Codex 内部使用方式",
+      "GPT-4o 微调网络研讨会即将举办",
+      "教育领域 AI 新指南发布",
+      "OpenAI 帮助自由职业者利用 AI",
+      "数据驱动劳动力 AI 培训启动"
+    ],
+    "ai-hn": [
+      "Claude Fable 5.2 Artificial Analysis 得分 65",
+      "亚马逊切换 Strands Decider 节省数百万",
+      "HN 讨论：AI 生成代码造成脆弱性",
+      "Gemini 4 Carbon 现已可用",
+      "Apple Mac 本地 AI 模型应用",
+      "Muse Ember：最小最高效模型"
+    ],
+    "ai-arxiv": [
+      "新论文：柏拉图表示假说",
+      "智能体可验证 RL 错位问题",
+      "HiVe-Mem：多模态智能体记忆",
+      "WorkflowArena：多智能体系统基准",
+      "智能体欺骗缓解策略",
+      "FP4 预训练：新型量化方法"
+    ],
+    "ai-community": [
+      "AI 检测不稳定测试：47 条评论",
+      "Bifrost vs LiteLLM Rust：29 条评论",
+      "Once Upon Agentic AI：23 条评论",
+      "代理配置即依赖：14 条评论",
+      "最便宜 AI API 成本分析",
+      "PDF 隐藏提示注入被发现"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.322 released with multi-agent collab",
+      "OpenAI Codex focuses on Windows stability & MCP security",
+      "Gemini CLI v0.69.0-preview adds AST-aware tools",
+      "Copilot CLI v1.0.110 improves MCP integration",
+      "OpenCode v2.7.0 brings AI-native IDE to 21.6k stars",
+      "Browser automation emerges as key CLI frontier"
+    ],
+    "ai-agents": [
+      "OpenClaw ships 500 PRs in 24 hours",
+      "OpenClaw v2026.11.3: Private task results & handoffs",
+      "Recall retention bug fixed in OpenClaw core",
+      "SQLite header-probe timeout issue resolved",
+      "5 ecosystem projects: Hermes, IronClaw, QwenPaw, ZeroClaw",
+      "v2026.9.37 extended-stable release for gateway"
+    ],
+    "ai-infra": [
+      "vLLM adds GLM-5.3, Kimi K3.1 Pro, DeepSeek V4 support",
+      "SGLang HiCache with Unified Engram store",
+      "llama.cpp fused q8_0/q4_0 KV dequant lands",
+      "Ollama v0.40.17 stable released",
+      "Blackwell (SM120/RTX PRO 6000) support emerging",
+      "AMD MI355X (gfx950) acceleration for vLLM & SGLang"
+    ],
+    "ai-trending": [
+      "anthropics/skills hits 22.1k stars, agentic skills boom",
+      "Open WebUI at 66.5k stars, browser-use at 34.9k",
+      "Meta astryx design system for AI agents",
+      "Billion-context repo tackles 1B token context",
+      "LangGraph v0.3 for complex agent workflows",
+      "Dify at 79.9k stars, workflow automation for AI"
+    ],
+    "ai-web": [
+      "Anthropic IPO roadshow at $70-$78/share",
+      "OpenAI shares how they use Codex internally",
+      "GPT-4o fine-tuning webinar announced",
+      "New AI guidance for education released",
+      "OpenAI helps freelancers leverage AI",
+      "Data-driven workforce AI training launched"
+    ],
+    "ai-hn": [
+      "Claude Fable 5.2 scores 65 on Artificial Analysis",
+      "Amazon saves millions switching to Strands Decider",
+      "HN debate: AI-generated code creates fragility",
+      "Gemini 4 Carbon now available",
+      "Apple Mac app for local AI models",
+      "Muse Ember: smallest, most efficient model yet"
+    ],
+    "ai-arxiv": [
+      "New: Platonic Representation Hypothesis paper",
+      "Verifiable RL Misalignment in agents",
+      "HiVe-Mem: Multimodal agents memory",
+      "WorkflowArena: Multi-agent systems benchmark",
+      "Agentic Deception mitigation strategies",
+      "FP4 Pretraining: New quantization approach"
+    ],
+    "ai-community": [
+      "Detecting flaky tests with AI: 47 reactions",
+      "Bifrost vs LiteLLM Rust: 29 reactions",
+      "Once Upon Agentic AI: 23 reactions",
+      "Agent config is a dependency: 14 reactions",
+      "Cheapest AI API costs analyzed",
+      "Prompt injection hidden in PDFs discovered"
+    ]
+  }
+}
