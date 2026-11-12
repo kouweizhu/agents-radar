@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "OpenAI Codex: 18 PRs merged, 7 releases in 24h",
+      "Claude Code Skills added to AI CLI coverage",
+      "GitHub Copilot CLI ships v1.0.110-3",
+      "Gemini CLI leads with 29 PRs in last 24h",
+      "OpenCode releases process-daemon v0.5.2",
+      "Qwen Code trending in Chinese open-source CLI"
+    ],
+    "ai-agents": [
+      "OpenClaw ecosystem: 469 issues, 500 PRs",
+      "New release: v2026.11.5-beta.2 ships today",
+      "P0: Gateway blocks for minutes with large plugins",
+      "Paged history feature lands in v2026.11.5-beta.2",
+      "WAL auto-checkpoint fix merged, closes #164294",
+      "Windows startup slow and unreliable restarts P0"
+    ],
+    "ai-infra": [
+      "SGLang: 500 PRs, Kimi-K3.1 tops model list",
+      "vLLM adds DeepSeek-V4, Qwen3.8, GLM-5.3",
+      "llama.cpp ships 10 releases, Qwen3.6 FP8 support",
+      "Gemma 3 arrives on Ollama, Apple Silicon ready",
+      "Unsloth v2026.11.8: NPU + dynamic 4-bit quant",
+      "Blackwell GPU optimizations span all engines"
+    ],
+    "ai-trending": [
+      "Chrome releases Modern Web Guidance 1.0",
+      "Pomerado launches: MCP server for agents",
+      "LangChain hits 73k stars on GitHub",
+      "Dify reaches 43k stars, tops low-code tools",
+      "Browser-use: browser automation for AI agents",
+      "Auto-GPT hits 106k stars on GitHub"
+    ],
+    "ai-hn": [
+      "United Airlines bans AI agents on its site",
+      "Pomerado: MCP server for AI agents launches",
+      "Modern Web Guidance 1.0 released by Chrome",
+      "37% on ARC-AGI-2 without LLMs: new paper",
+      "Anthropic vulnerabilities tracked on GitHub",
+      "Claude Fable 5.2 and Mythos 5.2 released"
+    ],
+    "ai-arxiv": [
+      "ReTrace: Distilling tool-using agents (170.3k)",
+      "New logic framework for mechanistic interpretability",
+      "Bits or permutations? Efficiency tradeoffs paper",
+      "When should agents remember? New framework",
+      "AI Isn't Getting Dumber: capability evaluation",
+      "Pterodactyl: translation evaluation benchmark"
+    ],
+    "ai-community": [
+      "QA team pushes back on AI productivity hype",
+      "AI code is unmaintainable? So is ours",
+      "Agent sessions are a data store nobody designed",
+      "Schema beats prompt: new agent design pattern",
+      "United Airlines bans AI agents on websites",
+      "Prompt injection attacks on AI agents rising"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "OpenAI Codex: 18 PRs merged, 7 releases in 24h",
+      "Claude Code Skills added to AI CLI coverage",
+      "GitHub Copilot CLI ships v1.0.110-3",
+      "Gemini CLI leads with 29 PRs in last 24h",
+      "OpenCode releases process-daemon v0.5.2",
+      "Qwen Code trending in Chinese open-source CLI"
+    ],
+    "ai-agents": [
+      "OpenClaw ecosystem: 469 issues, 500 PRs",
+      "New release: v2026.11.5-beta.2 ships today",
+      "P0: Gateway blocks for minutes with large plugins",
+      "Paged history feature lands in v2026.11.5-beta.2",
+      "WAL auto-checkpoint fix merged, closes #164294",
+      "Windows startup slow and unreliable restarts P0"
+    ],
+    "ai-infra": [
+      "SGLang: 500 PRs, Kimi-K3.1 tops model list",
+      "vLLM adds DeepSeek-V4, Qwen3.8, GLM-5.3",
+      "llama.cpp ships 10 releases, Qwen3.6 FP8 support",
+      "Gemma 3 arrives on Ollama, Apple Silicon ready",
+      "Unsloth v2026.11.8: NPU + dynamic 4-bit quant",
+      "Blackwell GPU optimizations span all engines"
+    ],
+    "ai-trending": [
+      "Chrome releases Modern Web Guidance 1.0",
+      "Pomerado launches: MCP server for agents",
+      "LangChain hits 73k stars on GitHub",
+      "Dify reaches 43k stars, tops low-code tools",
+      "Browser-use: browser automation for AI agents",
+      "Auto-GPT hits 106k stars on GitHub"
+    ],
+    "ai-hn": [
+      "United Airlines bans AI agents on its site",
+      "Pomerado: MCP server for AI agents launches",
+      "Modern Web Guidance 1.0 released by Chrome",
+      "37% on ARC-AGI-2 without LLMs: new paper",
+      "Anthropic vulnerabilities tracked on GitHub",
+      "Claude Fable 5.2 and Mythos 5.2 released"
+    ],
+    "ai-arxiv": [
+      "ReTrace: Distilling tool-using agents (170.3k)",
+      "New logic framework for mechanistic interpretability",
+      "Bits or permutations? Efficiency tradeoffs paper",
+      "When should agents remember? New framework",
+      "AI Isn't Getting Dumber: capability evaluation",
+      "Pterodactyl: translation evaluation benchmark"
+    ],
+    "ai-community": [
+      "QA team pushes back on AI productivity hype",
+      "AI code is unmaintainable? So is ours",
+      "Agent sessions are a data store nobody designed",
+      "Schema beats prompt: new agent design pattern",
+      "United Airlines bans AI agents on websites",
+      "Prompt injection attacks on AI agents rising"
+    ]
+  }
+}
