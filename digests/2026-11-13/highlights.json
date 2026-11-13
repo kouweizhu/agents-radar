@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.323发布Code Mode + plugin.json验证",
+      "OpenAI Codex: 24小时内20+PR，rust-v0.170.0-alpha.4发布",
+      "GitHub Copilot CLI v1.0.111-0新增正则shell权限",
+      "Gemini CLI: 共30个PR，跨工具活跃开发中",
+      "Claude Code Skills仓库现已纳入工具生态追踪",
+      "Qwen Code加入AI CLI工具社区摘要"
+    ],
+    "ai-agents": [
+      "OpenClaw生态：5项目436个issue和500个PR",
+      "Gateway状态DB WAL自动检查点永不完成(#164294, 40条评论)",
+      "macOS上gateway stop失败：27条评论P2问题未解决",
+      "Code Mode工具目录构建不完整，26条评论且持续增加",
+      "配置热重载中止进行中代理轮次，标记为P1",
+      "原生子进程回收不可用回滚影响Linux用户"
+    ],
+    "ai-infra": [
+      "vLLM: DeepSeek-V4-Flash SM8x支持积极开发中",
+      "llama.cpp b12340新增SSRF加固和NVFP4保险丝",
+      "SGLang: Hopper上33-45%解码下降，报告为严重",
+      "vLLM批不变矩阵乘法：Gemma 4实现1.76倍加速",
+      "SGLang 1.0路线图追踪器上线稳定性发布",
+      "vLLM: NVFP4内核选择从CUTLASS转向FlashInfer b12x"
+    ],
+    "ai-trending": [
+      "QwenLM/qwen-code: 开源AI编程助手登顶GitHub Trending",
+      "TensorFold: ashhart的LLM推理引擎登上GitHub趋势",
+      "codex-security: OpenAI推出Codex安全CLI",
+      "CopilotKit/OpenBot: 代理原生框架本周大热",
+      "agent-skills: addyosmani发布AI编程代理技能",
+      "libreagi: 拯救开源AI模型在Lobste.rs上走红"
+    ],
+    "ai-web": [
+      "Anthropic推出Claude 4: Opus 4是全球最佳编程模型",
+      "Anthropic提交S-1在Nasdaq上市，股票代码ANT",
+      "Claude Sonnet 4升级至Sonnet 3.7，新增扩展思考",
+      "Claude Code现已正式发布，具备记忆能力",
+      "Claude 4扩展思考+工具使用beta测试启动",
+      "OpenAI今日未发布新文章"
+    ],
+    "ai-hn": [
+      "Gemini 4 Hydrogen发布：Google搜索获重大AI升级",
+      "Edge0-145B: 在你自己的电脑上实现前沿AI能力",
+      "Anthropic IPO申请今早占据Hacker News头条",
+      "Claude Fable 5.2和Mythos 5.2讨论在HN上走红",
+      "Apple Foundation Models框架在社区帖子中浮出水面",
+      "联合航空禁止AI代理从事客服"
+    ],
+    "ai-arxiv": [
+      "AROMA：视觉语言模型控制的自适应多模态驱动",
+      "掩码模式位置增强：Diffusion LLM无训练长上下文方法",
+      "SkinAdvisor：基于多模态预测的AI驱动皮肤生产规划",
+      "心肺基础模型：10个危重护理信号",
+      "从预测到世界建模：时序模型的因果响应",
+      "无需存储样本的联邦类增量学习"
+    ],
+    "ai-community": [
+      "MCP非常简单，而这正是问题所在 — 81个反应",
+      "Rails万岁：DHH谈Rails、Rust和AI — 83个反应",
+      "你的MCP服务器正在悄悄耗尽上下文窗口 — 34个反应",
+      "VS Code扩展将任何免费聊天机器人变成AI代理 — 37个反应",
+      "AI代码几乎正确：社区分享七种模式 — 22个反应",
+      "当公司过度依赖一个人 — Jensen Huang 63个反应"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.323 ships Code Mode + plugin.json validation",
+      "OpenAI Codex: 20+ PRs in 24h, rust-v0.170.0-alpha.4 released",
+      "GitHub Copilot CLI v1.0.111-0 adds regex shell permissions",
+      "Gemini CLI: 30 PRs total, active development across tools",
+      "Claude Code Skills repo now tracked in tool ecosystem",
+      "Qwen Code joins AI CLI tools community digest coverage"
+    ],
+    "ai-agents": [
+      "OpenClaw ecosystem: 436 issues and 500 PRs across 5 projects",
+      "Gateway state DB WAL auto-checkpoint never completes (#164294, 40 comments)",
+      "gateway stop fails on macOS: 27-comment P2 issue unresolved",
+      "Code Mode tool catalog built incomplete, 26 comments and counting",
+      "Config hot-reload aborts in-flight agent turns marked P1",
+      "native child reaping unavailable regression hits Linux users"
+    ],
+    "ai-infra": [
+      "vLLM: DeepSeek-V4-Flash SM8x support in active development",
+      "llama.cpp b12340 adds SSRF hardening and NVFP4 fuse",
+      "SGLang: 33-45% decode regression on Hopper reported as critical",
+      "vLLM batch-invariant matmul: Gemma 4 achieves 1.76× speedup",
+      "SGLang 1.0 roadmap tracker launched for stability release",
+      "vLLM: NVFP4 kernel selection shifts FlashInfer b12x over CUTLASS"
+    ],
+    "ai-trending": [
+      "QwenLM/qwen-code: open AI coding agent tops GitHub Trending",
+      "TensorFold: LLM inference engine by ashhart trends on GitHub",
+      "codex-security: OpenAI launches Codex security CLI",
+      "CopilotKit/OpenBot: agent-native framework trends this week",
+      "agent-skills: addyosmani publishes AI coding agent skills",
+      "libreagi: save open-source AI models trending on Lobste.rs"
+    ],
+    "ai-web": [
+      "Anthropic introduces Claude 4: Opus 4 is world's best coding model",
+      "Anthropic files S-1 for IPO on Nasdaq under ticker ANT",
+      "Claude Sonnet 4 upgrades to Sonnet 3.7 with extended thinking",
+      "Claude Code now generally available with memory capabilities",
+      "Extended thinking with tool use launches in beta for Claude 4",
+      "OpenAI publishes zero new articles today"
+    ],
+    "ai-hn": [
+      "Gemini 4 Hydrogen launches: Google Search gets major AI upgrade",
+      "Edge0-145B: frontier AI capabilities on your own computer",
+      "Anthropic IPO filing dominates Hacker News this morning",
+      "Claude Fable 5.2 and Mythos 5.2 discussions trending on HN",
+      "Apple Foundation Models framework surfaces in community posts",
+      "United Airlines bans AI agents from customer service"
+    ],
+    "ai-arxiv": [
+      "AROMA: Adaptive multimodal actuation for vision-language model control",
+      "Mask-Pattern Position Augmentation: training-free long-context for Diffusion LLMs",
+      "SkinAdvisor: AI-driven skin production planning via multimodal forecasting",
+      "Cardiorespiratory foundation model: 10 signals for critical care",
+      "From Forecasting to World Modeling: causal response with temporal models",
+      "Federated Class Incremental Learning without stored exemplars"
+    ],
+    "ai-community": [
+      "MCP is dead simple, and that's exactly the problem — 81 reactions",
+      "Long Live Rails: DHH's take on Rails, Rust, and AI — 83 reactions",
+      "Your MCP Servers Are Silently Draining Your Context Window — 34 reactions",
+      "VS Code extension turns any free chatbot into an AI agent — 37 reactions",
+      "AI code is almost right: community shares seven patterns — 22 reactions",
+      "When a company becomes too dependent on one person — Jensen Huang 63 reactions"
+    ]
+  }
+}
