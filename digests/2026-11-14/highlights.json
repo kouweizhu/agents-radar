@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.325 released",
+      "OpenAI Codex 20+ PRs updated, v0.171.0-alpha",
+      "Gemini CLI 43 PRs, high development velocity",
+      "GitHub Copilot CLI v1.0.112 released",
+      "Claude Code Skills added to tools list",
+      "7 CLI tools covered in community digest"
+    ],
+    "ai-agents": [
+      "OpenClaw: 500 PRs and 325 Issues in 24h",
+      "P0: Windows startup and plugin shutdown issues",
+      "PR: Reduce Gateway stalls under filesystem pressure",
+      "OpenClaw ID member roles features merged",
+      "Claude CLI conversations hang fix merged",
+      "Slack bot loops bug fixed by steipete"
+    ],
+    "ai-infra": [
+      "llama.cpp v1.0.0 released",
+      "LiteLLM v1.108.8 LTS and v1.111.0-dev.2",
+      "vLLM: DeepSeek-V4.1-Flash SM120/SM8x support",
+      "SGLang: Unified Memory and HiCache merged",
+      "Ollama: DeepSeek V4.1 Flash MLX model support",
+      "Unsloth: Qwen3.8-27B quantizations available"
+    ],
+    "ai-trending": [
+      "alibaba/open-code-review: LLM code review",
+      "GoogleChrome/modern-web-guidance-src: agent guidance",
+      "openai/codex-security: AI security scanning",
+      "backnotprop/plannotator: agent workspace tool",
+      "tradermonty/claude-trading-skills: trading agents",
+      "Likely7/Veyra-NRVideo: AI video generation"
+    ],
+    "ai-web": [
+      "92 Anthropic articles published today",
+      "UK AISI cybertesting incident: Claude assessed",
+      "AI unlocks Gödel's notebooks (theoretical physics)",
+      "AI agents find $4.6M in smart contract exploits",
+      "Building strong safety evaluations published",
+      "Claude Code Projects: parallel AI workers launched"
+    ],
+    "ai-hn": [
+      "Anthropic upgrades Claude Code with parallel workers",
+      "OpenAI disbands its robotics team",
+      "Google cutting off Search from AI-free schools",
+      "Anthropic IPO filing draws community attention",
+      "DeepSeek V4 Pro 0813 and Gemini 4 Hydrogen released",
+      "Perplexity Decider v1.3 and Apple local AI Mac app"
+    ],
+    "ai-arxiv": [
+      "AgentSSL: MLE agents with unlabeled data",
+      "CoReMem: Memory for coding agents",
+      "Metal Sandbox: GPU agents on Apple Silicon",
+      "Architectures of Thought: decision model analysis",
+      "Designing Institutions for Autonomous AI systems",
+      "LiveGeo: geographic reasoning agent paper"
+    ],
+    "ai-community": [
+      "remove.bg shutting down, 33 comments on alternatives",
+      "Hacktoberfest AI challenge winners announced",
+      "Composio vs Nango vs Scalekit: agent frameworks",
+      "Gemma 4 31B runs on consumer AMD GPUs",
+      "Prompt injection detection gaining attention",
+      "Libreagi: open-source local AI agent framework"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.325 released",
+      "OpenAI Codex 20+ PRs updated, v0.171.0-alpha",
+      "Gemini CLI 43 PRs, high development velocity",
+      "GitHub Copilot CLI v1.0.112 released",
+      "Claude Code Skills added to tools list",
+      "7 CLI tools covered in community digest"
+    ],
+    "ai-agents": [
+      "OpenClaw: 500 PRs and 325 Issues in 24h",
+      "P0: Windows startup and plugin shutdown issues",
+      "PR: Reduce Gateway stalls under filesystem pressure",
+      "OpenClaw ID member roles features merged",
+      "Claude CLI conversations hang fix merged",
+      "Slack bot loops bug fixed by steipete"
+    ],
+    "ai-infra": [
+      "llama.cpp v1.0.0 released",
+      "LiteLLM v1.108.8 LTS and v1.111.0-dev.2",
+      "vLLM: DeepSeek-V4.1-Flash SM120/SM8x support",
+      "SGLang: Unified Memory and HiCache merged",
+      "Ollama: DeepSeek V4.1 Flash MLX model support",
+      "Unsloth: Qwen3.8-27B quantizations available"
+    ],
+    "ai-trending": [
+      "alibaba/open-code-review: LLM code review",
+      "GoogleChrome/modern-web-guidance-src: agent guidance",
+      "openai/codex-security: AI security scanning",
+      "backnotprop/plannotator: agent workspace tool",
+      "tradermonty/claude-trading-skills: trading agents",
+      "Likely7/Veyra-NRVideo: AI video generation"
+    ],
+    "ai-web": [
+      "92 Anthropic articles published today",
+      "UK AISI cybertesting incident: Claude assessed",
+      "AI unlocks Gödel's notebooks (theoretical physics)",
+      "AI agents find $4.6M in smart contract exploits",
+      "Building strong safety evaluations published",
+      "Claude Code Projects: parallel AI workers launched"
+    ],
+    "ai-hn": [
+      "Anthropic upgrades Claude Code with parallel workers",
+      "OpenAI disbands its robotics team",
+      "Google cutting off Search from AI-free schools",
+      "Anthropic IPO filing draws community attention",
+      "DeepSeek V4 Pro 0813 and Gemini 4 Hydrogen released",
+      "Perplexity Decider v1.3 and Apple local AI Mac app"
+    ],
+    "ai-arxiv": [
+      "AgentSSL: MLE agents with unlabeled data",
+      "CoReMem: Memory for coding agents",
+      "Metal Sandbox: GPU agents on Apple Silicon",
+      "Architectures of Thought: decision model analysis",
+      "Designing Institutions for Autonomous AI systems",
+      "LiveGeo: geographic reasoning agent paper"
+    ],
+    "ai-community": [
+      "remove.bg shutting down, 33 comments on alternatives",
+      "Hacktoberfest AI challenge winners announced",
+      "Composio vs Nango vs Scalekit: agent frameworks",
+      "Gemma 4 31B runs on consumer AMD GPUs",
+      "Prompt injection detection gaining attention",
+      "Libreagi: open-source local AI agent framework"
+    ]
+  }
+}
