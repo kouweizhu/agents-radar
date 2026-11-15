@@ -1,0 +1,102 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code Skills repo added to community digest",
+      "OpenAI Codex merged 25 PRs in MCP expansion",
+      "Gemini CLI ACP mode advances agent orchestration",
+      "OpenCode PTY daemon gains session stability fixes",
+      "Pi addresses race conditions and MCP configuration",
+      "Cross-tool trend: MCP protocol adoption accelerates"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.11.5-beta.3 released today",
+      "P0 bug: Managed update hangs blocking deployments",
+      "P0 security: iOS Dashboard creates new device identity",
+      "Codex subagentAssignments bug resolved after 20 comments",
+      "A2A handoff one-way dispatch mode feature merged",
+      "500 PRs across 5 agent projects in 24 hours"
+    ],
+    "ai-infra": [
+      "llama.cpp b12387 released with Qwen2VL critical fix",
+      "vLLM Blackwell (SM120) faces CUDA graph crashes",
+      "SGLang 1.0 roadmap tracks RTX 50 sm_120 breakage",
+      "vLLM adds ZAQERIS AXIOM sparse MoE support",
+      "llama.cpp Qwen4-Exp improves decode 37%",
+      "Ollama v0.5.0 launches with native tool calling"
+    ],
+    "ai-trending": [
+      "plannotator: AI workspace for agents trends #1",
+      "alibaba/open-code-review: LLM code review tool",
+      "Tencent/LoopForge: Workflows for coding agents",
+      "ag-ui-protocol: Agent-User Interaction Protocol",
+      "ashhart/TensorFold: LLM inference engine",
+      "JuliusBrussee/caveman: Token optimization for agents"
+    ],
+    "ai-hn": [
+      "Blow: If AI solved coding, why is software unchanged?",
+      "Nvidia allegedly funded AI startups to buy its GPUs",
+      "1.5M AI GPU smuggling tied to Jensen Huang departure",
+      "Agweb browser for agents stays out of your way",
+      "Unsloth Qwen3.8B quantizations updated to v3.1",
+      "Agile Manifesto for Agents: new development pattern"
+    ],
+    "ai-community": [
+      "10 lines to give your coding agent before it touches repo",
+      "remove.bg alternatives benchmarked after Dec 1 shutdown",
+      "Swizzle Runtime hits 209 tok/s on 4GB laptop GPU",
+      "Why 19.5GB LLM crawls on 24GB VRAM (KV cache fix)",
+      "Benchmarked AI decision APIs against XGBoost for fraud",
+      "temperature=0 isn't deterministic — technical deep dive"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code Skills repo added to community digest",
+      "OpenAI Codex merged 25 PRs in MCP expansion",
+      "Gemini CLI ACP mode advances agent orchestration",
+      "OpenCode PTY daemon gains session stability fixes",
+      "Pi addresses race conditions and MCP configuration",
+      "Cross-tool trend: MCP protocol adoption accelerates"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.11.5-beta.3 released today",
+      "P0 bug: Managed update hangs blocking deployments",
+      "P0 security: iOS Dashboard creates new device identity",
+      "Codex subagentAssignments bug resolved after 20 comments",
+      "A2A handoff one-way dispatch mode feature merged",
+      "500 PRs across 5 agent projects in 24 hours"
+    ],
+    "ai-infra": [
+      "llama.cpp b12387 released with Qwen2VL critical fix",
+      "vLLM Blackwell (SM120) faces CUDA graph crashes",
+      "SGLang 1.0 roadmap tracks RTX 50 sm_120 breakage",
+      "vLLM adds ZAQERIS AXIOM sparse MoE support",
+      "llama.cpp Qwen4-Exp improves decode 37%",
+      "Ollama v0.5.0 launches with native tool calling"
+    ],
+    "ai-trending": [
+      "plannotator: AI workspace for agents trends #1",
+      "alibaba/open-code-review: LLM code review tool",
+      "Tencent/LoopForge: Workflows for coding agents",
+      "ag-ui-protocol: Agent-User Interaction Protocol",
+      "ashhart/TensorFold: LLM inference engine",
+      "JuliusBrussee/caveman: Token optimization for agents"
+    ],
+    "ai-hn": [
+      "Blow: If AI solved coding, why is software unchanged?",
+      "Nvidia allegedly funded AI startups to buy its GPUs",
+      "1.5M AI GPU smuggling tied to Jensen Huang departure",
+      "Agweb browser for agents stays out of your way",
+      "Unsloth Qwen3.8B quantizations updated to v3.1",
+      "Agile Manifesto for Agents: new development pattern"
+    ],
+    "ai-community": [
+      "10 lines to give your coding agent before it touches repo",
+      "remove.bg alternatives benchmarked after Dec 1 shutdown",
+      "Swizzle Runtime hits 209 tok/s on 4GB laptop GPU",
+      "Why 19.5GB LLM crawls on 24GB VRAM (KV cache fix)",
+      "Benchmarked AI decision APIs against XGBoost for fraud",
+      "temperature=0 isn't deterministic — technical deep dive"
+    ]
+  }
+}
