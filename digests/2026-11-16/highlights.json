@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Qwen Code ships 4 releases including v0.27.4 and desktop",
+      "OpenAI Codex drops 2 alpha releases (v0.171.0-alpha.6/7)",
+      "Claude Code Skills added to tools coverage",
+      "OpenCode and Codex both surge with 17 PRs in 24h",
+      "Gemini CLI active with 16 PRs merged recently",
+      "llama.cpp leads CLI space with 8 releases in 7 days"
+    ],
+    "ai-agents": [
+      "OpenClaw ecosystem surges: 500 issues + 500 PRs in 24h",
+      "Gateway blocks P0 regression affects users since Sept 2026",
+      "SQLite header-probe timeout fix resolved (P0 closed)",
+      "New plugin loading fix keeps Gateway responsive",
+      "Five projects tracked: OpenClaw, Hermes, IronClaw, QwenPaw, ZeroClaw",
+      "Windows and macOS gateway shutdown issues active"
+    ],
+    "ai-infra": [
+      "vLLM patches SSRF security vulnerability",
+      "SGLang restores DeepSelect for SM90 decode",
+      "llama.cpp ships 8 releases in 7 days (b12422-b12428)",
+      "DeepSeek-V4.1-Flash now runs on MI300X via vLLM",
+      "vLLM NVFP4 quantization OOM bug reported",
+      "Ollama adds Phi-4-mini support"
+    ],
+    "ai-trending": [
+      "ggml-org/ggml tops trending with 2,000+ new stars",
+      "Google Labs releases stitch-skills agent library",
+      "ag-ui-protocol launches Agent-User Interaction Protocol",
+      "Hermes-agent leads ai-agent topic with 263,655 stars",
+      "LoopForge enables coding-agent workflow automation",
+      "AnythingLLM and Meilisearch rise in vector-db topic"
+    ],
+    "ai-hn": [
+      "Claude reverse-engineered to control 1994 Jeep ECU",
+      "HN job postings near 12-year lows",
+      "Jonathan Blow questions if AI truly solved coding",
+      "Generative AI consumes more energy on non-English text",
+      "Chinese frontier AI models tagged with export-controlled GPU fingerprint",
+      "Congress moves to tighten AI chip export rules"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro-Qwen3.5-UNCENSORED tops with 7,548 likes",
+      "Qwen2.5-Coder-32B-Instruct hits 27,037 likes",
+      "MiniMax-M3.1 released with 1,190 likes",
+      "Phi-4-mini and Phi-4-multimodal trending via Ollama",
+      "Fish Audio s2 STT model joins trending",
+      "Qwen2.5-Nomic-Embed-Text-v2 offers 1024-dim embeddings"
+    ],
+    "ai-community": [
+      "NASA hackathon builds Ghost Rovers autonomous AI rover",
+      "Prompt injection emerges as top agent security concern",
+      "KV cache optimization drives vLLM performance gains",
+      "AI agents tested for real-world tasks like gym booking",
+      "Claude Code adoption grows across developer communities",
+      "Markov Chain C++ tutorial sparks ML fundamentals discussion"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Qwen Code ships 4 releases including v0.27.4 and desktop",
+      "OpenAI Codex drops 2 alpha releases (v0.171.0-alpha.6/7)",
+      "Claude Code Skills added to tools coverage",
+      "OpenCode and Codex both surge with 17 PRs in 24h",
+      "Gemini CLI active with 16 PRs merged recently",
+      "llama.cpp leads CLI space with 8 releases in 7 days"
+    ],
+    "ai-agents": [
+      "OpenClaw ecosystem surges: 500 issues + 500 PRs in 24h",
+      "Gateway blocks P0 regression affects users since Sept 2026",
+      "SQLite header-probe timeout fix resolved (P0 closed)",
+      "New plugin loading fix keeps Gateway responsive",
+      "Five projects tracked: OpenClaw, Hermes, IronClaw, QwenPaw, ZeroClaw",
+      "Windows and macOS gateway shutdown issues active"
+    ],
+    "ai-infra": [
+      "vLLM patches SSRF security vulnerability",
+      "SGLang restores DeepSelect for SM90 decode",
+      "llama.cpp ships 8 releases in 7 days (b12422-b12428)",
+      "DeepSeek-V4.1-Flash now runs on MI300X via vLLM",
+      "vLLM NVFP4 quantization OOM bug reported",
+      "Ollama adds Phi-4-mini support"
+    ],
+    "ai-trending": [
+      "ggml-org/ggml tops trending with 2,000+ new stars",
+      "Google Labs releases stitch-skills agent library",
+      "ag-ui-protocol launches Agent-User Interaction Protocol",
+      "Hermes-agent leads ai-agent topic with 263,655 stars",
+      "LoopForge enables coding-agent workflow automation",
+      "AnythingLLM and Meilisearch rise in vector-db topic"
+    ],
+    "ai-hn": [
+      "Claude reverse-engineered to control 1994 Jeep ECU",
+      "HN job postings near 12-year lows",
+      "Jonathan Blow questions if AI truly solved coding",
+      "Generative AI consumes more energy on non-English text",
+      "Chinese frontier AI models tagged with export-controlled GPU fingerprint",
+      "Congress moves to tighten AI chip export rules"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro-Qwen3.5-UNCENSORED tops with 7,548 likes",
+      "Qwen2.5-Coder-32B-Instruct hits 27,037 likes",
+      "MiniMax-M3.1 released with 1,190 likes",
+      "Phi-4-mini and Phi-4-multimodal trending via Ollama",
+      "Fish Audio s2 STT model joins trending",
+      "Qwen2.5-Nomic-Embed-Text-v2 offers 1024-dim embeddings"
+    ],
+    "ai-community": [
+      "NASA hackathon builds Ghost Rovers autonomous AI rover",
+      "Prompt injection emerges as top agent security concern",
+      "KV cache optimization drives vLLM performance gains",
+      "AI agents tested for real-world tasks like gym booking",
+      "Claude Code adoption grows across developer communities",
+      "Markov Chain C++ tutorial sparks ML fundamentals discussion"
+    ]
+  }
+}
