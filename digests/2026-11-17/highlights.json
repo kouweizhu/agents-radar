@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.326 发布",
+      "OpenAI Codex 发布 5 个 alpha 版本",
+      "Copilot CLI v1.0.113-1 可用",
+      "Claude Code Skills 库上线",
+      "OpenCode v0.6.0 守护进程发布",
+      "7 款 CLI 工具对比：共 318 问题"
+    ],
+    "ai-agents": [
+      "OpenClaw：318 问题与 500 PR 更新",
+      "网关阻塞缺陷导致 P0 崩溃循环",
+      "State DB WAL 检查点修复审核中",
+      "新听写 UI 保留转录内容",
+      "OpenClaw v0.1.5 发布待定",
+      "涵盖 5 个 OpenClaw 生态项目"
+    ],
+    "ai-infra": [
+      "vLLM v0.34.0 发布支持 Blackwell SM120",
+      "SGLang 增加 AMD MI355X gfx950 支持",
+      "llama.cpp 修复 Android Vulkan 问题",
+      "Ollama 新增 Phi-4-mini 和 Qwen3-72B",
+      "LiteLLM v2.5.0 支持 Claude 4.5",
+      "Unsloth v2026.11 新增 FP8 量化"
+    ],
+    "ai-trending": [
+      "AG-UI 协议用于代理与 UI 交互",
+      "google-stitch-skills 库发布",
+      "NVIDIA SkillEvaluator 评估代理技能",
+      "paper-orchestra：多代理研究写作",
+      "阿里巴巴 open-code-review 工具发布",
+      "DreamNum Univer：AI 办公 SDK 发布"
+    ],
+    "ai-web": [
+      "Anthropic 向加拿大 AI 研究投入 1000 万美元",
+      "Anthropic 在新加坡设立亚太办事处",
+      "Anthropic 推出 500 万健康评估基金",
+      "巴克莱将 Claude Code 扩展至 50% 开发者",
+      "Claude Frontier Academy：1 亿美元培养 1 万工程师",
+      "Anthropic 扩展至 14 个新的欧洲国家"
+    ],
+    "ai-hn": [
+      "Qwen4-Max 发布，HN 排名第二获 855 分",
+      "Windows 11 遥测追踪编码代理",
+      "运行代理时可不提供凭证",
+      "OpenCode Browse：开源项目发布",
+      "Mem 笔记应用宣布关闭",
+      "美联储警告 AI 代理或引发银行挤兑"
+    ],
+    "ai-arxiv": [
+      "代理工具使用新型记忆基准",
+      "深度研究代理安全性分析",
+      "SWE-CoWork：编码代理协作基准",
+      "CECAR：设备端 MoE 推理框架",
+      "GEM-MM 减少 VLM 幻觉",
+      "ReactBench-AD 评估驾驶 VLM"
+    ],
+    "ai-community": [
+      "MCP 工具调用可能静默失败",
+      "代理循环和重试模式详解",
+      "企业 AI 试点未进入生产",
+      "Slopsquatting：AI 供应链新威胁",
+      "Gemini 4 困难数学基准发布",
+      "企业 AI 风险僵局与影子 AI"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.326 released",
+      "OpenAI Codex shipped 5 alpha releases",
+      "Copilot CLI v1.0.113-1 available",
+      "Claude Code Skills library launches",
+      "OpenCode v0.6.0 daemon release",
+      "7 CLI tools compared: 318 issues total"
+    ],
+    "ai-agents": [
+      "OpenClaw: 318 issues and 500 PRs updated",
+      "Gateway blocks bug hits P0 crash-loop",
+      "State DB WAL checkpoint fix under review",
+      "New dictation UI preserves transcripts",
+      "OpenClaw v0.1.5 release pending",
+      "5 OpenClaw ecosystem projects covered"
+    ],
+    "ai-infra": [
+      "vLLM v0.34.0 released with Blackwell SM120",
+      "SGLang adds AMD MI355X gfx950 support",
+      "llama.cpp gains Android Vulkan fixes",
+      "Ollama adds Phi-4-mini and Qwen3-72B",
+      "LiteLLM v2.5.0 adds Claude 4.5 support",
+      "Unsloth v2026.11 adds FP8 quantization"
+    ],
+    "ai-trending": [
+      "AG-UI protocol for agent-UI interaction",
+      "google-stitch-skills library launches",
+      "NVIDIA SkillEvaluator for agent skills",
+      "paper-orchestra: multi-agent research writing",
+      "alibaba open-code-review tool debuts",
+      "DreamNum Univer: AI office SDK released"
+    ],
+    "ai-web": [
+      "Anthropic commits $10M to Canadian AI research",
+      "Anthropic opens Asia-Pacific office in Singapore",
+      "Anthropic launches $5M wellbeing evaluation fund",
+      "Barclays to scale Claude Code to 50% of devs",
+      "Claude Frontier Academy: $100M for 10K engineers",
+      "Anthropic expands to 14 new European countries"
+    ],
+    "ai-hn": [
+      "Qwen4-Max released, hits HN #2 with 855 pts",
+      "Windows 11 telemetry tracks coding agents",
+      "Running agents without handing over credentials",
+      "OpenCode Browse: open-source project launches",
+      "Mem note-taking app shutting down",
+      "Fed warns AI agents could trigger bank runs"
+    ],
+    "ai-arxiv": [
+      "New memory benchmark for tool-using agents",
+      "Security analysis of deep research agents",
+      "SWE-CoWork: coding agent collaboration benchmark",
+      "CECAR: on-device MoE inference framework",
+      "GEM-MM reduces VLM hallucinations",
+      "ReactBench-AD evaluates driving VLMs"
+    ],
+    "ai-community": [
+      "MCP tool calls can fail silently",
+      "Agentic loop and retry patterns explained",
+      "Enterprise AI pilots stuck not reaching production",
+      "Slopsquatting: new AI supply chain threat",
+      "Gemini 4 benchmarks on hard math released",
+      "Risk gridlock vs. shadow AI in enterprises"
+    ]
+  }
+}
