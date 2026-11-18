@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.327 发布",
+      "OpenAI Codex 24小时内合并20+个PR",
+      "OpenCode v2.3.2 附带12+个PR",
+      "Copilot CLI v1.0.114-0 发布",
+      "Gemini CLI 一天合并31个PR",
+      "社区追踪8个CLI工具"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.11.5 增加重启安全",
+      "24小时内更新486个issue、500个PR",
+      "OpenClaw 修复速率限制的模型选择器",
+      "Doctor --fix 在issue上卡住15+分钟",
+      "涵盖5个生态项目",
+      "macOS 网关停止bug影响用户"
+    ],
+    "ai-infra": [
+      "vLLM 支持 DeepSeek-V4.1-Flash",
+      "SGLang 推出 Mistral-Large-4 后端",
+      "llama.cpp 10次提交，Kokoro TTS加速",
+      "Ollama 24小时内合并20个PR",
+      "LiteLLM 突破40k GitHub stars",
+      "Unsloth 为 Llama/Mistral/Gemma 提供4位量化"
+    ],
+    "ai-trending": [
+      "Tencent LoopForge 获得4.8k GitHub stars",
+      "Google Stitch-Skills 以4.8k stars 走红",
+      "Univer 推出 AI 办公 SDK",
+      "MiniMind 从头训练2.8B LLM",
+      "阿里在 GitHub 进行开放代码审查",
+      "Paper Orchestra 实现多智能体研究"
+    ],
+    "ai-web": [
+      "Claude 进入金融服务领域",
+      "LLM 使大规模形式验证变得可行",
+      "Anthropic 发布安全评估指南",
+      "OpenAI 推出 GPT-6.2 Astra 和 Sol",
+      "Anthropic 和 OpenAI 新增7篇文章",
+      "Anthropic 网站地图共499篇文章"
+    ],
+    "ai-hn": [
+      "Google AI 回答削减40%搜索流量",
+      "GPT-6.2 Astra 和 Sol 在 HN 上走红",
+      "哈佛：AI 智能体将瓶颈转向审查",
+      "Nvidia 业绩超预期尽管领导层变动",
+      "Mem 关闭，AI 初创公司整合",
+      "智能体强制推送到 main 引发争议"
+    ],
+    "ai-arxiv": [
+      "新论文：智能体技能何时过时",
+      "PACT：计划-行动一致性训练",
+      "进化的智能体安全框架论文",
+      "潜在晶格语言模型首次亮相",
+      "MillBill：具有地理反馈的加工智能体",
+      "跨 cs.AI、cs.CL、cs.LG 的50篇AI论文"
+    ],
+    "ai-community": [
+      "AI 智能体每月开启17M个PR",
+      "智能体强制推送导致生产环境故障",
+      "开发者还能从零开始构建吗？",
+      "Lobsters 上的 ML 模块面向普通开发者",
+      "生成式AI基础小册",
+      "Jane Street 数据中心趣事走红"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.327 released",
+      "OpenAI Codex 20+ PRs merged in 24h",
+      "OpenCode v2.3.2 ships with 12+ PRs",
+      "Copilot CLI v1.0.114-0 out",
+      "Gemini CLI 31 PRs in one day",
+      "8 CLI tools tracked in community"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.11.5 adds restart safety",
+      "486 issues, 500 PRs updated in 24h",
+      "OpenClaw fixes rate-limited model picker",
+      "Doctor --fix hangs 15+ min on issue",
+      "5 ecosystem projects covered",
+      "macOS gateway stop bug affects users"
+    ],
+    "ai-infra": [
+      "vLLM adds DeepSeek-V4.1-Flash support",
+      "SGLang debuts Mistral-Large-4 backend",
+      "llama.cpp 10 commits, Kokoro TTS boost",
+      "Ollama 20 PRs merged in 24h",
+      "LiteLLM crosses 40k GitHub stars",
+      "Unsloth 4-bit quant for Llama/Mistral/Gemma"
+    ],
+    "ai-trending": [
+      "Tencent LoopForge hits 4.8k GitHub stars",
+      "Google Stitch-Skills trends with 4.8k stars",
+      "Univer launches AI office SDK",
+      "MiniMind trains 2.8B LLM from scratch",
+      "Alibaba open-code-review on GitHub",
+      "Paper Orchestra enables multi-agent research"
+    ],
+    "ai-web": [
+      "Claude advances into financial services",
+      "LLMs make formal verification feasible at scale",
+      "Anthropic publishes safety eval guide",
+      "OpenAI launches GPT-6.2 Astra and Sol",
+      "7 new articles across Anthropic and OpenAI",
+      "499 articles on Anthropic sitemap total"
+    ],
+    "ai-hn": [
+      "Google AI answers cut search traffic 40%",
+      "GPT-6.2 Astra and Sol trending on HN",
+      "Harvard: AI agents shift bottleneck to review",
+      "Nvidia beats earnings despite leadership change",
+      "Mem shutting down, AI startup consolidation",
+      "Agent force-pushing to main sparks debate"
+    ],
+    "ai-arxiv": [
+      "New paper: When Agent Skills Go Stale",
+      "PACT: Plan-Action Consistency Training",
+      "Evolving Agent Safety Harnesses paper",
+      "Latent Lattice Language Models debut",
+      "MillBill: Machining agent with geo feedback",
+      "50 AI papers across cs.AI, cs.CL, cs.LG"
+    ],
+    "ai-community": [
+      "AI agents open 17M PRs per month",
+      "Agent force-pushed and broke production",
+      "Can developers still build from scratch?",
+      "ML Modules for Mere Mortals on Lobsters",
+      "The Little Book of Generative AI Foundations",
+      "Jane Street datacenter anecdote trends"
+    ]
+  }
+}
