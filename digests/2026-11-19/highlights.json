@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.328 released — active community",
+      "OpenAI Codex: rust-v0.172.0-alpha.1 released",
+      "Gemini CLI v0.69.0 & v0.70.0-preview.0 out",
+      "GitHub Copilot CLI v1.0.114 — 50 open issues",
+      "OpenCode: 20+ PRs merged in last 24 hours",
+      "Pi CLI: 37 total issues, 10+ PRs active"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.10.33 — gateway-only LTS release",
+      "500 PRs and 486 issues updated in 24 hours",
+      "Hermes Agent — NousResearch multi-agent project",
+      "IronClaw — NearAI agent framework",
+      "QwenPaw — AgentScope AI agent project",
+      "ZeroClaw — zeroclaw-labs open agent platform"
+    ],
+    "ai-infra": [
+      "llama.cpp: 10 commits in last 24h — high activity",
+      "LiteLLM v1.109.2 released with Docker cosign",
+      "vLLM Rust frontend RFC draws 63 comments",
+      "SGLang: ROCm optimization focus this cycle",
+      "Unsloth: multi-GPU fine-tuning leaderboard",
+      "Ollama: CVE reported, fixes in progress"
+    ],
+    "ai-trending": [
+      "NVIDIA/SkillEvaluator — agent evaluation framework",
+      "paper-orchestra: multi-agent paper writing",
+      "stitch-skills: Google Labs Agent Skills library",
+      "OpenVINO toolkit — Intel AI inference backend",
+      "superpowers: agentic skills framework",
+      "n8n workflow automation adds AI agents"
+    ],
+    "ai-web": [
+      "Anthropic prices initial public offering",
+      "Claude Fable 5.2 solves black hole physics problems",
+      "OpenAI advances chip design with AI models",
+      "Managing Frontier AI Risk — new OpenAI post",
+      "How AI assistance impacts coding skill formation",
+      "81,000 surveyed: what people told Anthropic about AI economics"
+    ],
+    "ai-hn": [
+      "Gemini 4 Neon — Google’s new flagship model",
+      "Seven new Microsoft models at scalable price points",
+      "AI agents outperform KPMG accountants in audit trial",
+      "Anthropic prices initial public offering",
+      "Black students sue after AI flags Doritos bag as gun",
+      "Google AI answers reducing search traffic by 40%"
+    ],
+    "ai-arxiv": [
+      "RSIBench-Infra: agents optimize training infra",
+      "PIPETTE: security analysis of prompt injection",
+      "Weight-space programming may alter ethics",
+      "Reducing inference cost of coding agents",
+      "Claude Code + SWE-bench-Lite: 30% fix rate",
+      "Benchmarking LLMs on postdoc-level problems"
+    ],
+    "ai-community": [
+      "ML Modules for Mere Mortals — 38 pts on Lobste.rs",
+      "Is Coding with AI Faster and Cheaper? — 122 reactions",
+      "AWS Strands agent framework discussed",
+      "Claude Code usage patterns and productivity gains",
+      "LLM fine-tuning on a MacBook M4",
+      "Cost optimization strategies for LLM inference"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.328 released — active community",
+      "OpenAI Codex: rust-v0.172.0-alpha.1 released",
+      "Gemini CLI v0.69.0 & v0.70.0-preview.0 out",
+      "GitHub Copilot CLI v1.0.114 — 50 open issues",
+      "OpenCode: 20+ PRs merged in last 24 hours",
+      "Pi CLI: 37 total issues, 10+ PRs active"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.10.33 — gateway-only LTS release",
+      "500 PRs and 486 issues updated in 24 hours",
+      "Hermes Agent — NousResearch multi-agent project",
+      "IronClaw — NearAI agent framework",
+      "QwenPaw — AgentScope AI agent project",
+      "ZeroClaw — zeroclaw-labs open agent platform"
+    ],
+    "ai-infra": [
+      "llama.cpp: 10 commits in last 24h — high activity",
+      "LiteLLM v1.109.2 released with Docker cosign",
+      "vLLM Rust frontend RFC draws 63 comments",
+      "SGLang: ROCm optimization focus this cycle",
+      "Unsloth: multi-GPU fine-tuning leaderboard",
+      "Ollama: CVE reported, fixes in progress"
+    ],
+    "ai-trending": [
+      "NVIDIA/SkillEvaluator — agent evaluation framework",
+      "paper-orchestra: multi-agent paper writing",
+      "stitch-skills: Google Labs Agent Skills library",
+      "OpenVINO toolkit — Intel AI inference backend",
+      "superpowers: agentic skills framework",
+      "n8n workflow automation adds AI agents"
+    ],
+    "ai-web": [
+      "Anthropic prices initial public offering",
+      "Claude Fable 5.2 solves black hole physics problems",
+      "OpenAI advances chip design with AI models",
+      "Managing Frontier AI Risk — new OpenAI post",
+      "How AI assistance impacts coding skill formation",
+      "81,000 surveyed: what people told Anthropic about AI economics"
+    ],
+    "ai-hn": [
+      "Gemini 4 Neon — Google’s new flagship model",
+      "Seven new Microsoft models at scalable price points",
+      "AI agents outperform KPMG accountants in audit trial",
+      "Anthropic prices initial public offering",
+      "Black students sue after AI flags Doritos bag as gun",
+      "Google AI answers reducing search traffic by 40%"
+    ],
+    "ai-arxiv": [
+      "RSIBench-Infra: agents optimize training infra",
+      "PIPETTE: security analysis of prompt injection",
+      "Weight-space programming may alter ethics",
+      "Reducing inference cost of coding agents",
+      "Claude Code + SWE-bench-Lite: 30% fix rate",
+      "Benchmarking LLMs on postdoc-level problems"
+    ],
+    "ai-community": [
+      "ML Modules for Mere Mortals — 38 pts on Lobste.rs",
+      "Is Coding with AI Faster and Cheaper? — 122 reactions",
+      "AWS Strands agent framework discussed",
+      "Claude Code usage patterns and productivity gains",
+      "LLM fine-tuning on a MacBook M4",
+      "Cost optimization strategies for LLM inference"
+    ]
+  }
+}
