@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "7款CLI工具对比：Claude Code、Codex、Gemini等",
+      "Claude Code v2.1.329",
+      "OpenAI Codex 24小时内发布4个版本",
+      "Gemini CLI gets v0.71.0-preview.0",
+      "GitHub Copilot CLI v1.0.115 released",
+      "新增5款工具：Pi、Qwen Code、Skills"
+    ],
+    "ai-agents": [
+      "OpenClaw：462个issue + 500个PR活跃",
+      "v2026.11.10-beta.1: Agent templates via ClawHub",
+      "新功能：OpenClaw ID用于代理身份",
+      "v2026.11.6 improves upgrade reliability",
+      "追踪5个代理项目：Hermes、IronClaw等",
+      "当前周期发布2个版本"
+    ],
+    "ai-infra": [
+      "vLLM adds AMD gfx950/gfx942 and Intel XPU support",
+      "SGLang：CUDA coredump问题已有386条评论",
+      "llama.cpp hits b12556 with OpenCL GQA folding",
+      "Ollama v0.5.0-alpha adds MCP server support",
+      "LiteLLM现追踪50+提供商的200+模型",
+      "Unsloth: AMD NPU and diffusion gains in FLUX.3"
+    ],
+    "ai-trending": [
+      "Claude-BugHunter：AI红队工具走红",
+      "superpowers：新型代理技能框架",
+      "HKUDS/CLI-Anything: CLI tool for AI agents",
+      "minimind：从头训练64M参数LLM",
+      "firecrawl/firecrawl: web scraping for AI agents",
+      "openvinotoolkit/openvino hits GitHub trending"
+    ],
+    "ai-web": [
+      "Anthropic：LLM形式化软件验证突破",
+      "研究：LLM在RISC-V规模上证明安全属性",
+      "定理协作：LLM完成1500个形式化证明",
+      "OpenAI：关于ChatGPT性能的新文章",
+      "OpenAI：关于Daybreak Red部署的新文章",
+      "Anthropic在claude.com上达501篇文章"
+    ],
+    "ai-hn": [
+      "Anthropic今日在纳斯达克上市",
+      "Gemini 4 Neon #1 on Models Engineering Index",
+      "Claude解决两个黑洞物理开放问题",
+      "新框架：神经网络权重空间编程",
+      "法院：AI生成的可能原因违反第四修正案",
+      "FBI探员联系Claude用户询问聊天记录"
+    ],
+    "ai-arxiv": [
+      "论文：全局工作区计算验证",
+      "论文：交互代理的系统一RSI",
+      "论文：Duopra——全双工代理",
+      "论文：HabitusMem——偏好信念记忆",
+      "论文：解耦知识检索与紧凑记忆",
+      "论文：弥合扩散语言模型的性能差距"
+    ],
+    "ai-community": [
+      "团队AI采用：dev.to上27条反应",
+      "代理CLI工具：dev.to上16条反应",
+      "AI记忆问题：dev.to上15条反应",
+      "决策模型与成本优化：14条反应",
+      "代理安全与劫持担忧：14条反应",
+      "ML模块面向大众：Lobsters上38分"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "7 CLI tools compared: Claude Code, Codex, Gemini, more",
+      "Claude Code v2.1.329",
+      "OpenAI Codex shipped 4 releases in 24h",
+      "Gemini CLI gets v0.71.0-preview.0",
+      "GitHub Copilot CLI v1.0.115 released",
+      "5 new tools added: Pi, Qwen Code, Skills"
+    ],
+    "ai-agents": [
+      "OpenClaw: 462 issues + 500 PRs active",
+      "v2026.11.10-beta.1: Agent templates via ClawHub",
+      "New: OpenClaw ID for agent identity",
+      "v2026.11.6 improves upgrade reliability",
+      "5 agent projects tracked: Hermes, IronClaw, more",
+      "2 releases shipped in current cycle"
+    ],
+    "ai-infra": [
+      "vLLM adds AMD gfx950/gfx942 and Intel XPU support",
+      "SGLang: CUDA coredump issue has 386 comments",
+      "llama.cpp hits b12556 with OpenCL GQA folding",
+      "Ollama v0.5.0-alpha adds MCP server support",
+      "LiteLLM now tracks 200+ models across 50+ providers",
+      "Unsloth: AMD NPU and diffusion gains in FLUX.3"
+    ],
+    "ai-trending": [
+      "Claude-BugHunter: AI red-teaming tool goes viral",
+      "superpowers: new agentic skills framework",
+      "HKUDS/CLI-Anything: CLI tool for AI agents",
+      "minimind: 64M parameter LLM training from scratch",
+      "firecrawl/firecrawl: web scraping for AI agents",
+      "openvinotoolkit/openvino hits GitHub trending"
+    ],
+    "ai-web": [
+      "Anthropic: LLM formal software verification breakthrough",
+      "Research: LLMs prove security properties at RISC-V scale",
+      "Theorem collaboration: 1,500 formal proofs by LLMs",
+      "OpenAI: new article on ChatGPT performance",
+      "OpenAI: new article on Daybreak Red deployment",
+      "Anthropic hits 501 articles on claude.com"
+    ],
+    "ai-hn": [
+      "Anthropic debuts on Nasdaq today",
+      "Gemini 4 Neon #1 on Models Engineering Index",
+      "Claude solves two open physics problems in black holes",
+      "New framework: weight-space programming for neural nets",
+      "Court: AI-generated probable cause violates 4th Amendment",
+      "FBI agent contacted Claude user about chat logs"
+    ],
+    "ai-arxiv": [
+      "Paper: Global-Workspace Computation verification",
+      "Paper: System-One RSI for interactive agents",
+      "Paper: Duopra — Full-duplex Agency",
+      "Paper: HabitusMem — Belief Memory over preferences",
+      "Paper: Decoupled Knowledge Retrieval and Compact Memory",
+      "Paper: Closing Performance Gap for Diffusion Language Models"
+    ],
+    "ai-community": [
+      "Team-wide AI adoption: 27 reactions on dev.to",
+      "Agent CLI tools: 16 reactions on dev.to",
+      "AI memory issues: 15 reactions on dev.to",
+      "Decision models and cost optimization: 14 reactions",
+      "Agent security and hijacking concerns: 14 reactions",
+      "ML modules for mere mortals: 38 score on Lobsters"
+    ]
+  }
+}
