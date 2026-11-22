@@ -1,0 +1,102 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Gemini CLI 发布 v0.71.0 夜间版",
+      "GitHub Copilot CLI 发布 v1.0.115-6",
+      "OpenAI Codex 24小时内合并约20个PR",
+      "Claude Code Skills 生态系统上线",
+      "OpenCode 活跃度高,50个PR待处理",
+      "Pi 与 Qwen Code 加入本期摘要"
+    ],
+    "ai-agents": [
+      "OpenClaw 生态: 412个issue,500个PR",
+      "大型插件导致网关阻塞数分钟",
+      "P0: Doctor WAL 更新导致 11.3 部分问题",
+      "Windows 测试版更新在包交换时失败",
+      "P1: 原生 Codex 补全无法恢复",
+      "2026.10.5 内存占用异常,达1.9GB"
+    ],
+    "ai-infra": [
+      "vLLM Blackwell SM120 优化已落地",
+      "SGLang 新增 RTX 50 系列支持",
+      "llama.cpp SYCL 后端有新提交",
+      "Ollama 修复 Windows 嵌入和 GGUF 导入",
+      "LiteLLM 代理成本功能已上线",
+      "Unsloth 微调速度提升2倍"
+    ],
+    "ai-trending": [
+      "Claude-BugHunter: 红队技能包",
+      "CLI-Anything 让软件具备代理原生性",
+      "MiniMind 从头训练64M参数LLM",
+      "Cursor 插件规范获得关注",
+      "Firecrawl: 代理知识基础设施",
+      "OpenVINO 登上趋势,AI推理工具包"
+    ],
+    "ai-hn": [
+      "Claude 解决两个黑洞物理问题",
+      "LLM 可重写自身权重",
+      "Frostbite: AI 发现 CPU 架构",
+      "Nasdaq 抹去2026全部涨幅,AI股抛售",
+      "ClawDOS: DOS 上的 AI 编程代理",
+      "Upload2Shell CVE 已披露,请立即打补丁"
+    ],
+    "ai-community": [
+      "MCP 安全漏洞在 Cursor 中引发警报",
+      "AI 生产力收益仍未被证实",
+      "Claude Code 编排模式正在涌现",
+      "新 LLM 微调方法分享",
+      "开发者争论 AI 编程代理可靠性",
+      "本地语音助手在 Lobste.rs 受关注"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Gemini CLI releases nightly v0.71.0",
+      "GitHub Copilot CLI ships v1.0.115-6",
+      "OpenAI Codex merges ~20 PRs in 24h",
+      "Claude Code Skills ecosystem launched",
+      "OpenCode hits 50 open PRs, high activity",
+      "Pi and Qwen Code join the digest"
+    ],
+    "ai-agents": [
+      "OpenClaw ecosystem: 412 issues, 500 PRs",
+      "Gateway blocks for minutes on large plugins",
+      "P0: Doctor WAL update leaves 11.3 partial",
+      "Windows beta update fails at package-swap",
+      "P1: Native Codex completions fail to resume",
+      "Excessive 1.9 GB RSS memory in 2026.10.5"
+    ],
+    "ai-infra": [
+      "vLLM Blackwell SM120 optimization land",
+      "SGLang adds RTX 50-series support",
+      "llama.cpp SYCL backend sees new commits",
+      "Ollama fixes Windows embedding & GGUF import",
+      "LiteLLM proxy costs feature lands",
+      "Unsloth shows 2x speedup on fine-tuning"
+    ],
+    "ai-trending": [
+      "Claude-BugHunter: red-team skill bundle",
+      "CLI-Anything makes software agent-native",
+      "MiniMind trains 64M LLM from scratch",
+      "Cursor plugins spec gains traction",
+      "Firecrawl: knowledge infra for agents",
+      "OpenVINO hits trending, AI inference toolkit"
+    ],
+    "ai-hn": [
+      "Claude solves two black hole physics problems",
+      "LLMs can rewrite their own weights",
+      "Frostbite: AI discovers CPU architecture",
+      "Nasdaq erases all 2026 gains, AI sell-off",
+      "ClawDOS: AI coding agent for DOS",
+      "Upload2Shell CVE disclosed, patch now"
+    ],
+    "ai-community": [
+      "MCP security flaw in Cursor raises alarms",
+      "AI productivity gains still unproven",
+      "Claude Code orchestration patterns emerge",
+      "New LLM fine-tuning methods shared",
+      "Devs debate AI coding agent reliability",
+      "Local voice assistants trend on Lobste.rs"
+    ]
+  }
+}
