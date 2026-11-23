@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "7工具: Claude Code、Codex、Gemini CLI、Copilot、OpenCode、Pi、Qwen",
+      "Gemini CLI v0.71.0-nightly 发布最新夜间版",
+      "Copilot CLI v1.0.115-7 稳定版发布",
+      "Qwen Code v0.28.4 稳定版发布",
+      "OpenAI Codex: 31个PR已合并，6个活跃讨论",
+      "OpenCode领先，50个PR待处理，开发活动最活跃"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.11.7：会话恢复修复",
+      "5个代理覆盖：OpenClaw、Hermes、IronClaw、QwenPaw、ZeroClaw",
+      "24小时内追踪397个问题+500个PR",
+      "Telegram适配器可靠性现为焦点",
+      "P0/P1 bug：会话生命周期和Windows稳定性",
+      "多渠道Slack和会话共享推进中"
+    ],
+    "ai-infra": [
+      "vLLM: DeepSeek-V4.1-Flash、Blackwell SM12x、Humming量化",
+      "SGLang: DeepSeek-V4.1、Qwen3-VL、NPU预填充图",
+      "llama.cpp: 10次提交、Inkling 2、SenseNova循环、SVE内核",
+      "Ollama: Inkling 2 Mini GGUF、Metal内核、混合并行",
+      "LiteLLM: 流式改进和成本追踪",
+      "Unsloth: Inkling 2 Mini和Gemma4微调支持"
+    ],
+    "ai-trending": [
+      "CLI-Anything：CLI任务的AI代理",
+      "MiniMind：从零训练64M参数LLM",
+      "Firecrawl：AI代理的知识基础设施",
+      "Cursor插件生态系统快速增长",
+      "Google Code Stitch-Skills代理技能库",
+      "16个热门+80个AI话题仓库，代理/技能关注度高"
+    ],
+    "ai-hn": [
+      "thinkingmachines发布Inkling 2 Mini",
+      "代理集群尝试P vs. NP证明",
+      "哈佛CS 2881R AI安全课程开课",
+      "Anthropic: 2028年87%电力来自天然气，11%来自煤炭",
+      "ClawDOS：DOS的AI编码代理",
+      "Claude解决两个物理学开放问题"
+    ],
+    "ai-hf": [
+      "Qwen3.8-27B: 2.09万点赞，630万下载",
+      "Apple Foundation 3: 420万下载",
+      "Inkling-2-Mini: 5千点赞，多模态聊天",
+      "Unsloth Inkling-2-Mini-GGUF: 80.6万下载",
+      "Haru-4B: 全双工音频，897点赞",
+      "Hy4-large: 8.3千下载，混元多模态"
+    ],
+    "ai-community": [
+      "高负载下RAG安全性下降",
+      "高级开发角色被编码代理重新定义",
+      "Claude Code自主工作8小时",
+      "哈佛CS 2881R AI安全课程",
+      "Program-as-Weights: 模糊函数范式",
+      "Alice v0.6.0：新AI助手发布"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "7 tools: Claude Code, Codex, Gemini CLI, Copilot, OpenCode, Pi, Qwen",
+      "Gemini CLI v0.71.0-nightly released with latest nightly build",
+      "Copilot CLI v1.0.115-7 stable release",
+      "Qwen Code v0.28.4 stable release",
+      "OpenAI Codex: 31 PRs merged, 6 active discussions",
+      "OpenCode leads with 50 open PRs, highest dev activity"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.11.7: conversation recovery fix",
+      "5 agents covered: OpenClaw, Hermes, IronClaw, QwenPaw, ZeroClaw",
+      "397 issues + 500 PRs tracked in last 24h",
+      "Telegram adapter reliability now in focus",
+      "P0/P1 bugs: session lifecycle and Windows stability",
+      "Multi-channel Slack and session sharing advancing"
+    ],
+    "ai-infra": [
+      "vLLM: DeepSeek-V4.1-Flash, Blackwell SM12x, Humming quant",
+      "SGLang: DeepSeek-V4.1, Qwen3-VL, NPU prefill graphs",
+      "llama.cpp: 10 commits, Inkling 2, SenseNova Loop, SVE kernels",
+      "Ollama: Inkling 2 Mini GGUF, Metal kernels, hybrid parallelism",
+      "LiteLLM: streaming improvements and cost tracking",
+      "Unsloth: Inkling 2 Mini and Gemma4 fine-tuning support"
+    ],
+    "ai-trending": [
+      "CLI-Anything: AI agents for CLI tasks",
+      "MiniMind: 64M parameter LLM training from scratch",
+      "Firecrawl: knowledge infra for AI agents",
+      "Cursor plugins ecosystem growing rapidly",
+      "Google Code Stitch-Skills library for agents",
+      "16 trending + 80 AI-topic repos, strong agent/skill focus"
+    ],
+    "ai-hn": [
+      "Inkling 2 Mini released by thinkingmachines",
+      "Agent swarm attempting P vs. NP proof",
+      "Harvard CS 2881R AI Safety course launched",
+      "Anthropic: 87% power from gas, 11% coal by 2028",
+      "ClawDOS: AI coding agent for DOS",
+      "Claude solves two open problems in physics"
+    ],
+    "ai-hf": [
+      "Qwen3.8-27B: 20.9K likes, 6.3M downloads",
+      "Apple Foundation 3: 4.2M downloads",
+      "Inkling-2-Mini: 5K likes, multimodal chat",
+      "Unsloth Inkling-2-Mini-GGUF: 806K downloads",
+      "Haru-4B: full-duplex audio, 897 likes",
+      "Hy4-large: 8.3K downloads, hunyuan multimodal"
+    ],
+    "ai-community": [
+      "RAG safety degrades under high load",
+      "Senior dev role redefined by coding agents",
+      "Claude Code works autonomously for 8 hours",
+      "Harvard CS 2881R AI Safety course",
+      "Program-as-Weights: fuzzy function paradigm",
+      "Alice v0.6.0: new AI assistant release"
+    ]
+  }
+}
