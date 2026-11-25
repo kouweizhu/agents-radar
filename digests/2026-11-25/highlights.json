@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code had 50 releases in a single day",
+      "OpenCode merged 50 PRs in 24h",
+      "Gemini CLI has 50 active discussions",
+      "Qwen Code: 50 issues, open collaboration",
+      "Claude Code Skills: New AI skill bundle released",
+      "Pi CLI: 50 discussions, active community"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.11.9: 14 contributors",
+      "Hermes Agent: 265k stars, 500 PRs merged",
+      "IronClaw: 20 PRs merged recently",
+      "QwenPaw: 50 discussions active",
+      "ZeroClaw: 20 PRs merged recently",
+      "OpenClaw WAL auto-checkpoint bug #164294"
+    ],
+    "ai-infra": [
+      "vLLM: Humming replacing Marlin quantization",
+      "SGLang: Rust API stack landed, v1.0 progress",
+      "llama.cpp: Stable at 1.0.0, new ARMv8.0 kernels",
+      "Ollama: 20 PRs merged recently",
+      "LiteLLM: 5 new releases, active development",
+      "Unsloth: Fast fine-tuning for local LLMs"
+    ],
+    "ai-trending": [
+      "Claude-BugHunter: Red-team AI skill bundle",
+      "obra/superpowers: Agentic skills framework, 3k stars",
+      "firecrawl: AI knowledge infra, 209k stars",
+      "MoneyPrinterTurbo: 52k stars, AI video tool",
+      "Cursor/plugins: Top AI editor plugin spec",
+      "OpenVINOToolkit: 31k stars, AI inference"
+    ],
+    "ai-web": [
+      "Anthropic Alignment team page updated",
+      "Anthropic Interpretability team page updated",
+      "OpenAI: GPT-6 protein design research published",
+      "Anthropic: 503 total sitemap entries",
+      "OpenAI: 1151 total sitemap entries",
+      "Light day: Only 3 official articles published"
+    ],
+    "ai-hn": [
+      "Matrix mult complexity: New Θ(n^2.25) result",
+      "GLM-5.4: First loop transformer, 1170 pts",
+      "Anthropic IPO below $83 opening price",
+      "Claude artifacts now installable as desktop apps",
+      "Dario and Daniela Amodei sold $561M in stock",
+      "Anthropic accused company of model distillation"
+    ],
+    "ai-arxiv": [
+      "Linear attention: New recall capacity analysis",
+      "VLMs in autonomous driving: Benchmark study",
+      "Zero-trust architecture for HPC AI agents",
+      "ShellBench: AI agent tool-use evaluation",
+      "LoomKV: Lossless KV cache compression",
+      "InstructReplay: Preserve behavior during fine-tuning"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code had 50 releases in a single day",
+      "OpenCode merged 50 PRs in 24h",
+      "Gemini CLI has 50 active discussions",
+      "Qwen Code: 50 issues, open collaboration",
+      "Claude Code Skills: New AI skill bundle released",
+      "Pi CLI: 50 discussions, active community"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.11.9: 14 contributors",
+      "Hermes Agent: 265k stars, 500 PRs merged",
+      "IronClaw: 20 PRs merged recently",
+      "QwenPaw: 50 discussions active",
+      "ZeroClaw: 20 PRs merged recently",
+      "OpenClaw WAL auto-checkpoint bug #164294"
+    ],
+    "ai-infra": [
+      "vLLM: Humming replacing Marlin quantization",
+      "SGLang: Rust API stack landed, v1.0 progress",
+      "llama.cpp: Stable at 1.0.0, new ARMv8.0 kernels",
+      "Ollama: 20 PRs merged recently",
+      "LiteLLM: 5 new releases, active development",
+      "Unsloth: Fast fine-tuning for local LLMs"
+    ],
+    "ai-trending": [
+      "Claude-BugHunter: Red-team AI skill bundle",
+      "obra/superpowers: Agentic skills framework, 3k stars",
+      "firecrawl: AI knowledge infra, 209k stars",
+      "MoneyPrinterTurbo: 52k stars, AI video tool",
+      "Cursor/plugins: Top AI editor plugin spec",
+      "OpenVINOToolkit: 31k stars, AI inference"
+    ],
+    "ai-web": [
+      "Anthropic Alignment team page updated",
+      "Anthropic Interpretability team page updated",
+      "OpenAI: GPT-6 protein design research published",
+      "Anthropic: 503 total sitemap entries",
+      "OpenAI: 1151 total sitemap entries",
+      "Light day: Only 3 official articles published"
+    ],
+    "ai-hn": [
+      "Matrix mult complexity: New Θ(n^2.25) result",
+      "GLM-5.4: First loop transformer, 1170 pts",
+      "Anthropic IPO below $83 opening price",
+      "Claude artifacts now installable as desktop apps",
+      "Dario and Daniela Amodei sold $561M in stock",
+      "Anthropic accused company of model distillation"
+    ],
+    "ai-arxiv": [
+      "Linear attention: New recall capacity analysis",
+      "VLMs in autonomous driving: Benchmark study",
+      "Zero-trust architecture for HPC AI agents",
+      "ShellBench: AI agent tool-use evaluation",
+      "LoomKV: Lossless KV cache compression",
+      "InstructReplay: Preserve behavior during fine-tuning"
+    ]
+  }
+}
