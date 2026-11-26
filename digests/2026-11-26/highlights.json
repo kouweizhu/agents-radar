@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Copilot CLI v1.0.117 drops with plugin ecosystem",
+      "Gemini CLI ships ACP stability fixes and security patch",
+      "OpenCode v2.4.2 fixes critical Windows security bug",
+      "Claude Code PRs hint at upcoming open-sourcing move",
+      "OpenAI Codex TUI overhaul after Windows regressions",
+      "Pi agent adds Show & Tell community projects"
+    ],
+    "ai-agents": [
+      "P0: Gateway RSS leak grows 350MB → 15.5GB",
+      "WAL auto-checkpoint never completes in Gateway",
+      "Prompt cache read silently dropped on every call",
+      "Curated MEMORY.md/USER.md silently excluded",
+      "OpenClaw hits 359 issues + 500 PRs in 24h",
+      "vincentkoc leads 30+ merged PRs this cycle"
+    ],
+    "ai-infra": [
+      "llama.cpp v1.1.0 released with major improvements",
+      "Unsloth v0.1.925-beta: Inkling 2 Mini support",
+      "vLLM 500 PRs merged, Qwen3.8 Flash-Next landing",
+      "Ollama bumps llama-server to latest CUDA backend",
+      "SGLang expands Physical AI and robotics support",
+      "LiteLLM debuts Fireworks Kimi K3.1 Ultra-fast tier"
+    ],
+    "ai-trending": [
+      "firecrawl/firecrawl: AI agent knowledge infrastructure",
+      "google-labs-code/stitch-skills: 50+ agent skills",
+      "nanobot from HKUDS: multiagent design framework",
+      "jingyaogong/minimind: train your own LLM from scratch",
+      "openvinotoolkit/openvino: Intel's AI inference engine",
+      "open-webui/open-webui: 37.4k stars, still trending"
+    ],
+    "ai-web": [
+      "Anthropic: Migrating Messages API from Python to Rust",
+      "Rust migration reveals generator-verifier gap insights",
+      "Anthropic: Verification easier than generation at scale",
+      "Rust migration: AI-assisted live product refactoring",
+      "OpenAI: No new content published today",
+      "Anthropic sitemap now totals 504 articles"
+    ],
+    "ai-hn": [
+      "Polynomial Hirsch conjecture proven false",
+      "LLM agents working for parent companies goes viral",
+      "Matrix multiplication Θ(n^2.25) result posted",
+      "NY bans AI toys for children under 13",
+      "OpenAI cuts GPT-6.2 API usage limits",
+      "Anthropic accused of distilling open models"
+    ],
+    "ai-arxiv": [
+      "Diverse reasoning traces boost hard math solving",
+      "Repairing trustworthiness of distilled language models",
+      "World models can't doubt — architecture matters",
+      "Agent RL: splicing learner-conditioned options",
+      "Flat/non-higher-order ANN formalizes AI safety",
+      "LLM self-rewarding degrades rather than improves"
+    ],
+    "ai-community": [
+      "Inside APIC: AI photo editor built into API client",
+      "Stop AI agents from acting on bluffs",
+      "I tested my prompt against plain English",
+      "Can your agent review your cloud architecture?",
+      "Gemma 4 function calling: local model runs it",
+      "Local voice assistant rebuilt from scratch"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Copilot CLI v1.0.117 drops with plugin ecosystem",
+      "Gemini CLI ships ACP stability fixes and security patch",
+      "OpenCode v2.4.2 fixes critical Windows security bug",
+      "Claude Code PRs hint at upcoming open-sourcing move",
+      "OpenAI Codex TUI overhaul after Windows regressions",
+      "Pi agent adds Show & Tell community projects"
+    ],
+    "ai-agents": [
+      "P0: Gateway RSS leak grows 350MB → 15.5GB",
+      "WAL auto-checkpoint never completes in Gateway",
+      "Prompt cache read silently dropped on every call",
+      "Curated MEMORY.md/USER.md silently excluded",
+      "OpenClaw hits 359 issues + 500 PRs in 24h",
+      "vincentkoc leads 30+ merged PRs this cycle"
+    ],
+    "ai-infra": [
+      "llama.cpp v1.1.0 released with major improvements",
+      "Unsloth v0.1.925-beta: Inkling 2 Mini support",
+      "vLLM 500 PRs merged, Qwen3.8 Flash-Next landing",
+      "Ollama bumps llama-server to latest CUDA backend",
+      "SGLang expands Physical AI and robotics support",
+      "LiteLLM debuts Fireworks Kimi K3.1 Ultra-fast tier"
+    ],
+    "ai-trending": [
+      "firecrawl/firecrawl: AI agent knowledge infrastructure",
+      "google-labs-code/stitch-skills: 50+ agent skills",
+      "nanobot from HKUDS: multiagent design framework",
+      "jingyaogong/minimind: train your own LLM from scratch",
+      "openvinotoolkit/openvino: Intel's AI inference engine",
+      "open-webui/open-webui: 37.4k stars, still trending"
+    ],
+    "ai-web": [
+      "Anthropic: Migrating Messages API from Python to Rust",
+      "Rust migration reveals generator-verifier gap insights",
+      "Anthropic: Verification easier than generation at scale",
+      "Rust migration: AI-assisted live product refactoring",
+      "OpenAI: No new content published today",
+      "Anthropic sitemap now totals 504 articles"
+    ],
+    "ai-hn": [
+      "Polynomial Hirsch conjecture proven false",
+      "LLM agents working for parent companies goes viral",
+      "Matrix multiplication Θ(n^2.25) result posted",
+      "NY bans AI toys for children under 13",
+      "OpenAI cuts GPT-6.2 API usage limits",
+      "Anthropic accused of distilling open models"
+    ],
+    "ai-arxiv": [
+      "Diverse reasoning traces boost hard math solving",
+      "Repairing trustworthiness of distilled language models",
+      "World models can't doubt — architecture matters",
+      "Agent RL: splicing learner-conditioned options",
+      "Flat/non-higher-order ANN formalizes AI safety",
+      "LLM self-rewarding degrades rather than improves"
+    ],
+    "ai-community": [
+      "Inside APIC: AI photo editor built into API client",
+      "Stop AI agents from acting on bluffs",
+      "I tested my prompt against plain English",
+      "Can your agent review your cloud architecture?",
+      "Gemma 4 function calling: local model runs it",
+      "Local voice assistant rebuilt from scratch"
+    ]
+  }
+}
