@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "OpenAI Codex 在24小时内发布2个alpha版本，合并20个PR",
+      "GitHub Copilot CLI 在24小时内发布3个版本 (v1.0.117-3/4/5)",
+      "OpenCode 成为社区最爱：50 issues + 50 PRs 展示",
+      "Claude Code Skills 库在GitHub上线",
+      "Pi CLI：anomalyinc 项目活跃，50 issues + PRs",
+      "Gemini CLI 在GitHub活跃，50 issues + 20 PRs"
+    ],
+    "ai-agents": [
+      "OpenClaw 生态：24小时内更新367 issues、500 PRs",
+      "prepared-model-catalog.worker.js 中的内存泄漏 bug 标记为 P1",
+      "prepared-release 更新问题以38条评论领先",
+      "修复：停止使用外来恢复记录作为准入 (P1)",
+      "修复：空闲/日常重置后继续回复 (P1)",
+      "feat(apple)：为 Apple 平台添加 Talk 状态提示音"
+    ],
+    "ai-infra": [
+      "llama.cpp 发布 v1.1.0",
+      "Ollama 发布 v0.40.19-rc0",
+      "LiteLLM 发布 v1.113.0-dev.1 + v1.108.19 LTS",
+      "DeepSeek V4.1 支持已加入 vLLM、SGLang、Ollama",
+      "Marlin 到 Humming 量化迁移进行中",
+      "Rust 前端正成为 infra 栈的默认"
+    ],
+    "ai-trending": [
+      "Firecrawl：AI 代理的知识基础设施（热门）",
+      "OpenVINO 添加 Apple Silicon 支持",
+      "MiniMind：2小时从零训练 LLM",
+      "superpowers：obra 的代理技能框架",
+      "CLI-Anything：HKUDS 的 AI 代理 CLI",
+      "Cursor 插件：IDE 扩展生态系统"
+    ],
+    "ai-hn": [
+      "OpenAI 成本控制：GPT-6.2 限制速度提升40%",
+      "Google 要求 AI 代理使用其 MCP 服务器",
+      "AI 代理现控制 DeepMind 部分计算预算",
+      "研究表明 AI 泡沫可能正在破裂",
+      "测试者怀疑可通过 Opus 5.5 Extra 访问 Claude Opus 5.6",
+      "美国政府正遭 AI 驱动的网络攻击"
+    ],
+    "ai-arxiv": [
+      "Tokenisation 不在 APX：token 化的复杂性理论",
+      "用代码解决视觉：视觉推理通过代码生成",
+      "多代理攻击策略选择可能误导监控者",
+      "多样化推理追踪提升难题求解",
+      "Anthropic 分享 GRH Lean 验证（简化版）",
+      "TASK Memory：在 LLM 中基准记忆幻觉"
+    ],
+    "ai-community": [
+      "Dev.to：我回到手动测试，因 AI 自动化",
+      "Dev.to：怀旧 vs AI 生产力悖论",
+      "Dev.to：软件开发中的代理架构",
+      "Dev.to：审视 AI 生成代码（21 反应）",
+      "Dev.to：模型静默升级改变代理输出",
+      "Lobste.rs：Alice v0.6.0 与可验证语言的需求"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "OpenAI Codex shipped 2 alpha releases with 20 PRs merged in 24h",
+      "GitHub Copilot CLI shipped 3 releases (v1.0.117-3/4/5) in 24h",
+      "OpenCode emerged as community-favorite: 50 issues + 50 PRs shown",
+      "Claude Code Skills library launched on GitHub",
+      "Pi CLI: anomalyinc project active with 50 issues and PRs",
+      "Gemini CLI active with 50 issues and 20 PRs on GitHub"
+    ],
+    "ai-agents": [
+      "OpenClaw ecosystem: 367 issues and 500 PRs updated in 24h",
+      "Memory leak bug in prepared-model-catalog.worker.js gets P1",
+      "prepared-release update issue leads with 38 comments",
+      "Fix: stop using foreign recovery records as admission (P1)",
+      "Fix: keep replying after idle/daily reset (P1)",
+      "feat(apple): add Talk status chimes for Apple platforms"
+    ],
+    "ai-infra": [
+      "llama.cpp released v1.1.0",
+      "Ollama released v0.40.19-rc0",
+      "LiteLLM released v1.113.0-dev.1 + v1.108.19 LTS",
+      "DeepSeek V4.1 support added across vLLM, SGLang, Ollama",
+      "Marlin-to-Humming quantization migration underway",
+      "Rust frontends becoming the default across infra stack"
+    ],
+    "ai-trending": [
+      "Firecrawl: knowledge infrastructure for AI agents (trending)",
+      "OpenVINO added Apple Silicon support",
+      "MiniMind: train an LLM from scratch in 2 hours",
+      "superpowers: agentic skills framework by obra",
+      "CLI-Anything: CLI for AI agents (HKUDS)",
+      "Cursor plugins: IDE extensions ecosystem"
+    ],
+    "ai-hn": [
+      "OpenAI cost control: GPT-6.2 hits limits 40% faster",
+      "Google mandates AI agents use its MCP servers",
+      "AI agents now control part of DeepMind's compute budget",
+      "AI bubble may be bursting, new research suggests",
+      "Testers suspect access to Claude Opus 5.6 via Opus 5.5 Extra",
+      "US Government under AI-powered cyberattack"
+    ],
+    "ai-arxiv": [
+      "Tokenisation is not in APX: complexity theory for tokenization",
+      "Solve Vision with Code: visual reasoning via code generation",
+      "Multi-agent attack policy selection can mislead monitors",
+      "Diverse reasoning traces improve hard math problem solving",
+      "Anthropic shares GRH Lean verification (shorter version)",
+      "TASK Memory: benchmarking memory hallucination in LLMs"
+    ],
+    "ai-community": [
+      "Dev.to: I returned to manual testing after AI automation",
+      "Dev.to: nostalgia vs. the AI productivity paradox",
+      "Dev.to: agent architecture in software development",
+      "Dev.to: on reviewing AI-generated code (21 reactions)",
+      "Dev.to: model silent upgrades changing agent output",
+      "Lobste.rs: Alice v0.6.0 and the need for verifiable languages"
+    ]
+  }
+}
