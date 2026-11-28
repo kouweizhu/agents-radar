@@ -1,0 +1,102 @@
+{
+  "zh": {
+    "ai-cli": [
+      "OpenCode hits 50 issues + 50 PRs in 24h — highest activity",
+      "Copilot CLI ships 4 releases in v1.0.118-2 series",
+      "Pi v1.7.0 released with session persistence focus",
+      "Qwen Code ships sdk-typescript-v0.1.39",
+      "OpenAI Codex releases rust-v0.174.0-alpha.9",
+      "Multi-account management emerges as cross-tool theme"
+    ],
+    "ai-agents": [
+      "500 PRs and 344 issues updated in 24h — massive velocity",
+      "v2026.12.1-beta.1 released with prompt caching gains",
+      "#204775: prepared-release design debate draws 58 comments",
+      "Memory optimization dominates: ARM64 startup, RSS baseline",
+      "SQLite growth and corruption recurring as top pain points",
+      "session.maintenance enforce mode under active discussion"
+    ],
+    "ai-infra": [
+      "RTX 5090 optimization is the shared infrastructure priority",
+      "LiteLLM v1.108.20 LTS drops with Anthropic structured output",
+      "SGLang 1.0 approaches with production hardening focus",
+      "llama.cpp fixes >65535 token context crashes",
+      "Ollama DGX Spark regressions and MLX runner fixes shipping",
+      "Unsloth adds Qwen3.5 GGUFs and Windows CUDA memory cap"
+    ],
+    "ai-trending": [
+      "open-webui surges with 7.8k GitHub stars",
+      "CLI-Anything and minimind top GitHub Trending AI repos",
+      "Firecrawl hits 3k stars as AI agent data fetching standard",
+      "Anthropic Skills and Google Stitch-Skills trending heavily",
+      "Langchain maintains dominance with 100+ stars in 30 days",
+      "OpenVINO gains traction for AI inference optimization"
+    ],
+    "ai-hn": [
+      "Google will force AI agents to use its MCP servers",
+      "DeepCrossAttention claims 3x speedup with comparable quality",
+      "Anthropic accused of Claude distillation — viral thread",
+      "Prospero: bloat-free AI coding harness with ImGui UI",
+      "Claude Code Skills now shareable across teams",
+      "AI on brink of making online security useless, expert warns"
+    ],
+    "ai-community": [
+      "Zero Repeat Regressions becomes definitive agentic trust guide",
+      "Chatbot deletion does not delete data — security warning",
+      "On-device AI offline capability mismatches web app parity",
+      "AI cut sprint time 30% but introduced new bug classes",
+      "ADK-to-Strands migration on AWS Bedrock detailed",
+      "Git log analysis: AI not actually saving developer time"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "OpenCode hits 50 issues + 50 PRs in 24h — highest activity",
+      "Copilot CLI ships 4 releases in v1.0.118-2 series",
+      "Pi v1.7.0 released with session persistence focus",
+      "Qwen Code ships sdk-typescript-v0.1.39",
+      "OpenAI Codex releases rust-v0.174.0-alpha.9",
+      "Multi-account management emerges as cross-tool theme"
+    ],
+    "ai-agents": [
+      "500 PRs and 344 issues updated in 24h — massive velocity",
+      "v2026.12.1-beta.1 released with prompt caching gains",
+      "#204775: prepared-release design debate draws 58 comments",
+      "Memory optimization dominates: ARM64 startup, RSS baseline",
+      "SQLite growth and corruption recurring as top pain points",
+      "session.maintenance enforce mode under active discussion"
+    ],
+    "ai-infra": [
+      "RTX 5090 optimization is the shared infrastructure priority",
+      "LiteLLM v1.108.20 LTS drops with Anthropic structured output",
+      "SGLang 1.0 approaches with production hardening focus",
+      "llama.cpp fixes >65535 token context crashes",
+      "Ollama DGX Spark regressions and MLX runner fixes shipping",
+      "Unsloth adds Qwen3.5 GGUFs and Windows CUDA memory cap"
+    ],
+    "ai-trending": [
+      "open-webui surges with 7.8k GitHub stars",
+      "CLI-Anything and minimind top GitHub Trending AI repos",
+      "Firecrawl hits 3k stars as AI agent data fetching standard",
+      "Anthropic Skills and Google Stitch-Skills trending heavily",
+      "Langchain maintains dominance with 100+ stars in 30 days",
+      "OpenVINO gains traction for AI inference optimization"
+    ],
+    "ai-hn": [
+      "Google will force AI agents to use its MCP servers",
+      "DeepCrossAttention claims 3x speedup with comparable quality",
+      "Anthropic accused of Claude distillation — viral thread",
+      "Prospero: bloat-free AI coding harness with ImGui UI",
+      "Claude Code Skills now shareable across teams",
+      "AI on brink of making online security useless, expert warns"
+    ],
+    "ai-community": [
+      "Zero Repeat Regressions becomes definitive agentic trust guide",
+      "Chatbot deletion does not delete data — security warning",
+      "On-device AI offline capability mismatches web app parity",
+      "AI cut sprint time 30% but introduced new bug classes",
+      "ADK-to-Strands migration on AWS Bedrock detailed",
+      "Git log analysis: AI not actually saving developer time"
+    ]
+  }
+}
